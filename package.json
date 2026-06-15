@@ -1,0 +1,21 @@
+{
+  "name": "fomm-quell-site",
+  "version": "1.0.0",
+  "description": "Sito web interattivo per la pagina Instagram Fômm Quell",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "fommquell",
+    "reggioemilia",
+    "eventi"
+  ],
+  "author": "Fômm Quell",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

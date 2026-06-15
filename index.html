@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fômm Quell - Facciamo Qualcosa! La tua guida settimanale agli eventi culturali, musicali e artistici nella provincia di Reggio Emilia. Non annoiarti, scopri cosa fare.">
+  <meta name="keywords" content="Fomm Quell, Reggio Emilia, Eventi Reggio Emilia, Concerti Reggio Emilia, Cosa fare stasera, Movida Reggio Emilia">
+  <meta name="author" content="Fômm Quell">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fômm Quell | La Guida Eventi di Reggio Emilia">
+  <meta property="og:description" content="Facciamo Qualcosa! Scopri tutti gli eventi musicali, artistici e culturali della settimana a Reggio Emilia.">
+  <meta property="og:image" content="assets/logo.svg">
+
+  <title>Fômm Quell | Facciamo Qualcosa a Reggio Emilia</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor for desktop -->
+  <div class="custom-cursor"></div>
+
+
+  <!-- Background Grain Overlay -->
+  <div class="grain-overlay"></div>
+
+  <!-- HEADER / NAVBAR -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo-wrapper" id="logo-link">
+        <div class="logo-img">
+          <!-- Inline SVG for styling control and animation -->
+          <object type="image/svg+xml" data="assets/logo.svg" id="svg-logo-obj" class="logo-svg"></object>
+        </div>
+        <span class="logo-text">FÔMM QUELL</span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#agenda" class="nav-link">Agenda</a></li>
+          <li><a href="#mappa" class="nav-link">Mappa</a></li>
+          <li><a href="#link-in-bio" class="nav-link">Link Bio</a></li>
+          <li><a href="#segnala" class="nav-link button-link">Segnala</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Apri menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION / MANIFESTO -->
+  <section class="hero-section">
+    <div class="hero-poster">
+      <div class="poster-border-inner">
+        <div class="poster-tag">RUBRICA SETTIMANALE</div>
+        <h1 class="hero-title">FÔMM<br><span class="highlight">QUELL.</span></h1>
+        <p class="hero-subtitle">"Facciamo qualcosa."</p>
+        <p class="hero-manifesto">
+          Reggio Emilia non è noiosa, basta solo sapere dove cercare. Ogni settimana selezioniamo il meglio di musica, arte, cibo e cultura in provincia. Esci di casa, sostieni la scena locale.
+        </p>
+        <div class="hero-ctas">
+          <a href="#agenda" class="btn btn-primary">VEDI GLI EVENTI</a>
+          <a href="#segnala" class="btn btn-secondary">SEGNALA DATA</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK LINKS / LINK IN BIO -->
+  <section id="link-in-bio" class="links-section">
+    <div class="section-container">
+      <h2 class="section-title">LINK RAPIDI</h2>
+      <p class="section-subtitle">Tutti i nostri canali ufficiali e link utili</p>
+      
+      <div class="links-grid">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="link-card instagram-link">
+          <div class="link-icon">📸</div>
+          <div class="link-content">
+            <h3>Instagram</h3>
+            <p>Segui la nostra rubrica settimanale con le grafiche originali</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+        
+        <a href="https://spotify.com" target="_blank" rel="noopener" class="link-card spotify-link">
+          <div class="link-icon">🎵</div>
+          <div class="link-content">
+            <h3>Spotify Playlist</h3>
+            <p>La colonna sonora degli artisti che passano in provincia</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+        
+        <a href="https://telegram.org" target="_blank" rel="noopener" class="link-card telegram-link">
+          <div class="link-icon">📢</div>
+          <div class="link-content">
+            <h3>Canale Telegram</h3>
+            <p>Notifiche flash sui migliori eventi dell'ultimo minuto</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+
+        <a href="#segnala" class="link-card suggest-link">
+          <div class="link-icon">⚡</div>
+          <div class="link-content">
+            <h3>Proponi un Evento</h3>
+            <p>Sei un artista o gestisci un locale? Scrivici subito</p>
+          </div>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEEKLY AGENDA SECTION -->
+  <section id="agenda" class="agenda-section">
+    <div class="section-container">
+      <div class="section-header-flex">
+        <div>
+          <h2 class="section-title">L'AGENDA DELLA SETTIMANA</h2>
+          <p class="section-subtitle">Dal 15 al 21 Giugno 2026</p>
+        </div>
+        <!-- Filter Controls -->
+        <div class="filter-wrapper">
+          <button class="filter-btn active" data-filter="all">TUTTI</button>
+          <button class="filter-btn" data-filter="musica">MUSICA</button>
+          <button class="filter-btn" data-filter="spettacolo">SPETTACOLO</button>
+          <button class="filter-btn" data-filter="cultura">CULTURA</button>
+          <button class="filter-btn" data-filter="arte">ARTE</button>
+          <button class="filter-btn" data-filter="lab">LAB</button>
+          <button class="filter-btn" data-filter="altro">ALTRO</button>
+        </div>
+      </div>
+
+      <!-- Events Grid -->
+      <div class="events-grid" id="events-container">
+        <!-- Stato di Caricamento Iniziale -->
+        <div id="loading-fallback" style="grid-column: 1/-1; text-align: center; padding: 3rem; border: var(--border-width) solid var(--color-cream); border-radius: var(--border-radius); background: var(--color-card-bg);">
+          <p style="font-size: 1.2rem; margin-bottom: 1rem;">Caricamento degli eventi in corso dal database...</p>
+          <div class="loading-spinner" style="width: 40px; height: 40px; border: 4px solid rgba(255, 46, 147, 0.2); border-top: 4px solid var(--color-pink); border-radius: 50%; margin: 0 auto; animation: spin 1s infinite linear;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE HEXAGONAL MAP -->
+  <section id="mappa" class="map-section">
+    <div class="section-container">
+      <h2 class="section-title">MAPPA DEL CENTRO</h2>
+      <p class="section-subtitle">Clicca sui luoghi caldi del centro storico esagonale per vedere chi ospita gli eventi</p>
+      
+      <div class="map-layout">
+        <!-- SVG Interactive Map -->
+        <div class="map-svg-container">
+          <svg viewBox="0 0 500 500" class="interactive-hexagon-map" id="map-svg">
+            <!-- Hexagonal city walls outline -->
+            <polygon points="250,20 450,135 450,365 250,480 50,365 50,135" class="map-walls" />
+            
+            <!-- Grid lines showing main axes (Emilia road, etc) -->
+            <line x1="50" y1="250" x2="450" y2="250" class="map-grid-line" /> <!-- Via Emilia -->
+            <line x1="250" y1="20" x2="250" y2="480" class="map-grid-line" /> <!-- Via Roma / Corso Garibaldi -->
+            
+            <!-- City Center Landmarks / Hotspots -->
+            
+            <!-- Piazza Prampolini (Duomo) -->
+            <g class="map-hotspot" data-location="Piazza Prampolini" id="pin-prampolini">
+              <circle cx="250" cy="250" r="16" class="hotspot-bg" />
+              <circle cx="250" cy="250" r="8" class="hotspot-core" />
+              <text x="250" y="225" text-anchor="middle" class="hotspot-label">Piazza Prampolini</text>
+            </g>
+
+            <!-- Piazza Fontanesi -->
+            <g class="map-hotspot" data-location="Piazza Fontanesi" id="pin-fontanesi">
+              <circle cx="340" cy="330" r="16" class="hotspot-bg" />
+              <circle cx="340" cy="330" r="8" class="hotspot-core" />
+              <text x="340" y="305" text-anchor="middle" class="hotspot-label">Piazza Fontanesi</text>
+            </g>
+
+            <!-- Teatro Valli / Piazza della Vittoria -->
+            <g class="map-hotspot" data-location="Teatro Valli" id="pin-valli">
+              <circle cx="210" cy="120" r="16" class="hotspot-bg" />
+              <circle cx="210" cy="120" r="8" class="hotspot-core" />
+              <text x="210" y="95" text-anchor="middle" class="hotspot-label">Teatro Valli</text>
+            </g>
+
+            <!-- Chiostri di San Pietro -->
+            <g class="map-hotspot" data-location="Chiostri di San Pietro" id="pin-san-pietro">
+              <circle cx="380" cy="210" r="16" class="hotspot-bg" />
+              <circle cx="380" cy="210" r="8" class="hotspot-core" />
+              <text x="380" y="185" text-anchor="middle" class="hotspot-label">Chiostri S. Pietro</text>
+            </g>
+
+            <!-- Piazza San Prospero -->
+            <g class="map-hotspot" data-location="Piazza San Prospero" id="pin-san-prospero">
+              <circle cx="290" cy="265" r="16" class="hotspot-bg" />
+              <circle cx="290" cy="265" r="8" class="hotspot-core" />
+              <text x="290" y="295" text-anchor="middle" class="hotspot-label">Piazza S. Prospero</text>
+            </g>
+          </svg>
+        </div>
+        
+        <!-- Map Info Box -->
+        <div class="map-infobox" id="map-info-box">
+          <div class="infobox-header">
+            <span class="hex-badge">RE</span>
+            <h3 id="infobox-title">Seleziona un luogo</h3>
+          </div>
+          <div class="infobox-body" id="infobox-content">
+            <p>Clicca su uno dei punti caldi all'interno della pianta esagonale del centro storico di Reggio Emilia per vedere gli eventi in programma in quella zona!</p>
+          </div>
+          <div class="infobox-footer" id="infobox-footer" style="display:none;">
+            <button class="btn btn-primary btn-sm" id="infobox-action">VEDI EVENTI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBMIT EVENT SECTION -->
+  <section id="segnala" class="submit-section">
+    <div class="section-container">
+      <div class="submit-card-wrapper">
+        <div class="submit-card">
+          <div class="submit-header">
+            <h2>SEGNALA UN EVENTO</h2>
+            <p>Sei un artista, gestisci un locale o stai organizzando una serata a Reggio Emilia e provincia? Entra nella rubrica settimanale di Fômm Quell.</p>
+          </div>
+          
+          <form id="event-form" class="retro-form">
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="org-name">Nome Organizzatore / Locale*</label>
+                <input type="text" id="org-name" required placeholder="Es. Circolo Arci, Nome Band, ecc.">
+              </div>
+              <div class="form-group">
+                <label for="event-title-input">Titolo dell'Evento*</label>
+                <input type="text" id="event-title-input" required placeholder="Es. Live Indie Rock, Tortellata, ecc.">
+              </div>
+            </div>
+
+            <div class="form-row-3">
+              <div class="form-group">
+                <label for="event-date">Data*</label>
+                <input type="date" id="event-date" required>
+              </div>
+              <div class="form-group">
+                <label for="event-time">Ora Inizio</label>
+                <input type="time" id="event-time" placeholder="Es. 21:00">
+              </div>
+              <div class="form-group">
+                <label for="event-cat">Categoria*</label>
+                <select id="event-cat" required>
+                  <option value="" disabled selected>Seleziona...</option>
+                  <option value="musica">Musica</option>
+                  <option value="spettacolo">Spettacolo</option>
+                  <option value="cultura">Cultura</option>
+                  <option value="arte">Arte</option>
+                  <option value="lab">Laboratorio</option>
+                  <option value="altro">Altro</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="event-loc">Luogo / Indirizzo*</label>
+              <input type="text" id="event-loc" required placeholder="Es. Piazza Fontanesi, Reggio Emilia">
+            </div>
+
+            <div class="form-group">
+              <label for="event-desc-input">Descrizione dell'evento*</label>
+              <textarea id="event-desc-input" rows="4" required placeholder="Spiegaci brevemente di cosa si tratta, costi d'ingresso, orari o altre info utili..."></textarea>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="event-links">Link Info/Biglietti (Opzionale)</label>
+                <input type="url" id="event-links" placeholder="https://...">
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email di Contatto*</label>
+                <input type="email" id="contact-email" required placeholder="tua@email.com">
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-submit">INVIA PROPOSTA</button>
+          </form>
+
+          <!-- Success Message -->
+          <div class="form-success-message" id="form-success">
+            <div class="success-icon">✨</div>
+            <h3>EVENTO SEGNALATO CON SUCCESSO!</h3>
+            <p>Grazie per aver fatto "qualcosa"! Valuteremo la proposta per inserirla nella rubrica della prossima settimana su Instagram e sul sito.</p>
+            <button class="btn btn-secondary btn-sm" id="reset-form-btn">Segnala un altro evento</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT DETAILS MODAL -->
+  <div class="modal-overlay" id="event-modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-badge-wrapper">
+        <span class="modal-category" id="modal-category">CATEGORIA</span>
+      </div>
+      <h2 class="modal-title" id="modal-title">Titolo Evento</h2>
+      <div class="modal-meta">
+        <div class="meta-item">
+          <span class="icon">📅</span>
+          <span id="modal-date">Domenica 23 Giugno</span>
+        </div>
+        <div class="meta-item">
+          <span class="icon">📍</span>
+          <span id="modal-location">Piazza Prampolini, Reggio Emilia</span>
+        </div>
+      </div>
+      <hr class="modal-divider">
+      <div class="modal-description" id="modal-desc">
+        Descrizione dell'evento...
+      </div>
+      <div class="modal-actions">
+        <a href="#" target="_blank" class="btn btn-primary" id="modal-link">LINK TICKETS / INFO</a>
+        <button class="btn btn-secondary" id="modal-calendar-btn">AGGIUNGI A CALENDARIO</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <object type="image/svg+xml" data="assets/logo.svg" class="logo-svg-footer"></object>
+        </div>
+        <div>
+          <h3>FÔMM QUELL</h3>
+          <p>"Facciamo qualcosa" per Reggio Emilia.</p>
+        </div>
+      </div>
+      <div class="footer-socials">
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://spotify.com" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://telegram.org" target="_blank" rel="noopener">Telegram</a>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2026 Fômm Quell. Tutti i diritti riservati.</p>
+        <p class="credits">Sito ideato per promuovere la cultura reggiana.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
