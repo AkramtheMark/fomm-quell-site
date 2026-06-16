@@ -5,6 +5,7 @@ let ALL_EVENTS_DATA = [];  // Tutti gli eventi totali scaricati
 let EVENTS_DATA = [];      // Eventi della settimana corrente selezionata
 let currentWeekOffset = 0; // Settimana visualizzata rispetto ad oggi (0 = corrente, ecc.)
 let currentCategory = 'all'; // Categoria di filtro attiva
+let OMINI_LIST = { part1: [], part2: [], part3: [] }; // Lista dinamica omini da omini_list.json
 
 let mapInstance = null;
 let markersGroup = null;
@@ -48,26 +49,38 @@ function getEventCoordinates(venue, address) {
   return [44.6982 + jitterLat, 10.6312 + jitterLng];
 }
 
-// Genera un Marker Leaflet personalizzato brutalista contenente un omino singolo dal folder Omini_Singoli
+// Genera un Marker Leaflet personalizzato contenente un omino singolo dal folder Omini_Singoli
 function getOminiIcon(eventIndex, category) {
-  // Sceglie ciclicamente uno dei 102 omini disponibili
-  const charIdx = (eventIndex % 102) + 1;
-  // Sceglie la parte (1=top, 2=middle, 3=bottom) in base alla categoria
+  let list = [];
   let part = 1;
-  if (category === 'musica') part = 1;
-  else if (category === 'spettacolo') part = 2;
-  else part = 3;
-  
-  const iconUrl = `assets/Omini_Singoli/Character_${charIdx}_${part}.png`;
-  
+  if (category === 'musica') {
+    list = OMINI_LIST.part1;
+    part = 1;
+  } else if (category === 'spettacolo') {
+    list = OMINI_LIST.part2;
+    part = 2;
+  } else {
+    list = OMINI_LIST.part3;
+    part = 3;
+  }
+
+  let iconUrl = '';
+  if (list && list.length > 0) {
+    const idx = eventIndex % list.length;
+    iconUrl = `assets/Omini_Singoli/${list[idx]}`;
+  } else {
+    const charIdx = (eventIndex % 102) + 1;
+    iconUrl = `assets/Omini_Singoli/Character_${charIdx}_${part}.png`;
+  }
+
+  // Dimensioni proporzionate (40px larghezza, 60px altezza)
+  // Con ancora a [20, 60] affinché la base dell'icona (i piedi) poggi esattamente sulle coordinate
   return L.divIcon({
     className: 'custom-omino-marker',
-    html: `<div class="omino-marker-wrapper ${category}-border">
-             <img src="${iconUrl}" alt="Omino pin">
-           </div>`,
-    iconSize: [44, 44],
-    iconAnchor: [22, 44],
-    popupAnchor: [0, -44]
+    html: `<img src="${iconUrl}" class="omino-map-pin ${category}-accent" alt="Omino pin">`,
+    iconSize: [40, 60],
+    iconAnchor: [20, 60],
+    popupAnchor: [0, -60]
   });
 }
 
@@ -181,29 +194,54 @@ async function loadDynamicEvents() {
       const eventsList = [];
       const monthNames = ["GEN", "FEB", "MAR", "APR", "MAG", "GIU", "LUG", "AGO", "SET", "OTT", "NOV", "DIC"];
 
+      // Map row 0 headers to their index dynamically
+      const headers = csvRows[0].map(h => (h || '').trim().toLowerCase());
+      const getColIdx = (name, fallback) => {
+        const idx = headers.indexOf(name.toLowerCase());
+        return idx !== -1 ? idx : fallback;
+      };
+
+      const idxChecked = getColIdx('checked', 0);
+      const idxDate = getColIdx('date', 1);
+      const idxTime = getColIdx('startTime', 2);
+      const idxTitle = getColIdx('title', 4);
+      const idxDesc = getColIdx('description', 5);
+      const idxPrice = getColIdx('priceInfo', 6);
+      const idxInfo = getColIdx('generalInfo', 7);
+      const idxVenue = getColIdx('venue', 12);
+      const idxLocation = getColIdx('location', 14);
+      const idxMusic = getColIdx('typeMusic', 17);
+      const idxCulture = getColIdx('typeCulture', 18);
+      const idxShow = getColIdx('typeShow', 19);
+      const idxArt = getColIdx('typeArt', 20);
+      const idxWorkshop = getColIdx('typeWorkshop', 21);
+      const idxLatitude = getColIdx('latitude', -1);
+      const idxLongitude = getColIdx('longitude', -1);
+
       for (let i = 3; i < csvRows.length; i++) {
         const row = csvRows[i];
         if (row.length < 5) continue;
-        const checked = (row[0] || '').trim();
+        
+        const checked = (row[idxChecked] || '').trim();
         if (checked !== 'OK' && checked !== 'FQ') continue;
 
-        const dateStr = (row[1] || '').trim();
+        const dateStr = (row[idxDate] || '').trim();
         const dateObj = parseDateStr(dateStr);
         if (!dateObj) continue;
 
-        const title = (row[4] || '').trim();
-        const descText = (row[5] || '').trim();
-        const price = (row[6] || '').trim();
-        const info = (row[7] || '').trim();
-        const venue = (row[12] || '').trim();
-        const location = (row[14] || '').trim();
+        const title = (row[idxTitle] || '').trim();
+        const descText = (row[idxDesc] || '').trim();
+        const price = (row[idxPrice] || '').trim();
+        const info = (row[idxInfo] || '').trim();
+        const venue = (row[idxVenue] || '').trim();
+        const location = (row[idxLocation] || '').trim();
         
         let category = 'altro';
-        if ((row[17] || '').trim().toUpperCase() === 'TRUE') category = 'musica';
-        else if ((row[19] || '').trim().toUpperCase() === 'TRUE') category = 'spettacolo';
-        else if ((row[18] || '').trim().toUpperCase() === 'TRUE') category = 'cultura';
-        else if ((row[20] || '').trim().toUpperCase() === 'TRUE') category = 'arte';
-        else if ((row[21] || '').trim().toUpperCase() === 'TRUE') category = 'lab';
+        if (idxMusic !== -1 && (row[idxMusic] || '').trim().toUpperCase() === 'TRUE') category = 'musica';
+        else if (idxShow !== -1 && (row[idxShow] || '').trim().toUpperCase() === 'TRUE') category = 'spettacolo';
+        else if (idxCulture !== -1 && (row[idxCulture] || '').trim().toUpperCase() === 'TRUE') category = 'cultura';
+        else if (idxArt !== -1 && (row[idxArt] || '').trim().toUpperCase() === 'TRUE') category = 'arte';
+        else if (idxWorkshop !== -1 && (row[idxWorkshop] || '').trim().toUpperCase() === 'TRUE') category = 'lab';
 
         const day = dateObj.getDate();
         const month = monthNames[dateObj.getMonth()];
@@ -214,7 +252,7 @@ async function loadDynamicEvents() {
         if (info) infoParts.push(`Info: ${info}`);
         if (infoParts.length > 0) desc += `\n\n${infoParts.join(' • ')}`;
 
-        eventsList.push({
+        const eventObj = {
           id: `sheet-ev-${i}`,
           title: title || 'Senza Titolo',
           category: category,
@@ -222,12 +260,24 @@ async function loadDynamicEvents() {
           date: dateStr,
           day: day,
           month: month,
-          time: (row[2] || 'Ora da definire').trim(),
+          time: (row[idxTime] || 'Ora da definire').trim(),
           location: venue || location || 'Reggio Emilia',
           address: `${venue}${venue && location ? ', ' : ''}${location}`,
           desc: desc,
           link: 'https://instagram.com/fommquell'
-        });
+        };
+
+        // Parse custom coordinates if present in Google Sheets
+        if (idxLatitude !== -1 && idxLongitude !== -1) {
+          const latVal = parseFloat((row[idxLatitude] || '').trim().replace(',', '.'));
+          const lngVal = parseFloat((row[idxLongitude] || '').trim().replace(',', '.'));
+          if (!isNaN(latVal) && !isNaN(lngVal)) {
+            eventObj.lat = latVal;
+            eventObj.lng = lngVal;
+          }
+        }
+
+        eventsList.push(eventObj);
       }
       rawEventsData = eventsList;
     }
@@ -252,7 +302,7 @@ async function loadDynamicEvents() {
           else if (tipologia.includes('arte')) category = 'arte';
           else if (tipologia.includes('lab')) category = 'lab';
 
-          return {
+          const eventObj = {
             id: ev.id || `local-ev-${index}`,
             title: ev.Titolo || 'Senza Titolo',
             category: category,
@@ -266,6 +316,16 @@ async function loadDynamicEvents() {
             desc: ev.Descrizione || '',
             link: ev.Link || 'https://instagram.com/fommquell'
           };
+
+          // Support coordinates in local fallback too
+          const latVal = parseFloat((ev.Latitudine || ev.latitude || '').toString().trim().replace(',', '.'));
+          const lngVal = parseFloat((ev.Longitudine || ev.longitude || '').toString().trim().replace(',', '.'));
+          if (!isNaN(latVal) && !isNaN(lngVal)) {
+            eventObj.lat = latVal;
+            eventObj.lng = lngVal;
+          }
+
+          return eventObj;
         });
       }
     } catch (e) {
@@ -361,7 +421,12 @@ function renderMapEvents(filter = "all") {
   }
 
   filteredEvents.forEach((event, index) => {
-    const coords = getEventCoordinates(event.location, event.address);
+    let coords = null;
+    if (event.lat !== undefined && event.lng !== undefined) {
+      coords = [event.lat, event.lng];
+    } else {
+      coords = getEventCoordinates(event.location, event.address);
+    }
     
     // Icona personalizzata omino
     const icon = getOminiIcon(index, event.category);
@@ -403,13 +468,31 @@ function renderMapEvents(filter = "all") {
 }
 
 /* ==========================================================================
+   OMINI CATALOG LOAD
+   ========================================================================== */
+async function loadOminiCatalog() {
+  try {
+    const res = await fetch('assets/omini_list.json');
+    if (res.ok) {
+      OMINI_LIST = await res.json();
+    }
+  } catch (e) {
+    console.warn("Could not load assets/omini_list.json. Fallback to hardcoded sequence.", e);
+  }
+}
+
+/* ==========================================================================
    INITIALIZATION
    ========================================================================== */
-function initMapPage() {
+async function initMapPage() {
+  // Carica il catalogo omini all'avvio
+  await loadOminiCatalog();
+
   // 1. Inizializzazione Mappa centrata su Reggio Emilia
   mapInstance = L.map('leaflet-map', {
-    scrollWheelZoom: false, // previene scroll trap
-    twoFingerDrag: true,    // consente scorrimento a due dita su mobile
+    scrollWheelZoom: true,  // consente zoom con rotella
+    dragging: true,         // consente trascinamento con un dito su mobile
+    touchZoom: true,        // consente pinch-to-zoom
     zoomControl: false      // disattiviamo il default per metterne uno brutalista
   }).setView([44.6982, 10.6312], 13);
 
