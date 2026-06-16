@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'GT Haptik';
+  src: url('assets/Font/GT-Haptik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Haptik';
+  src: url('assets/Font/GT-Haptik-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Haptik';
+  src: url('assets/Font/GT-Haptik-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Haptik';
+  src: url('assets/Font/GT-Haptik-Light-Oblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
 /* ==========================================================================
    DESIGN SYSTEM & CUSTOM PROPERTIES
    ========================================================================== */
@@ -12,8 +40,8 @@
   --color-gray: #8F8F99;
   --color-border: #121212;
   
-  --font-display: 'Syne', sans-serif;
-  --font-body: 'Space Grotesk', sans-serif;
+  --font-display: 'GT Haptik', 'Syne', sans-serif;
+  --font-body: 'GT Haptik', 'Space Grotesk', sans-serif;
   
   --shadow-brutal-pink: 6px 6px 0px var(--color-pink);
   --shadow-brutal-dark: 6px 6px 0px var(--color-dark);
@@ -1304,3 +1332,225 @@ a {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* ==========================================================================
+   WEEK SWITCHER & CAROUSEL PAGINATION SYSTEM
+   ========================================================================== */
+.agenda-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+
+.week-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-bg);
+  border: var(--border-width) solid var(--color-cream);
+  border-radius: var(--border-radius);
+  padding: 0.3rem;
+  box-shadow: 4px 4px 0px var(--color-pink);
+}
+
+.week-nav-btn {
+  background-color: var(--color-pink);
+  color: var(--color-dark);
+  border: 2px solid var(--color-dark);
+  border-radius: var(--border-radius);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.week-nav-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 2px 2px 0px var(--color-cream);
+}
+
+.week-nav-btn:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+.week-display {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-cream);
+  padding: 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.5rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.carousel-nav-btn {
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+  border: var(--border-width) solid var(--color-dark);
+  border-radius: var(--border-radius);
+  padding: 0.6rem 1.4rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-brutal-pink);
+  transition: transform 0.1s, box-shadow 0.1s, opacity 0.2s;
+}
+
+.carousel-nav-btn:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px var(--color-pink);
+}
+
+.carousel-nav-btn:active:not(:disabled) {
+  transform: translate(0, 0);
+  box-shadow: 2px 2px 0px var(--color-pink);
+}
+
+.carousel-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--color-cream);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.carousel-dot:hover {
+  background-color: var(--color-pink-light);
+  border-color: var(--color-pink-light);
+}
+
+.carousel-dot.active {
+  background-color: var(--color-pink);
+  border-color: var(--color-pink);
+  transform: scale(1.2);
+}
+
+/* Floating Omini */
+.floating-omino {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+  filter: drop-shadow(4px 4px 0px var(--color-dark));
+  animation: float-omino-anim 5s ease-in-out infinite;
+}
+
+.omino-hero-left {
+  left: 3%;
+  bottom: 8%;
+  height: 110px;
+  transform: rotate(-6deg);
+}
+
+.omino-hero-right {
+  right: 3%;
+  top: 12%;
+  height: 120px;
+  transform: rotate(6deg);
+  animation-delay: 1.5s;
+}
+
+.omino-agenda {
+  position: absolute;
+  top: -40px;
+  right: 10%;
+  height: 90px;
+  transform: rotate(8deg);
+  animation-delay: 0.8s;
+  z-index: 2;
+}
+
+@keyframes float-omino-anim {
+  0% {
+    transform: translateY(0px) rotate(var(--rot, 0deg));
+  }
+  50% {
+    transform: translateY(-8px) rotate(calc(var(--rot, 0deg) + 3deg));
+  }
+  100% {
+    transform: translateY(0px) rotate(var(--rot, 0deg));
+  }
+}
+
+.omino-hero-left { --rot: -6deg; }
+.omino-hero-right { --rot: 6deg; }
+.omino-agenda { --rot: 8deg; }
+
+/* Custom Background Patterns from Brand */
+.hero-section {
+  background-image: url('assets/Images/FQ_Bg_Scritte_A.png');
+  background-size: 380px;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.links-section {
+  background-image: url('assets/Images/FQ_Bg_Scritte_B.png');
+  background-size: 380px;
+  background-repeat: repeat;
+  position: relative;
+}
+
+.submit-section {
+  background-image: url('assets/Images/FQ_Bg_Scritte_C.png');
+  background-size: 380px;
+  background-repeat: repeat;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .omino-hero-left, .omino-hero-right {
+    height: 80px;
+  }
+  .omino-agenda {
+    height: 70px;
+    top: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-omino {
+    opacity: 0.45; /* semi-transparent to not obstruct content on small screens */
+  }
+  .omino-hero-left {
+    bottom: 2%;
+    left: 2%;
+  }
+  .omino-hero-right {
+    top: 2%;
+    right: 2%;
+  }
+}
+

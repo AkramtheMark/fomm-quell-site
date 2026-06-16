@@ -1,17 +1,22 @@
 /* ==========================================================================
    EVENTS DATABASE
    ========================================================================== */
-let EVENTS_DATA = [
-  
-];// Helper per ottenere le date della settimana corrente (da Lunedì a Domenica)
-function getWeekDates() {
+let ALL_EVENTS_DATA = [];  // Memorizza tutti gli eventi totali scaricati
+let EVENTS_DATA = [];      // Memorizza solo gli eventi della settimana corrente visualizzata
+let currentWeekOffset = 0; // Settimana visualizzata rispetto ad oggi (0 = corrente, 1 = prossima, ecc.)
+let currentCategory = 'all'; // Categoria di filtro attiva
+let currentPage = 0;       // Pagina corrente dell'agenda
+const EVENTS_PER_PAGE = 6; // Numero di eventi visualizzati per pagina
+
+// Helper per ottenere le date di una determinata settimana rispetto a quella corrente (offset in settimane)
+function getWeekDates(offsetWeeks = 0) {
   const now = new Date();
   const day = now.getDay();
   // Calcola la differenza per ottenere il Lunedì di questa settimana
   const diff = now.getDate() - day + (day === 0 ? -6 : 1);
   
   const monday = new Date(now);
-  monday.setDate(diff);
+  monday.setDate(diff + (offsetWeeks * 7));
   monday.setHours(0, 0, 0, 0);
   
   const sunday = new Date(monday);
@@ -313,57 +318,12 @@ async function loadDynamicEvents() {
 
   // 3. Se abbiamo dati validi (da Google Sheet o JSON), applichiamo il filtro temporale intelligente
   if (rawEventsData && rawEventsData.length > 0) {
-    const { monday, sunday } = getWeekDates();
-    
-    // Ordina per data
-    rawEventsData.sort((a, b) => (a.dateObj || 0) - (b.dateObj || 0));
-
-    // Filtra per la settimana corrente
-    let currentWeekEvents = rawEventsData.filter(ev => {
-      if (!ev.dateObj) return false;
-      return ev.dateObj >= monday && ev.dateObj <= sunday;
-    });
-
-    // UX Intelligente: se non ci sono eventi questa settimana (es. foglio non ancora aggiornato),
-    // mostriamo tutti gli eventi futuri, o tutti quelli caricati in generale, per non avere il sito vuoto.
-    if (currentWeekEvents.length > 0) {
-      EVENTS_DATA = currentWeekEvents;
-      
-      // Aggiorna il sottotitolo dell'agenda con le date della settimana corrente
-      const agendaSubtitle = document.querySelector("#agenda .section-subtitle");
-      if (agendaSubtitle) {
-        const options = { day: 'numeric', month: 'long' };
-        const monStr = monday.toLocaleDateString('it-IT', options);
-        const sunStr = sunday.toLocaleDateString('it-IT', options);
-        agendaSubtitle.textContent = `Dal ${monStr} al ${sunStr}`;
-      }
-    } else {
-      console.log("Nessun evento trovato per la settimana corrente. Visualizzo tutti gli eventi disponibili.");
-      
-      // Mostra eventi futuri o tutti
-      const now = new Date();
-      now.setHours(0,0,0,0);
-      const upcoming = rawEventsData.filter(ev => ev.dateObj && ev.dateObj >= now);
-      
-      if (upcoming.length > 0) {
-        EVENTS_DATA = upcoming;
-      } else {
-        // Mostra gli ultimi 10 eventi del foglio in generale
-        EVENTS_DATA = rawEventsData.slice(-10);
-      }
-
-      // Aggiorna il sottotitolo per indicare che stiamo mostrando i prossimi eventi
-      const agendaSubtitle = document.querySelector("#agenda .section-subtitle");
-      if (agendaSubtitle && EVENTS_DATA.length > 0) {
-        agendaSubtitle.textContent = `Prossimi eventi in programma`;
-      }
-    }
-    
-    console.log("Eventi mappati e pronti per il rendering:", EVENTS_DATA);
+    ALL_EVENTS_DATA = rawEventsData;
+    isFromGoogleSheet = true;
   } else {
     console.log("Nessun dato dinamico disponibile. Uso del fallback statico di base.");
     // Inseriamo alcuni eventi dimostrativi nel caso in cui sia la chiamata API che il file JSON falliscano (es. apertura locale file://)
-    EVENTS_DATA = [
+    ALL_EVENTS_DATA = [
       {
         id: "sheet-ev-mock1",
         title: "THE CLADDAGH IN CONCERTO",
@@ -411,6 +371,52 @@ async function loadDynamicEvents() {
       }
     ];
   }
+
+  // Ordina per data tutti gli eventi caricati
+  ALL_EVENTS_DATA.sort((a, b) => (a.dateObj || 0) - (b.dateObj || 0));
+
+  // UX Intelligente: se la settimana corrente (offset 0) non ha eventi,
+  // scopriamo automaticamente la prima settimana futura con eventi per non mostrare il sito vuoto.
+  currentWeekOffset = findFirstWeekWithEvents();
+}
+
+// Trova l'offset in settimane della prima settimana che contiene eventi a partire da quella corrente
+function findFirstWeekWithEvents() {
+  const { monday: curMonday } = getWeekDates(0);
+  
+  // Filtra eventi futuri o della settimana corrente
+  const upcomingEvents = ALL_EVENTS_DATA.filter(ev => ev.dateObj && ev.dateObj >= curMonday);
+  if (upcomingEvents.length === 0) {
+    return 0; // Resta alla settimana corrente
+  }
+  
+  // Calcola quante settimane dista il primo evento futuro rispetto al lunedì di questa settimana
+  const firstEvent = upcomingEvents[0];
+  const diffTime = firstEvent.dateObj - curMonday;
+  const diffWeeks = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 7));
+  return Math.max(0, diffWeeks);
+}
+
+// Filtra gli eventi per la settimana specificata da currentWeekOffset ed aggiorna la barra delle date
+function updateWeekEvents() {
+  const { monday, sunday } = getWeekDates(currentWeekOffset);
+  
+  // Filtra gli eventi totali per la settimana corrente
+  EVENTS_DATA = ALL_EVENTS_DATA.filter(ev => {
+    if (!ev.dateObj) return false;
+    return ev.dateObj >= monday && ev.dateObj <= sunday;
+  });
+
+  // Aggiorna il testo visualizzato dell'agenda
+  const weekDisplay = document.getElementById("week-display-range");
+  if (weekDisplay) {
+    const options = { day: 'numeric', month: 'long' };
+    const monStr = monday.toLocaleDateString('it-IT', options);
+    const sunStr = sunday.toLocaleDateString('it-IT', options);
+    
+    // Mostriamo anche l'anno se differisce dall'anno corrente
+    weekDisplay.textContent = `DAL ${monStr.toUpperCase()} AL ${sunStr.toUpperCase()}`;
+  }
 }
 /* ==========================================================================
    INITIALIZATION & SELECTORS
@@ -446,10 +452,51 @@ function initApp() {
 
   // Prova a caricare gli eventi dinamici ed effettua il render iniziale
   loadDynamicEvents().then(() => {
+    updateWeekEvents();
     renderEvents("all");
   });
 
+  // Set up week switcher and page controls
+  const prevWeekBtn = document.getElementById("prev-week-btn");
+  const nextWeekBtn = document.getElementById("next-week-btn");
+  const prevPageBtn = document.getElementById("prev-page-btn");
+  const nextPageBtn = document.getElementById("next-page-btn");
 
+  if (prevWeekBtn) {
+    prevWeekBtn.addEventListener("click", () => {
+      currentWeekOffset--;
+      currentPage = 0;
+      updateWeekEvents();
+      renderEvents(currentCategory);
+    });
+  }
+
+  if (nextWeekBtn) {
+    nextWeekBtn.addEventListener("click", () => {
+      currentWeekOffset++;
+      currentPage = 0;
+      updateWeekEvents();
+      renderEvents(currentCategory);
+    });
+  }
+
+  if (prevPageBtn) {
+    prevPageBtn.addEventListener("click", () => {
+      if (currentPage > 0) {
+        currentPage--;
+        renderEvents(currentCategory);
+        document.getElementById("agenda").scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  }
+
+  if (nextPageBtn) {
+    nextPageBtn.addEventListener("click", () => {
+      currentPage++;
+      renderEvents(currentCategory);
+      document.getElementById("agenda").scrollIntoView({ behavior: "smooth" });
+    });
+  }
 
   // Set up mobile nav toggle
   if (menuToggle && mainNav) {
@@ -491,6 +538,8 @@ function initApp() {
       e.target.classList.add("active");
       // Filter category
       const filterValue = e.target.getAttribute("data-filter");
+      currentCategory = filterValue;
+      currentPage = 0;
       renderEvents(filterValue);
     });
   });
@@ -613,22 +662,39 @@ function renderEvents(filter = "all") {
   if (!eventsContainer) return;
 
   eventsContainer.innerHTML = "";
+  currentCategory = filter;
 
   const filteredEvents = filter === "all" 
     ? EVENTS_DATA 
     : EVENTS_DATA.filter(ev => ev.category === filter);
 
-  if (filteredEvents.length === 0) {
+  const totalEvents = filteredEvents.length;
+  const totalPages = Math.ceil(totalEvents / EVENTS_PER_PAGE);
+
+  // Bounds check currentPage
+  if (currentPage >= totalPages) {
+    currentPage = Math.max(0, totalPages - 1);
+  }
+  if (currentPage < 0) {
+    currentPage = 0;
+  }
+
+  if (totalEvents === 0) {
     eventsContainer.innerHTML = `
       <div style="grid-column: 1/-1; text-align: center; padding: 3rem; border: var(--border-width) solid var(--color-cream); border-radius: var(--border-radius); background: var(--color-card-bg);">
         <p style="font-size: 1.2rem; margin-bottom: 1rem;">Nessun evento in programma in questa categoria per questa settimana.</p>
         <a href="#segnala" class="btn btn-primary btn-sm">SEGNALA TU UN EVENTO</a>
       </div>
     `;
+    updatePaginationControls(0, 0);
     return;
   }
 
-  filteredEvents.forEach(event => {
+  // Get current page events slice
+  const startIndex = currentPage * EVENTS_PER_PAGE;
+  const pageEvents = filteredEvents.slice(startIndex, startIndex + EVENTS_PER_PAGE);
+
+  pageEvents.forEach(event => {
     const card = document.createElement("article");
     card.className = "event-card";
     card.id = `card-${event.id}`;
@@ -662,15 +728,53 @@ function renderEvents(filter = "all") {
     btnDetail.addEventListener("click", () => openEventDetail(event.id));
   });
 
+  // Render pagination controls
+  updatePaginationControls(totalEvents, totalPages);
+
   // Re-attach listeners for custom cursor on new dynamic elements
   initCustomCursorHoverStates();
+}
+
+// Helper per aggiornare e disegnare i controlli di paginazione brutalisti
+function updatePaginationControls(totalEvents, totalPages) {
+  const controls = document.getElementById("carousel-controls");
+  const dotsContainer = document.getElementById("carousel-dots");
+  const prevBtn = document.getElementById("prev-page-btn");
+  const nextBtn = document.getElementById("next-page-btn");
+
+  if (!controls || !dotsContainer || !prevBtn || !nextBtn) return;
+
+  if (totalPages <= 1) {
+    controls.style.display = "none";
+    return;
+  }
+
+  controls.style.display = "flex";
+
+  // Abilita/Disabilita pulsanti di navigazione pagine
+  prevBtn.disabled = (currentPage === 0);
+  nextBtn.disabled = (currentPage === totalPages - 1);
+
+  // Genera pallini indicatori (dots)
+  dotsContainer.innerHTML = "";
+  for (let i = 0; i < totalPages; i++) {
+    const dot = document.createElement("button");
+    dot.className = `carousel-dot${i === currentPage ? " active" : ""}`;
+    dot.setAttribute("aria-label", `Vai alla pagina ${i + 1}`);
+    dot.addEventListener("click", () => {
+      currentPage = i;
+      renderEvents(currentCategory);
+      document.getElementById("agenda").scrollIntoView({ behavior: "smooth" });
+    });
+    dotsContainer.appendChild(dot);
+  }
 }
 
 /* ==========================================================================
    MODAL CONTROLS
    ========================================================================== */
 function openEventDetail(id) {
-  const event = EVENTS_DATA.find(ev => ev.id === id);
+  const event = ALL_EVENTS_DATA.find(ev => ev.id === id);
   if (!event) return;
 
   const modal = document.getElementById("event-modal");
