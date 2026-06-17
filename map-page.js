@@ -32,14 +32,68 @@ const VENUE_COORDINATES = {
   "centro storico": [44.6982, 10.6312]
 };
 
+// Normalizza stringhe rimuovendo accenti, punteggiatura e spazi multipli
+function normalizeString(str, removeSpaces = false) {
+  if (!str) return '';
+  let res = str.toLowerCase().trim();
+  res = res.replace(/&/g, 'e');
+  
+  // Rimpiazzo accenti
+  const accents = {
+    'à': 'a', 'á': 'a', 'â': 'a', 'ã': 'a', 'ä': 'a',
+    'è': 'e', 'é': 'e', 'ê': 'e', 'ë': 'e',
+    'ì': 'i', 'í': 'i', 'î': 'i', 'ï': 'i',
+    'ò': 'o', 'ó': 'o', 'ô': 'o', 'õ': 'o', 'ö': 'o',
+    'ù': 'u', 'ú': 'u', 'û': 'u', 'ü': 'u',
+    'ç': 'c', 'ñ': 'n'
+  };
+  for (const char in accents) {
+    res = res.replaceAll(char, accents[char]);
+  }
+  
+  // Rimuove punteggiatura e caratteri speciali
+  res = res.replace(/[^a-z0-9\s]/g, '');
+  
+  // Normalizza gli spazi
+  res = res.replace(/\s+/g, ' ').trim();
+  
+  if (removeSpaces) {
+    res = res.replace(/\s/g, '');
+  }
+  
+  return res;
+}
+
+// Verifica se c'è corrispondenza tra il locale dell'evento e il nome in archivio
+function checkVenueMatch(venue, location, key) {
+  const vSp = normalizeString(venue, false);
+  const vNs = normalizeString(venue, true);
+  
+  const kSp = normalizeString(key, false);
+  const kNs = normalizeString(key, true);
+  
+  // 1. Corrispondenza esatta senza spazi (es: "reggianestreetpark" === "reggianestreetpark")
+  if (vNs === kNs && vNs) return true;
+  
+  // 2. Sotto-stringa contenuta (con spazi, min 5 caratteri per evitare falsi positivi)
+  if (kSp.length >= 5 && vSp.includes(kSp)) return true;
+  if (vSp.length >= 5 && kSp.includes(vSp)) return true;
+  
+  // 3. Controlla anche l'indirizzo combinato (locale + località)
+  const addrSp = normalizeString(`${venue} ${location}`, false);
+  if (kSp.length >= 5 && addrSp.includes(kSp)) return true;
+  
+  return false;
+}
+
 // Funzione per ottenere le coordinate con piccolo offset casuale se il luogo non è noto
 function getEventCoordinates(venue, address) {
-  const vName = (venue || '').toLowerCase();
-  const aName = (address || '').toLowerCase();
+  // Riconosce la città estraendola dall'indirizzo o passando un valore di default
+  const city = address && address.includes(',') ? address.split(',')[1].trim() : 'Reggio Emilia';
   
   // 1. Cerca nel database scaricato dinamicamente dalla seconda scheda "Locali"
   for (const key in REMOTE_VENUE_COORDINATES) {
-    if (vName.includes(key) || aName.includes(key)) {
+    if (checkVenueMatch(venue, city, key)) {
       const jitterLat = (Math.random() - 0.5) * 0.0003;
       const jitterLng = (Math.random() - 0.5) * 0.0003;
       const coords = REMOTE_VENUE_COORDINATES[key];
@@ -49,7 +103,7 @@ function getEventCoordinates(venue, address) {
 
   // 2. Cerca nel database statico cablato nel codice
   for (const key in VENUE_COORDINATES) {
-    if (vName.includes(key) || aName.includes(key)) {
+    if (checkVenueMatch(venue, city, key)) {
       const jitterLat = (Math.random() - 0.5) * 0.0003;
       const jitterLng = (Math.random() - 0.5) * 0.0003;
       const coords = VENUE_COORDINATES[key];
