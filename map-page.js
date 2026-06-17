@@ -6,6 +6,10 @@ let EVENTS_DATA = [];      // Eventi della settimana corrente selezionata
 let currentWeekOffset = 0; // Settimana visualizzata rispetto ad oggi (0 = corrente, ecc.)
 let currentCategory = 'all'; // Categoria di filtro attiva
 let OMINI_LIST = { part1: [], part2: [], part3: [] }; // Lista dinamica omini da omini_list.json
+let REMOTE_VENUE_COORDINATES = {}; // Mappatura locale -> coordinate scaricata dal secondo foglio
+
+// GID della scheda "coordinate" nel tuo Google Sheet.
+const GOOGLE_SHEET_LOCALI_GID = '223441192';
 
 let mapInstance = null;
 let markersGroup = null;
@@ -33,9 +37,19 @@ function getEventCoordinates(venue, address) {
   const vName = (venue || '').toLowerCase();
   const aName = (address || '').toLowerCase();
   
+  // 1. Cerca nel database scaricato dinamicamente dalla seconda scheda "Locali"
+  for (const key in REMOTE_VENUE_COORDINATES) {
+    if (vName.includes(key) || aName.includes(key)) {
+      const jitterLat = (Math.random() - 0.5) * 0.0003;
+      const jitterLng = (Math.random() - 0.5) * 0.0003;
+      const coords = REMOTE_VENUE_COORDINATES[key];
+      return [coords[0] + jitterLat, coords[1] + jitterLng];
+    }
+  }
+
+  // 2. Cerca nel database statico cablato nel codice
   for (const key in VENUE_COORDINATES) {
     if (vName.includes(key) || aName.includes(key)) {
-      // Piccolo offset casuale (jitter) per non sovrapporre pin nello stesso identico luogo
       const jitterLat = (Math.random() - 0.5) * 0.0003;
       const jitterLng = (Math.random() - 0.5) * 0.0003;
       const coords = VENUE_COORDINATES[key];
@@ -468,7 +482,7 @@ function renderMapEvents(filter = "all") {
 }
 
 /* ==========================================================================
-   OMINI CATALOG LOAD
+   OMINI CATALOG & VENUES COORDINATES LOAD
    ========================================================================== */
 async function loadOminiCatalog() {
   try {
@@ -481,12 +495,68 @@ async function loadOminiCatalog() {
   }
 }
 
+async function loadVenuesCoordinates() {
+  const baseSheetUrl = 'https://docs.google.com/spreadsheets/d/1jbfVbD7aE-KMvggHzAKLUE90oHCimOfAz4faFMhVAUU/export?format=csv';
+  const localesSheetUrl = `${baseSheetUrl}&gid=${GOOGLE_SHEET_LOCALI_GID}`;
+  
+  try {
+    const csvText = await fetchCSVWithFallback(localesSheetUrl);
+    const csvRows = parseCSV(csvText);
+    
+    if (csvRows && csvRows.length > 1) {
+      const headers = csvRows[0].map(h => (h || '').trim().toLowerCase());
+      
+      // Supporta sia "locale" sia "locale/realtà" o simili
+      let idxLocale = headers.findIndex(h => h.includes('locale') || h.includes('realt'));
+      if (idxLocale === -1) idxLocale = 0;
+      
+      // Supporta una colonna unica "coordinate" o due colonne separate
+      const idxCoords = headers.findIndex(h => h.includes('coordinat'));
+      const idxLat = headers.indexOf('latitude');
+      const idxLng = headers.indexOf('longitude');
+      
+      for (let i = 1; i < csvRows.length; i++) {
+        const row = csvRows[i];
+        if (row.length <= idxLocale) continue;
+        
+        // Rimuove eventuali spazi bianchi e converte in minuscolo per confronto sicuro
+        const localeName = (row[idxLocale] || '').trim().toLowerCase();
+        if (!localeName) continue;
+        
+        let latVal = NaN;
+        let lngVal = NaN;
+        
+        if (idxCoords !== -1 && row[idxCoords]) {
+          const coordText = row[idxCoords].trim();
+          if (coordText.includes(',')) {
+            const parts = coordText.split(',');
+            latVal = parseFloat(parts[0].trim());
+            lngVal = parseFloat(parts[1].trim());
+          }
+        } else if (idxLat !== -1 && idxLng !== -1 && row[idxLat] && row[idxLng]) {
+          latVal = parseFloat(row[idxLat].trim().replace(',', '.'));
+          lngVal = parseFloat(row[idxLng].trim().replace(',', '.'));
+        }
+        
+        if (!isNaN(latVal) && !isNaN(lngVal)) {
+          REMOTE_VENUE_COORDINATES[localeName] = [latVal, lngVal];
+        }
+      }
+    }
+    console.log("Coordinate locali remote caricate:", Object.keys(REMOTE_VENUE_COORDINATES).length);
+  } catch (e) {
+    console.warn("Impossibile caricare coordinate remote dei locali. Uso fallback locali statici:", e.message);
+  }
+}
+
 /* ==========================================================================
    INITIALIZATION
    ========================================================================== */
 async function initMapPage() {
   // Carica il catalogo omini all'avvio
   await loadOminiCatalog();
+  // Carica le coordinate della rubrica locali
+  await loadVenuesCoordinates();
 
   // 1. Inizializzazione Mappa centrata su Reggio Emilia
   mapInstance = L.map('leaflet-map', {
