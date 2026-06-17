@@ -51,6 +51,25 @@
   --border-radius: 4px;
 }
 
+body.light-theme {
+  --color-bg: #FDFBF7;
+  --color-card-bg: #FFFFFF;
+  --color-cream: #0C0C0D;
+  --color-dark: #FDFBF7;
+  --color-gray: #5F5F66;
+  --color-border: #0C0C0D;
+  --shadow-brutal-cream: 6px 6px 0px var(--color-cream);
+}
+
+body.light-theme .main-header {
+  background-color: rgba(253, 251, 247, 0.9);
+}
+
+body.light-theme .links-section,
+body.light-theme .submit-section {
+  background-image: none;
+}
+
 /* ==========================================================================
    RESET & BASE STYLES
    ========================================================================== */
@@ -1656,6 +1675,165 @@ a {
   .omino-hero-right {
     top: 2%;
     right: 2%;
+  }
+}
+
+/* ==========================================================================
+   THEME TOGGLE BUTTON
+   ========================================================================== */
+.theme-toggle-btn {
+  background-color: var(--color-bg);
+  color: var(--color-cream);
+  border: var(--border-width) solid var(--color-cream);
+  padding: 0.4rem 0.6rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.9rem;
+  border-radius: var(--border-radius);
+  box-shadow: 3px 3px 0px var(--color-pink);
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  user-select: none;
+  z-index: 1001;
+}
+
+.theme-toggle-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px var(--color-pink);
+}
+
+.theme-toggle-btn:active {
+  transform: translate(0, 0);
+  box-shadow: 1px 1px 0px var(--color-pink);
+}
+
+.theme-toggle-btn .theme-icon {
+  display: inline-block;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.theme-toggle-btn:hover .theme-icon {
+  transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .theme-toggle-btn .theme-text {
+    display: none;
+  }
+  .theme-toggle-btn {
+    padding: 0.4rem 0.5rem;
+  }
+}
+
+/* ==========================================================================
+   ARROW PULSING ANIMATION
+   ========================================================================== */
+@keyframes brutal-pulse {
+  0% {
+    box-shadow: 4px 4px 0px var(--color-pink);
+    transform: translateY(-50%);
+  }
+  50% {
+    box-shadow: 8px 8px 0px var(--color-pink);
+    transform: translateY(-50%) translate(-2px, -2px);
+  }
+  100% {
+    box-shadow: 4px 4px 0px var(--color-pink);
+    transform: translateY(-50%);
+  }
+}
+
+.carousel-side-btn:not(:disabled) {
+  animation: brutal-pulse 2s infinite ease-in-out;
+}
+
+.carousel-side-btn:hover:not(:disabled) {
+  animation: none;
+  transform: translateY(-50%) translate(-2px, -2px);
+  box-shadow: 6px 6px 0px var(--color-pink);
+}
+
+/* ==========================================================================
+   BRUTALIST SKATER LOADER
+   ========================================================================== */
+.brutalist-loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+.brutalist-loader-bar {
+  width: 100%;
+  max-width: 280px;
+  height: 60px;
+  border: 3px solid var(--color-cream);
+  background-color: var(--color-card-bg);
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: 4px 4px 0px var(--color-pink);
+  margin-bottom: 1rem;
+}
+
+.brutalist-loader-skater {
+  height: 44px;
+  width: auto;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  animation: skate-anim 2.5s infinite linear;
+}
+
+.brutalist-loader-text {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--color-pink);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  animation: loader-text-pulse 1.2s infinite ease-in-out;
+  text-align: center;
+}
+
+@keyframes skate-anim {
+  0% {
+    left: -50px;
+    transform: scaleX(1);
+  }
+  48% {
+    transform: scaleX(1);
+  }
+  50% {
+    left: calc(100% + 5px);
+    transform: scaleX(-1);
+  }
+  52% {
+    transform: scaleX(-1);
+  }
+  98% {
+    transform: scaleX(-1);
+  }
+  100% {
+    left: -50px;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes loader-text-pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
   }
 }
 

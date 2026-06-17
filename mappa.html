@@ -267,6 +267,15 @@
   </style>
 </head>
 <body>
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme') || 'dark';
+      if (savedTheme === 'light') {
+        document.documentElement.classList.add('light-theme');
+        document.body.classList.add('light-theme');
+      }
+    })();
+  </script>
 
   <!-- Custom Cursor for desktop -->
   <div class="custom-cursor"></div>
@@ -283,7 +292,14 @@
       <span class="logo-text">FÔMM QUELL</span>
     </a>
     
-    <a href="index.html" class="btn btn-secondary btn-sm" style="box-shadow: 3px 3px 0px var(--color-pink);">← TORNA ALLA HOME</a>
+    <div style="display: flex; gap: 0.8rem; align-items: center;">
+      <!-- Bottone Cambio Tema -->
+      <button class="theme-toggle-btn" id="theme-toggle" aria-label="Cambia tema">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">MIDNIGHT</span>
+      </button>
+      <a href="index.html" class="btn btn-secondary btn-sm" style="box-shadow: 3px 3px 0px var(--color-pink); margin: 0;">← TORNA ALLA HOME</a>
+    </div>
   </header>
 
   <!-- MAP WRAPPER -->

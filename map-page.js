@@ -290,6 +290,19 @@ async function loadDynamicEvents() {
   const googleSheetCsvUrl = 'https://docs.google.com/spreadsheets/d/1jbfVbD7aE-KMvggHzAKLUE90oHCimOfAz4faFMhVAUU/export?format=csv&gid=0';
   let rawEventsData = null;
 
+  // Mostra il loader skater all'avvio
+  const eventsContainer = document.getElementById("map-events-container");
+  if (eventsContainer) {
+    eventsContainer.innerHTML = `
+      <div class="brutalist-loader-container">
+        <div class="brutalist-loader-bar">
+          <img src="assets/Omini_Copertina/Orrizontali/FQ_Oriz_001_PattiniGhiaccio.PNG" class="brutalist-loader-skater" alt="Skater omino">
+        </div>
+        <div class="brutalist-loader-text">[ LOADING QUELL... ]</div>
+      </div>
+    `;
+  }
+
   try {
     const csvText = await fetchCSVWithFallback(googleSheetCsvUrl, 'checked,date');
     const csvRows = parseCSV(csvText);
@@ -678,12 +691,9 @@ async function initMapPage() {
     position: 'topright'
   }).addTo(mapInstance);
 
-  // Carica i tileset scuri di CartoDB (Dark Matter)
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 20
-  }).addTo(mapInstance);
+  // Imposta le tile in base al tema corrente
+  const initialTheme = localStorage.getItem("theme") || "dark";
+  setMapTheme(initialTheme);
 
   markersGroup = L.layerGroup().addTo(mapInstance);
 
@@ -733,6 +743,9 @@ async function initMapPage() {
 
   // Inizializza il cursore personalizzato
   initCustomCursor();
+
+  // Set up theme switcher
+  initThemeSwitcher();
 }
 
 /* ==========================================================================
@@ -794,4 +807,62 @@ if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initMapPage);
 } else {
   initMapPage();
+}
+
+/* ==========================================================================
+   THEME SWITCHER & DYNAMIC MAP TILES
+   ========================================================================== */
+let tileLayerInstance = null;
+
+function setMapTheme(theme) {
+  if (!mapInstance) return;
+  
+  if (tileLayerInstance) {
+    mapInstance.removeLayer(tileLayerInstance);
+  }
+  
+  const tileUrl = theme === "light" 
+    ? 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png'
+    : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+    
+  const attribution = theme === "light"
+    ? '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+    : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+
+  tileLayerInstance = L.tileLayer(tileUrl, {
+    attribution: attribution,
+    subdomains: 'abcd',
+    maxZoom: 20
+  }).addTo(mapInstance);
+}
+
+function initThemeSwitcher() {
+  const themeToggle = document.getElementById("theme-toggle");
+  if (!themeToggle) return;
+
+  const currentTheme = localStorage.getItem("theme") || "dark";
+  
+  const applyTheme = (theme) => {
+    if (theme === "light") {
+      document.documentElement.classList.add("light-theme");
+      document.body.classList.add("light-theme");
+      themeToggle.querySelector(".theme-icon").textContent = "☀️";
+      themeToggle.querySelector(".theme-text").textContent = "LIGHT";
+    } else {
+      document.documentElement.classList.remove("light-theme");
+      document.body.classList.remove("light-theme");
+      themeToggle.querySelector(".theme-icon").textContent = "🌙";
+      themeToggle.querySelector(".theme-text").textContent = "MIDNIGHT";
+    }
+    setMapTheme(theme);
+  };
+
+  applyTheme(currentTheme);
+
+  themeToggle.addEventListener("click", () => {
+    const isCurrentlyLight = document.body.classList.contains("light-theme");
+    const newTheme = isCurrentlyLight ? "dark" : "light";
+    localStorage.setItem("theme", newTheme);
+    applyTheme(newTheme);
+  });
 }

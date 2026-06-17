@@ -177,6 +177,19 @@ async function loadDynamicEvents() {
   let rawEventsData = null;
   let isFromGoogleSheet = false;
 
+  // Mostra il loader skater all'avvio
+  const eventsContainer = document.getElementById("events-container");
+  if (eventsContainer) {
+    eventsContainer.innerHTML = `
+      <div class="brutalist-loader-container">
+        <div class="brutalist-loader-bar">
+          <img src="assets/Omini_Copertina/Orrizontali/FQ_Oriz_001_PattiniGhiaccio.PNG" class="brutalist-loader-skater" alt="Skater omino">
+        </div>
+        <div class="brutalist-loader-text">[ LOADING QUELL... ]</div>
+      </div>
+    `;
+  }
+
   // 1. Prova a scaricare dal Google Sheet con gestione automatica del CORS tramite proxy fallbacks
   try {
     console.log("Tentativo di download eventi in tempo reale da Google Sheet...");
@@ -705,6 +718,9 @@ function initApp() {
 
   // Set up custom cursor events
   initCustomCursor();
+
+  // Set up theme switcher
+  initThemeSwitcher();
 }
 
 // Avvio dell'app sicuro (garantisce l'esecuzione anche se DOMContentLoaded è già scattato)
@@ -928,6 +944,39 @@ function initCustomCursorHoverStates() {
       cursor.style.backgroundColor = "transparent";
       cursor.style.borderColor = "var(--color-pink)";
     });
+  });
+}
+
+/* ==========================================================================
+   THEME SWITCHER
+   ========================================================================== */
+function initThemeSwitcher() {
+  const themeToggle = document.getElementById("theme-toggle");
+  if (!themeToggle) return;
+
+  const currentTheme = localStorage.getItem("theme") || "dark";
+  
+  const applyTheme = (theme) => {
+    if (theme === "light") {
+      document.documentElement.classList.add("light-theme");
+      document.body.classList.add("light-theme");
+      themeToggle.querySelector(".theme-icon").textContent = "☀️";
+      themeToggle.querySelector(".theme-text").textContent = "LIGHT";
+    } else {
+      document.documentElement.classList.remove("light-theme");
+      document.body.classList.remove("light-theme");
+      themeToggle.querySelector(".theme-icon").textContent = "🌙";
+      themeToggle.querySelector(".theme-text").textContent = "MIDNIGHT";
+    }
+  };
+
+  applyTheme(currentTheme);
+
+  themeToggle.addEventListener("click", () => {
+    const isCurrentlyLight = document.body.classList.contains("light-theme");
+    const newTheme = isCurrentlyLight ? "dark" : "light";
+    localStorage.setItem("theme", newTheme);
+    applyTheme(newTheme);
   });
 }
 
