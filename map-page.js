@@ -501,17 +501,28 @@ function renderMapEvents(filter = "all") {
     // Icona personalizzata omino
     const icon = getOminiIcon(index, event.category);
     
-    // Popup brutalista
+    // URL per le indicazioni stradali su Google Maps
+    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${coords[0]},${coords[1]}`;
+    
+    // Popup brutalista con due pulsanti affiancati
     const popupHtml = `
       <div class="popup-title">${event.title}</div>
       <div class="popup-meta">📍 ${event.location} • ${event.time}</div>
       <div class="popup-desc">${event.desc.length > 90 ? event.desc.substring(0, 90) + '...' : event.desc}</div>
-      <a href="${event.link}" target="_blank" class="popup-btn">DETTAGLI EVENTO</a>
+      <div style="display: flex; gap: 0.5rem; margin-top: 0.8rem;">
+        <a href="${event.link}" target="_blank" class="popup-btn" style="flex: 1; padding: 0.4rem 0.2rem;">INFO</a>
+        <a href="${directionsUrl}" target="_blank" class="popup-btn" style="flex: 1; padding: 0.4rem 0.2rem; background-color: var(--color-cream); color: var(--color-dark); box-shadow: 2px 2px 0px var(--color-pink);">STRADA</a>
+      </div>
     `;
 
     // Crea marker
     const marker = L.marker(coords, { icon: icon }).bindPopup(popupHtml);
     markersGroup.addLayer(marker);
+
+    // Zoom ravvicinato (livello 16) quando l'utente clicca direttamente sul marker dell'omino
+    marker.on('click', () => {
+      mapInstance.setView(coords, 16, { animate: true });
+    });
 
     // Aggiungi all'elenco della sidebar
     if (eventsContainer) {
@@ -524,8 +535,8 @@ function renderMapEvents(filter = "all") {
       `;
       
       item.addEventListener("click", () => {
-        // Zoom e focus sul marker al click della sidebar
-        mapInstance.setView(coords, 14, { animate: true });
+        // Zoom e focus sul marker al click della sidebar (inquadramento ravvicinato a livello 16)
+        mapInstance.setView(coords, 16, { animate: true });
         marker.openPopup();
       });
 
