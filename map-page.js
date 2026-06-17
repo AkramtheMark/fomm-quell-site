@@ -86,6 +86,25 @@ function checkVenueMatch(venue, location, key) {
   return false;
 }
 
+// Genera il link Instagram a partire da venueTag o dai tags dell'evento
+function getInstagramLink(venueTag, tags) {
+  let tag = (venueTag || '').trim();
+  
+  if (!tag && tags) {
+    const match = tags.match(/@[a-zA-Z0-9_.]+/);
+    if (match) {
+      tag = match[0];
+    }
+  }
+  
+  if (tag && tag.startsWith('@')) {
+    const handle = tag.substring(1).trim();
+    return `https://instagram.com/${handle}`;
+  }
+  
+  return 'https://instagram.com/fommquell';
+}
+
 // Funzione per ottenere le coordinate con piccolo offset casuale se il luogo non è noto
 function getEventCoordinates(venue, address) {
   // Riconosce la città estraendola dall'indirizzo o passando un valore di default
@@ -287,6 +306,8 @@ async function loadDynamicEvents() {
       const idxWorkshop = getColIdx('typeWorkshop', 21);
       const idxLatitude = getColIdx('latitude', -1);
       const idxLongitude = getColIdx('longitude', -1);
+      const idxVenueTag = getColIdx('venueTag', 15);
+      const idxTags = getColIdx('tags', 13);
 
       for (let i = 3; i < csvRows.length; i++) {
         const row = csvRows[i];
@@ -322,6 +343,10 @@ async function loadDynamicEvents() {
         if (info) infoParts.push(`Info: ${info}`);
         if (infoParts.length > 0) desc += `\n\n${infoParts.join(' • ')}`;
 
+        const venueTag = idxVenueTag !== -1 ? (row[idxVenueTag] || '').trim() : '';
+        const tags = idxTags !== -1 ? (row[idxTags] || '').trim() : '';
+        const instagramLink = getInstagramLink(venueTag, tags);
+
         const eventObj = {
           id: `sheet-ev-${i}`,
           title: title || 'Senza Titolo',
@@ -334,7 +359,7 @@ async function loadDynamicEvents() {
           location: venue || location || 'Reggio Emilia',
           address: `${venue}${venue && location ? ', ' : ''}${location}`,
           desc: desc,
-          link: 'https://instagram.com/fommquell'
+          link: instagramLink
         };
 
         // Parse custom coordinates if present in Google Sheets
