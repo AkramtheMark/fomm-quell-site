@@ -224,7 +224,7 @@ async function fetchWithTimeout(resource, options = {}) {
   }
 }
 
-async function fetchCSVWithFallback(sheetUrl, validationKeyword = 'checked,date') {
+async function fetchCSVWithFallback(sheetUrl) {
   const proxies = [
     sheetUrl,
     `https://corsproxy.io/?url=${encodeURIComponent(sheetUrl)}`,
@@ -237,16 +237,14 @@ async function fetchCSVWithFallback(sheetUrl, validationKeyword = 'checked,date'
       if (!response.ok) continue;
       const text = await response.text();
       const cleanText = text.trim();
-      
-      const hasKeyword = cleanText.toLowerCase().includes(validationKeyword.toLowerCase());
-      if (cleanText && !cleanText.startsWith('<') && hasKeyword) {
+      if (cleanText && !cleanText.startsWith('<') && (cleanText.includes('startTime') || cleanText.includes('typeMusic') || cleanText.includes('checked,date'))) {
         return cleanText;
       }
     } catch (e) {
       console.warn(`Errore fetch proxy: ${proxyUrl}`, e.message);
     }
   }
-  throw new Error("Proxy falliti per URL: " + sheetUrl);
+  throw new Error("Proxy falliti");
 }
 
 /* ==========================================================================
@@ -257,7 +255,7 @@ async function loadDynamicEvents() {
   let rawEventsData = null;
 
   try {
-    const csvText = await fetchCSVWithFallback(googleSheetCsvUrl, 'checked,date');
+    const csvText = await fetchCSVWithFallback(googleSheetCsvUrl);
     const csvRows = parseCSV(csvText);
 
     if (csvRows && csvRows.length > 3) {
@@ -556,7 +554,7 @@ async function loadVenuesCoordinates() {
   const localesSheetUrl = `${baseSheetUrl}&gid=${GOOGLE_SHEET_LOCALI_GID}`;
   
   try {
-    const csvText = await fetchCSVWithFallback(localesSheetUrl, 'coordinat');
+    const csvText = await fetchCSVWithFallback(localesSheetUrl);
     const csvRows = parseCSV(csvText);
     
     if (csvRows && csvRows.length > 1) {
