@@ -86,6 +86,25 @@ function checkVenueMatch(venue, location, key) {
   return false;
 }
 
+// Genera il link Instagram a partire da venueTag o dai tags dell'evento
+function getInstagramLink(venueTag, tags) {
+  let tag = (venueTag || '').trim();
+  
+  if (!tag && tags) {
+    const match = tags.match(/@[a-zA-Z0-9_.]+/);
+    if (match) {
+      tag = match[0];
+    }
+  }
+  
+  if (tag && tag.startsWith('@')) {
+    const handle = tag.substring(1).trim();
+    return `https://instagram.com/${handle}`;
+  }
+  
+  return 'https://instagram.com/fommquell';
+}
+
 // Funzione per ottenere le coordinate con piccolo offset casuale se il luogo non è noto
 function getEventCoordinates(venue, address) {
   // Riconosce la città estraendola dall'indirizzo o passando un valore di default
@@ -224,7 +243,7 @@ async function fetchWithTimeout(resource, options = {}) {
   }
 }
 
-async function fetchCSVWithFallback(sheetUrl) {
+async function fetchCSVWithFallback(sheetUrl, validationKeyword = 'checked,date') {
   const proxies = [
     sheetUrl,
     `https://corsproxy.io/?url=${encodeURIComponent(sheetUrl)}`,
@@ -237,14 +256,16 @@ async function fetchCSVWithFallback(sheetUrl) {
       if (!response.ok) continue;
       const text = await response.text();
       const cleanText = text.trim();
-      if (cleanText && !cleanText.startsWith('<') && (cleanText.includes('startTime') || cleanText.includes('typeMusic') || cleanText.includes('checked,date'))) {
+      
+      const hasKeyword = cleanText.toLowerCase().includes(validationKeyword.toLowerCase());
+      if (cleanText && !cleanText.startsWith('<') && hasKeyword) {
         return cleanText;
       }
     } catch (e) {
       console.warn(`Errore fetch proxy: ${proxyUrl}`, e.message);
     }
   }
-  throw new Error("Proxy falliti");
+  throw new Error("Proxy falliti per URL: " + sheetUrl);
 }
 
 /* ==========================================================================
@@ -255,7 +276,7 @@ async function loadDynamicEvents() {
   let rawEventsData = null;
 
   try {
-    const csvText = await fetchCSVWithFallback(googleSheetCsvUrl);
+    const csvText = await fetchCSVWithFallback(googleSheetCsvUrl, 'checked,date');
     const csvRows = parseCSV(csvText);
 
     if (csvRows && csvRows.length > 3) {
@@ -285,6 +306,8 @@ async function loadDynamicEvents() {
       const idxWorkshop = getColIdx('typeWorkshop', 21);
       const idxLatitude = getColIdx('latitude', -1);
       const idxLongitude = getColIdx('longitude', -1);
+      const idxVenueTag = getColIdx('venueTag', 15);
+      const idxTags = getColIdx('tags', 13);
 
       for (let i = 3; i < csvRows.length; i++) {
         const row = csvRows[i];
@@ -320,6 +343,10 @@ async function loadDynamicEvents() {
         if (info) infoParts.push(`Info: ${info}`);
         if (infoParts.length > 0) desc += `\n\n${infoParts.join(' • ')}`;
 
+        const venueTag = idxVenueTag !== -1 ? (row[idxVenueTag] || '').trim() : '';
+        const tags = idxTags !== -1 ? (row[idxTags] || '').trim() : '';
+        const instagramLink = getInstagramLink(venueTag, tags);
+
         const eventObj = {
           id: `sheet-ev-${i}`,
           title: title || 'Senza Titolo',
@@ -332,7 +359,7 @@ async function loadDynamicEvents() {
           location: venue || location || 'Reggio Emilia',
           address: `${venue}${venue && location ? ', ' : ''}${location}`,
           desc: desc,
-          link: 'https://instagram.com/fommquell'
+          link: instagramLink
         };
 
         // Parse custom coordinates if present in Google Sheets
@@ -499,17 +526,28 @@ function renderMapEvents(filter = "all") {
     // Icona personalizzata omino
     const icon = getOminiIcon(index, event.category);
     
-    // Popup brutalista
+    // URL per le indicazioni stradali su Google Maps
+    const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${coords[0]},${coords[1]}`;
+    
+    // Popup brutalista con due pulsanti affiancati (con larghezza forzata a auto per evitare il width:100% del CSS)
     const popupHtml = `
       <div class="popup-title">${event.title}</div>
       <div class="popup-meta">📍 ${event.location} • ${event.time}</div>
       <div class="popup-desc">${event.desc.length > 90 ? event.desc.substring(0, 90) + '...' : event.desc}</div>
-      <a href="${event.link}" target="_blank" class="popup-btn">DETTAGLI EVENTO</a>
+      <div style="display: flex; gap: 0.5rem; margin-top: 0.8rem;">
+        <a href="${event.link}" target="_blank" class="popup-btn" style="flex: 1; padding: 0.4rem 0.2rem; width: auto !important;">INFO</a>
+        <a href="${directionsUrl}" target="_blank" class="popup-btn" style="flex: 1; padding: 0.4rem 0.2rem; background-color: var(--color-cream); color: var(--color-dark); box-shadow: 2px 2px 0px var(--color-pink); width: auto !important;">STRADA</a>
+      </div>
     `;
 
     // Crea marker
     const marker = L.marker(coords, { icon: icon }).bindPopup(popupHtml);
     markersGroup.addLayer(marker);
+
+    // Zoom massimo (livello 20) quando l'utente clicca direttamente sul marker dell'omino
+    marker.on('click', () => {
+      mapInstance.setView(coords, 20, { animate: true });
+    });
 
     // Aggiungi all'elenco della sidebar
     if (eventsContainer) {
@@ -522,8 +560,8 @@ function renderMapEvents(filter = "all") {
       `;
       
       item.addEventListener("click", () => {
-        // Zoom e focus sul marker al click della sidebar
-        mapInstance.setView(coords, 14, { animate: true });
+        // Zoom e focus sul marker al click della sidebar (inquadramento ravvicinato massimo a livello 20)
+        mapInstance.setView(coords, 20, { animate: true });
         marker.openPopup();
       });
 
@@ -554,7 +592,7 @@ async function loadVenuesCoordinates() {
   const localesSheetUrl = `${baseSheetUrl}&gid=${GOOGLE_SHEET_LOCALI_GID}`;
   
   try {
-    const csvText = await fetchCSVWithFallback(localesSheetUrl);
+    const csvText = await fetchCSVWithFallback(localesSheetUrl, 'coordinat');
     const csvRows = parseCSV(csvText);
     
     if (csvRows && csvRows.length > 1) {

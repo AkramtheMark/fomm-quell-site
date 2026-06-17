@@ -138,6 +138,39 @@ async function fetchCSVWithFallback(sheetUrl) {
   throw new Error("Tutti i tentativi di caricamento tramite proxy CORS sono falliti.");
 }
 
+// Genera il link Instagram a partire da venueTag o dai tags dell'evento
+function getInstagramLink(venueTag, tags) {
+  let tag = (venueTag || '').trim();
+  
+  if (!tag && tags) {
+    const match = tags.match(/@[a-zA-Z0-9_.]+/);
+    if (match) {
+      tag = match[0];
+    } else {
+      // Se c'è solo un tag o una stringa senza spazi che non inizia con @, considerala come handle
+      const cleanTags = tags.trim();
+      if (cleanTags && !cleanTags.includes(' ') && !cleanTags.includes('/') && /^[a-zA-Z0-9_.]+$/.test(cleanTags)) {
+        tag = cleanTags;
+      }
+    }
+  }
+  
+  if (tag) {
+    if (tag.startsWith('http://') || tag.startsWith('https://')) {
+      return tag;
+    }
+    if (tag.startsWith('@')) {
+      tag = tag.substring(1).trim();
+    }
+    // Rimuove eventuali caratteri extra e valida l'handle Instagram
+    if (tag && !tag.includes(' ') && !tag.includes('/') && /^[a-zA-Z0-9_.]+$/.test(tag)) {
+      return `https://instagram.com/${tag}`;
+    }
+  }
+  
+  return 'https://instagram.com/fommquell';
+}
+
 // Funzione principale per caricare gli eventi in modo dinamico dal Google Sheet o dati_eventi.json
 async function loadDynamicEvents() {
   const googleSheetCsvUrl = 'https://docs.google.com/spreadsheets/d/1jbfVbD7aE-KMvggHzAKLUE90oHCimOfAz4faFMhVAUU/export?format=csv&gid=0';
@@ -155,38 +188,61 @@ async function loadDynamicEvents() {
       const eventsList = [];
       const monthNames = ["GEN", "FEB", "MAR", "APR", "MAG", "GIU", "LUG", "AGO", "SET", "OTT", "NOV", "DIC"];
 
+      // Mappa gli indici delle colonne in base alle intestazioni trovate alla riga 0
+      const headers = csvRows[0].map(h => (h || '').trim().toLowerCase());
+      const getColIdx = (name, fallback) => {
+        const idx = headers.indexOf(name.toLowerCase());
+        return idx !== -1 ? idx : fallback;
+      };
+
+      const idxChecked = getColIdx('checked', 0);
+      const idxDate = getColIdx('date', 1);
+      const idxTime = getColIdx('startTime', 2);
+      const idxTitle = getColIdx('title', 4);
+      const idxDesc = getColIdx('description', 5);
+      const idxPrice = getColIdx('priceInfo', 6);
+      const idxInfo = getColIdx('generalInfo', 7);
+      const idxVenue = getColIdx('venue', 12);
+      const idxLocation = getColIdx('location', 14);
+      const idxMusic = getColIdx('typeMusic', 17);
+      const idxCulture = getColIdx('typeCulture', 18);
+      const idxShow = getColIdx('typeShow', 19);
+      const idxArt = getColIdx('typeArt', 20);
+      const idxWorkshop = getColIdx('typeWorkshop', 21);
+      const idxVenueTag = getColIdx('venueTag', 15);
+      const idxTags = getColIdx('tags', 13);
+
       for (let i = 3; i < csvRows.length; i++) {
         const row = csvRows[i];
         if (row.length < 5) continue;
 
-        const checked = (row[0] || '').trim();
+        const checked = (row[idxChecked] || '').trim();
         // Carica solo eventi validati ("OK" o "FQ")
         if (checked !== 'OK' && checked !== 'FQ') continue;
 
-        const dateStr = (row[1] || '').trim();
+        const dateStr = (row[idxDate] || '').trim();
         const dateObj = parseDateStr(dateStr);
         if (!dateObj) continue;
 
-        const title = (row[4] || '').trim();
-        const descText = (row[5] || '').trim();
-        const price = (row[6] || '').trim();
-        const info = (row[7] || '').trim();
-        const venue = (row[12] || '').trim();
-        const location = (row[14] || '').trim();
-        // Mappatura tipologia booleana dal Google Sheet (colonne 17-22)
+        const title = (row[idxTitle] || '').trim();
+        const descText = (row[idxDesc] || '').trim();
+        const price = (row[idxPrice] || '').trim();
+        const info = (row[idxInfo] || '').trim();
+        const venue = (row[idxVenue] || '').trim();
+        const location = (row[idxLocation] || '').trim();
+        
+        // Mappatura tipologia booleana dal Google Sheet
         let category = 'altro';
-        if ((row[17] || '').trim().toUpperCase() === 'TRUE') {
+        if (idxMusic !== -1 && (row[idxMusic] || '').trim().toUpperCase() === 'TRUE') {
           category = 'musica';
-        } else if ((row[19] || '').trim().toUpperCase() === 'TRUE') {
+        } else if (idxShow !== -1 && (row[idxShow] || '').trim().toUpperCase() === 'TRUE') {
           category = 'spettacolo';
-        } else if ((row[18] || '').trim().toUpperCase() === 'TRUE') {
+        } else if (idxCulture !== -1 && (row[idxCulture] || '').trim().toUpperCase() === 'TRUE') {
           category = 'cultura';
-        } else if ((row[20] || '').trim().toUpperCase() === 'TRUE') {
+        } else if (idxArt !== -1 && (row[idxArt] || '').trim().toUpperCase() === 'TRUE') {
           category = 'arte';
-        } else if ((row[21] || '').trim().toUpperCase() === 'TRUE') {
+        } else if (idxWorkshop !== -1 && (row[idxWorkshop] || '').trim().toUpperCase() === 'TRUE') {
           category = 'lab';
-        } else if ((row[22] || '').trim().toUpperCase() === 'TRUE') {
-          category = 'altro';
         }
 
         // Estrazione giorno e mese
@@ -217,6 +273,10 @@ async function loadDynamicEvents() {
           desc += `\n\n${infoParts.join(' • ')}`;
         }
 
+        const venueTag = idxVenueTag !== -1 ? (row[idxVenueTag] || '').trim() : '';
+        const tags = idxTags !== -1 ? (row[idxTags] || '').trim() : '';
+        const instagramLink = getInstagramLink(venueTag, tags);
+
         eventsList.push({
           id: `sheet-ev-${i}`,
           title: title || 'Senza Titolo',
@@ -225,11 +285,11 @@ async function loadDynamicEvents() {
           date: dateStr,
           day: day,
           month: month,
-          time: (row[2] || 'Ora da definire').trim(),
+          time: (row[idxTime] || 'Ora da definire').trim(),
           location: venue || location || 'Reggio Emilia',
           address: `${venue}${venue && location ? ', ' : ''}${location}`,
           desc: desc,
-          link: 'https://instagram.com/fommquell',
+          link: instagramLink,
           coordsId: coordsId
         });
       }

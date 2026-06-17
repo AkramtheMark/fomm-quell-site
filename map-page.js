@@ -94,16 +94,31 @@ function getInstagramLink(venueTag, tags) {
     const match = tags.match(/@[a-zA-Z0-9_.]+/);
     if (match) {
       tag = match[0];
+    } else {
+      // Se c'è solo un tag o una stringa senza spazi che non inizia con @, considerala come handle
+      const cleanTags = tags.trim();
+      if (cleanTags && !cleanTags.includes(' ') && !cleanTags.includes('/') && /^[a-zA-Z0-9_.]+$/.test(cleanTags)) {
+        tag = cleanTags;
+      }
     }
   }
   
-  if (tag && tag.startsWith('@')) {
-    const handle = tag.substring(1).trim();
-    return `https://instagram.com/${handle}`;
+  if (tag) {
+    if (tag.startsWith('http://') || tag.startsWith('https://')) {
+      return tag;
+    }
+    if (tag.startsWith('@')) {
+      tag = tag.substring(1).trim();
+    }
+    // Rimuove eventuali caratteri extra e valida l'handle Instagram
+    if (tag && !tag.includes(' ') && !tag.includes('/') && /^[a-zA-Z0-9_.]+$/.test(tag)) {
+      return `https://instagram.com/${tag}`;
+    }
   }
   
   return 'https://instagram.com/fommquell';
 }
+
 
 // Funzione per ottenere le coordinate con piccolo offset casuale se il luogo non è noto
 function getEventCoordinates(venue, address) {
