@@ -217,9 +217,9 @@
     }
 
     /* Hover accents - category colors */
-    .musica-accent:hover { filter: drop-shadow(0px 0px 6px #EF48A0) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
+    .musica-accent:hover { filter: drop-shadow(0px 0px 6px #B52EFF) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
     .spettacolo-accent:hover { filter: drop-shadow(0px 0px 6px #9CF726) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
-    .cultura-accent:hover { filter: drop-shadow(0px 0px 6px #20C6C1) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
+    .cultura-accent:hover { filter: drop-shadow(0px 0px 6px #26F76C) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
     .arte-accent:hover { filter: drop-shadow(0px 0px 6px #9260F4) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
     .lab-accent:hover { filter: drop-shadow(0px 0px 6px #EFD933) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
     .altro-accent:hover { filter: drop-shadow(0px 0px 6px #F47621) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
@@ -298,7 +298,10 @@
         <span class="theme-icon">🌙</span>
         <span class="theme-text">MIDNIGHT</span>
       </button>
-      <a href="index.html" class="btn btn-secondary btn-sm" style="box-shadow: 3px 3px 0px var(--color-pink); margin: 0;">← TORNA ALLA HOME</a>
+      <a href="index.html" class="btn btn-secondary btn-sm" style="box-shadow: 3px 3px 0px var(--color-pink); margin: 0;">
+        <span class="back-text-desktop">← TORNA ALLA HOME</span>
+        <span class="back-text-mobile" style="display: none;">← HOME</span>
+      </a>
     </div>
   </header>
 
@@ -309,6 +312,8 @@
 
     <!-- Sidebar controls and list -->
     <aside class="map-sidebar">
+      <!-- Omino che si siede sulla dashboard -->
+      <img src="assets/Omini_Copertina/Orrizontali/FQ_Oriz_004_Maglia.PNG" class="omino-sidebar-sitting" alt="Omino sitting">
       <div class="sidebar-header">
         <h2>MAPPA EVENTI</h2>
         <!-- Week Navigator -->
