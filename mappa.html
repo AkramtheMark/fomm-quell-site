@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=2.2">
+  <link rel="stylesheet" href="style.css?v=2.3">
   
   <style>
     /* Custom layout for the full screen map */
@@ -62,7 +62,7 @@
       z-index: 1000;
       display: flex;
       flex-direction: column;
-      overflow: hidden;
+      overflow: visible;
       transition: transform 0.3s ease;
     }
 
@@ -206,7 +206,6 @@
       width: 100%;
       height: 100%;
       object-fit: contain;
-      filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.35)) drop-shadow(2px 2px 0px rgba(0,0,0,1));
       transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
       transform-origin: bottom center;
       cursor: pointer;
@@ -216,13 +215,35 @@
       transform: scale(1.3) translateY(-5px);
     }
 
-    /* Hover accents - category colors */
-    .musica-accent:hover { filter: drop-shadow(0px 0px 6px #B52EFF) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
-    .spettacolo-accent:hover { filter: drop-shadow(0px 0px 6px #9CF726) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
-    .cultura-accent:hover { filter: drop-shadow(0px 0px 6px #26F76C) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
-    .arte-accent:hover { filter: drop-shadow(0px 0px 6px #9260F4) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
-    .lab-accent:hover { filter: drop-shadow(0px 0px 6px #EFD933) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
-    .altro-accent:hover { filter: drop-shadow(0px 0px 6px #F47621) drop-shadow(3px 3px 0px rgba(0,0,0,1)); }
+    /* Category accents - Dark Mode (inverted omini) */
+    .musica-accent { filter: invert(1) drop-shadow(0px 0px 3px #B52EFF) drop-shadow(2px 2px 0px rgba(0,0,0,1)); }
+    .spettacolo-accent { filter: invert(1) drop-shadow(0px 0px 3px #9CF726) drop-shadow(2px 2px 0px rgba(0,0,0,1)); }
+    .cultura-accent { filter: invert(1) drop-shadow(0px 0px 3px #26F76C) drop-shadow(2px 2px 0px rgba(0,0,0,1)); }
+    .arte-accent { filter: invert(1) drop-shadow(0px 0px 3px #9260F4) drop-shadow(2px 2px 0px rgba(0,0,0,1)); }
+    .lab-accent { filter: invert(1) drop-shadow(0px 0px 3px #EFD933) drop-shadow(2px 2px 0px rgba(0,0,0,1)); }
+    .altro-accent { filter: invert(1) drop-shadow(0px 0px 3px #F47621) drop-shadow(2px 2px 0px rgba(0,0,0,1)); }
+
+    .musica-accent:hover { filter: invert(1) drop-shadow(0px 0px 6px #B52EFF) drop-shadow(3px 3px 0px rgba(255,255,255,0.8)); }
+    .spettacolo-accent:hover { filter: invert(1) drop-shadow(0px 0px 6px #9CF726) drop-shadow(3px 3px 0px rgba(255,255,255,0.8)); }
+    .cultura-accent:hover { filter: invert(1) drop-shadow(0px 0px 6px #26F76C) drop-shadow(3px 3px 0px rgba(255,255,255,0.8)); }
+    .arte-accent:hover { filter: invert(1) drop-shadow(0px 0px 6px #9260F4) drop-shadow(3px 3px 0px rgba(255,255,255,0.8)); }
+    .lab-accent:hover { filter: invert(1) drop-shadow(0px 0px 6px #EFD933) drop-shadow(3px 3px 0px rgba(255,255,255,0.8)); }
+    .altro-accent:hover { filter: invert(1) drop-shadow(0px 0px 6px #F47621) drop-shadow(3px 3px 0px rgba(255,255,255,0.8)); }
+
+    /* Category accents - Light Mode (original dark omini) */
+    body.light-theme .musica-accent { filter: drop-shadow(0px 0px 3px #B52EFF) drop-shadow(2px 2px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .spettacolo-accent { filter: drop-shadow(0px 0px 3px #9CF726) drop-shadow(2px 2px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .cultura-accent { filter: drop-shadow(0px 0px 3px #26F76C) drop-shadow(2px 2px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .arte-accent { filter: drop-shadow(0px 0px 3px #9260F4) drop-shadow(2px 2px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .lab-accent { filter: drop-shadow(0px 0px 3px #EFD933) drop-shadow(2px 2px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .altro-accent { filter: drop-shadow(0px 0px 3px #F47621) drop-shadow(2px 2px 0px rgba(0,0,0,1)) !important; }
+
+    body.light-theme .musica-accent:hover { filter: drop-shadow(0px 0px 6px #B52EFF) drop-shadow(3px 3px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .spettacolo-accent:hover { filter: drop-shadow(0px 0px 6px #9CF726) drop-shadow(3px 3px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .cultura-accent:hover { filter: drop-shadow(0px 0px 6px #26F76C) drop-shadow(3px 3px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .arte-accent:hover { filter: drop-shadow(0px 0px 6px #9260F4) drop-shadow(3px 3px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .lab-accent:hover { filter: drop-shadow(0px 0px 6px #EFD933) drop-shadow(3px 3px 0px rgba(0,0,0,1)) !important; }
+    body.light-theme .altro-accent:hover { filter: drop-shadow(0px 0px 6px #F47621) drop-shadow(3px 3px 0px rgba(0,0,0,1)) !important; }
 
     /* Custom Leaflet Zoom Controls Style */
     .leaflet-bar {
@@ -346,6 +367,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   
   <!-- JavaScript Logic -->
-  <script type="module" src="map-page.js?v=2.2"></script>
+  <script type="module" src="map-page.js?v=2.3"></script>
 </body>
 </html>

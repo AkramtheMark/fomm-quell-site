@@ -1587,7 +1587,7 @@ a {
   position: absolute;
   z-index: 5;
   pointer-events: none;
-  filter: drop-shadow(4px 4px 0px var(--color-dark));
+  filter: invert(1) drop-shadow(4px 4px 0px var(--color-pink));
   animation: float-omino-anim 5s ease-in-out infinite;
 }
 
@@ -1789,6 +1789,7 @@ a {
   bottom: 5px;
   left: 0;
   animation: skate-anim 2.5s infinite linear;
+  filter: invert(1);
 }
 
 .brutalist-loader-text {
@@ -1867,7 +1868,7 @@ a {
   height: 52px;
   width: auto;
   z-index: 1002;
-  filter: drop-shadow(2px 2px 0px rgba(0,0,0,1));
+  filter: invert(1) drop-shadow(2px 2px 0px var(--color-pink));
   pointer-events: none;
   transition: transform 0.2s ease;
 }
@@ -1904,5 +1905,18 @@ body.light-theme .popup-btn {
 
 body.light-theme .popup-btn:hover {
   color: #121212 !important;
+}
+
+/* Light theme overrides for inverted omini */
+body.light-theme .floating-omino {
+  filter: drop-shadow(4px 4px 0px var(--color-pink)) !important;
+}
+
+body.light-theme .brutalist-loader-skater {
+  filter: none !important;
+}
+
+body.light-theme .omino-sidebar-sitting {
+  filter: drop-shadow(2px 2px 0px var(--color-pink)) !important;
 }
 

@@ -474,9 +474,17 @@ function findFirstWeekWithEvents() {
 function updateWeekEvents() {
   const { monday, sunday } = getWeekDates(currentWeekOffset);
   
-  // Filtra gli eventi totali per la settimana corrente
+  // Filtra gli eventi totali per la settimana specificata
   EVENTS_DATA = ALL_EVENTS_DATA.filter(ev => {
     if (!ev.dateObj) return false;
+    
+    // Se stiamo visualizzando la settimana corrente (offset 0), escludiamo i giorni passati
+    if (currentWeekOffset === 0) {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0); // Inizio di oggi
+      return ev.dateObj >= today && ev.dateObj <= sunday;
+    }
+    
     return ev.dateObj >= monday && ev.dateObj <= sunday;
   });
 
