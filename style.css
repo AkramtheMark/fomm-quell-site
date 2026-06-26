@@ -90,6 +90,7 @@ html {
 body {
   min-height: 100vh;
   position: relative;
+  color: var(--color-cream);
 }
 
 /* Custom Cursor styling */
@@ -596,6 +597,42 @@ a {
   box-shadow: 3px 3px 0px var(--color-cream);
 }
 
+.filter-btn[data-filter="musica"].active {
+  background-color: #B52EFF;
+  border-color: #B52EFF;
+  color: var(--color-dark);
+}
+.filter-btn[data-filter="spettacolo"].active {
+  background-color: #9CF726;
+  border-color: #9CF726;
+  color: var(--color-dark);
+}
+.filter-btn[data-filter="cultura"].active {
+  background-color: #26F76C;
+  border-color: #26F76C;
+  color: var(--color-dark);
+}
+.filter-btn[data-filter="arte"].active {
+  background-color: #9260F4;
+  border-color: #9260F4;
+  color: var(--color-dark);
+}
+.filter-btn[data-filter="lab"].active {
+  background-color: #EFD933;
+  border-color: #EFD933;
+  color: var(--color-dark);
+}
+.filter-btn[data-filter="altro"].active {
+  background-color: #F47621;
+  border-color: #F47621;
+  color: var(--color-dark);
+}
+.filter-btn[data-filter="cinema"].active {
+  background-color: #00F0FF;
+  border-color: #00F0FF;
+  color: var(--color-dark);
+}
+
 /* Event Grid */
 .events-grid {
   display: grid;
@@ -705,6 +742,11 @@ a {
                     url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><line x1="10" y1="10" x2="90" y2="90" stroke="%23F47621" stroke-width="2"/><line x1="90" y1="10" x2="10" y2="90" stroke="%23F47621" stroke-width="2"/></svg>');
 }
 
+.cinema-bg {
+  background-image: linear-gradient(135deg, rgba(0,240,255,0.3) 0%, rgba(18,18,18,0.9) 100%),
+                    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect x="30" y="20" width="40" height="60" fill="none" stroke="%2300F0FF" stroke-width="2"/><circle cx="50" cy="50" r="8" fill="%2300F0FF"/></svg>');
+}
+
 .event-card:hover .event-image-placeholder {
   border-bottom-color: var(--color-pink);
 }
@@ -719,6 +761,14 @@ a {
   border-radius: var(--border-radius);
   box-shadow: 2px 2px 0px var(--color-pink);
 }
+
+.category-tag.musica-tag { box-shadow: 2px 2px 0px #B52EFF; }
+.category-tag.spettacolo-tag { box-shadow: 2px 2px 0px #9CF726; }
+.category-tag.cultura-tag { box-shadow: 2px 2px 0px #26F76C; }
+.category-tag.arte-tag { box-shadow: 2px 2px 0px #9260F4; }
+.category-tag.lab-tag { box-shadow: 2px 2px 0px #EFD933; }
+.category-tag.altro-tag { box-shadow: 2px 2px 0px #F47621; }
+.category-tag.cinema-tag { box-shadow: 2px 2px 0px #00F0FF; }
 
 .event-info {
   padding: 1rem;
@@ -1131,7 +1181,7 @@ a {
   width: 100%;
   padding: 3rem;
   position: relative;
-  box-shadow: 10px 10px 0px var(--color-pink);
+  box-shadow: 10px 10px 0px var(--color-modal-accent, var(--color-pink));
   transform: translateY(20px);
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.15);
 }
@@ -1167,6 +1217,50 @@ a {
   font-weight: 700;
   font-size: 0.8rem;
   border-radius: var(--border-radius);
+  border: 2px solid var(--color-dark);
+}
+
+.modal-category.musica-category { background-color: #B52EFF; color: var(--color-dark); }
+.modal-category.spettacolo-category { background-color: #9CF726; color: var(--color-dark); }
+.modal-category.cultura-category { background-color: #26F76C; color: var(--color-dark); }
+.modal-category.arte-category { background-color: #9260F4; color: var(--color-dark); }
+.modal-category.lab-category { background-color: #EFD933; color: var(--color-dark); }
+.modal-category.altro-category { background-color: #F47621; color: var(--color-dark); }
+.modal-category.cinema-category { background-color: #00F0FF; color: var(--color-dark); }
+
+/* Category-specific styling for buttons inside the detail modal */
+.modal-box .btn-primary {
+  background-color: var(--color-modal-accent, var(--color-pink));
+  color: var(--color-dark) !important;
+  border: 2px solid var(--color-dark) !important;
+  box-shadow: 6px 6px 0px var(--color-dark) !important;
+}
+
+.modal-box .btn-primary:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px var(--color-dark) !important;
+}
+
+.modal-box .btn-primary:active {
+  transform: translate(0px, 0px);
+  box-shadow: 3px 3px 0px var(--color-dark) !important;
+}
+
+.modal-box .btn-secondary {
+  background-color: var(--color-dark) !important;
+  color: var(--color-cream) !important;
+  border: 2px solid var(--color-dark) !important;
+  box-shadow: 6px 6px 0px var(--color-modal-accent, var(--color-pink)) !important;
+}
+
+.modal-box .btn-secondary:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px var(--color-modal-accent, var(--color-pink)) !important;
+}
+
+.modal-box .btn-secondary:active {
+  transform: translate(0px, 0px);
+  box-shadow: 3px 3px 0px var(--color-modal-accent, var(--color-pink)) !important;
 }
 
 .modal-title {

@@ -445,6 +445,31 @@ async function loadDynamicEvents() {
     ];
   }
 
+  // Carica i film dei cinema dal file JSON locale generato dallo scraper
+  try {
+    console.log("Tentativo di caricamento programmazione cinema da assets/cinema_events.json...");
+    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.4', { timeout: 3000 });
+    if (cinemaResponse.ok) {
+      const cinemaData = await cinemaResponse.json();
+      if (cinemaData && cinemaData.length > 0) {
+        const monthNames = ["GEN", "FEB", "MAR", "APR", "MAG", "GIU", "LUG", "AGO", "SET", "OTT", "NOV", "DIC"];
+        const parsedCinemaEvents = cinemaData.map(ev => {
+          const dateObj = parseDateStr(ev.date);
+          return {
+            ...ev,
+            dateObj: dateObj,
+            day: dateObj ? dateObj.getDate() : 15,
+            month: dateObj ? monthNames[dateObj.getMonth()] : 'GIU'
+          };
+        });
+        ALL_EVENTS_DATA = ALL_EVENTS_DATA.concat(parsedCinemaEvents);
+        console.log(`Caricati ${parsedCinemaEvents.length} eventi cinema.`);
+      }
+    }
+  } catch (cinemaErr) {
+    console.warn("Impossibile caricare assets/cinema_events.json (potrebbe non essere ancora stato generato o aperto localmente):", cinemaErr.message);
+  }
+
   // Ordina per data tutti gli eventi caricati
   ALL_EVENTS_DATA.sort((a, b) => (a.dateObj || 0) - (b.dateObj || 0));
 
@@ -794,7 +819,7 @@ function renderEvents(filter = "all") {
           <span class="month">${event.month}</span>
         </div>
         <div class="event-image-placeholder ${bgClass}">
-          <span class="category-tag">${categoryText}</span>
+          <span class="category-tag ${event.category}-tag">${categoryText}</span>
         </div>
         <div class="event-info">
           <h3 class="event-title">${event.title}</h3>
@@ -878,12 +903,13 @@ function openEventDetail(id) {
   mLink.href = event.link;
 
   // Set colors based on category dynamically
-  let accentColor = "#EF48A0"; // default musica
+  let accentColor = "#B52EFF"; // default musica (Purple)
   if (event.category === "spettacolo") accentColor = "#9CF726";
-  if (event.category === "cultura") accentColor = "#20C6C1";
+  if (event.category === "cultura") accentColor = "#26F76C"; // Cultura (Green)
   if (event.category === "arte") accentColor = "#9260F4";
   if (event.category === "lab") accentColor = "#EFD933";
   if (event.category === "altro") accentColor = "#F47621";
+  if (event.category === "cinema") accentColor = "#00F0FF"; // Cinema (Cyan)
   
   modal.style.setProperty("--color-modal-accent", accentColor);
 

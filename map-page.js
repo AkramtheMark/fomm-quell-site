@@ -492,6 +492,33 @@ async function loadDynamicEvents() {
     ];
   }
 
+  // Carica i film dei cinema dal file JSON locale generato dallo scraper
+  try {
+    console.log("Tentativo di caricamento programmazione cinema da assets/cinema_events.json...");
+    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.4', { timeout: 3000 });
+    if (cinemaResponse.ok) {
+      const cinemaData = await cinemaResponse.json();
+      if (cinemaData && cinemaData.length > 0) {
+        const monthNames = ["GEN", "FEB", "MAR", "APR", "MAG", "GIU", "LUG", "AGO", "SET", "OTT", "NOV", "DIC"];
+        const parsedCinemaEvents = cinemaData.map(ev => {
+          const dateObj = parseDateStr(ev.date);
+          return {
+            ...ev,
+            dateObj: dateObj,
+            day: dateObj ? dateObj.getDate() : 15,
+            month: dateObj ? monthNames[dateObj.getMonth()] : 'GIU',
+            lat: ev.latitude,
+            lng: ev.longitude
+          };
+        });
+        ALL_EVENTS_DATA = ALL_EVENTS_DATA.concat(parsedCinemaEvents);
+        console.log(`Caricati ${parsedCinemaEvents.length} eventi cinema sulla mappa.`);
+      }
+    }
+  } catch (cinemaErr) {
+    console.warn("Impossibile caricare assets/cinema_events.json sulla mappa:", cinemaErr.message);
+  }
+
   ALL_EVENTS_DATA.sort((a, b) => (a.dateObj || 0) - (b.dateObj || 0));
   currentWeekOffset = findFirstWeekWithEvents();
 }
