@@ -2014,3 +2014,37 @@ body.light-theme .omino-sidebar-sitting {
   filter: drop-shadow(2px 2px 0px var(--color-pink)) !important;
 }
 
+/* Brutalist Select Dropdown Style */
+.brutalist-select {
+  background-color: var(--color-dark);
+  color: var(--color-cream);
+  border: var(--border-width) solid var(--color-cream);
+  padding: 0.4rem 1.2rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-radius: var(--border-radius);
+  outline: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px var(--color-cream);
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.brutalist-select:focus {
+  border-color: #00F0FF;
+  box-shadow: 3px 3px 0px #00F0FF;
+}
+
+body.light-theme .brutalist-select {
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+  box-shadow: 3px 3px 0px var(--color-dark);
+}
+
+body.light-theme .brutalist-select:focus {
+  border-color: #00F0FF;
+  box-shadow: 3px 3px 0px #00F0FF;
+}
+

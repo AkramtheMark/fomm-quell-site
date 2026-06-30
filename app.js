@@ -448,7 +448,7 @@ async function loadDynamicEvents() {
   // Carica i film dei cinema dal file JSON locale generato dallo scraper
   try {
     console.log("Tentativo di caricamento programmazione cinema da assets/cinema_events.json...");
-    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.4', { timeout: 3000 });
+    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.5', { timeout: 3000 });
     if (cinemaResponse.ok) {
       const cinemaData = await cinemaResponse.json();
       if (cinemaData && cinemaData.length > 0) {
@@ -543,6 +543,13 @@ function initApp() {
 
   const eventsContainer = document.getElementById("events-container");
   const filterBtns = document.querySelectorAll(".filter-wrapper .filter-btn");
+  const cinemaSelect = document.getElementById("cinema-select");
+  if (cinemaSelect) {
+    cinemaSelect.addEventListener("change", () => {
+      currentPage = 0;
+      renderEvents(currentCategory);
+    });
+  }
   const modal = document.getElementById("event-modal");
   const modalClose = document.getElementById("modal-close-btn");
   const eventForm = document.getElementById("event-form");
@@ -646,6 +653,18 @@ function initApp() {
       const filterValue = e.target.getAttribute("data-filter");
       currentCategory = filterValue;
       currentPage = 0;
+
+      // Show/Hide cinema select dropdown
+      const cinemaSelectContainer = document.getElementById("cinema-select-container");
+      if (cinemaSelectContainer) {
+        if (filterValue === "cinema") {
+          cinemaSelectContainer.style.display = "flex";
+        } else {
+          cinemaSelectContainer.style.display = "none";
+          if (cinemaSelect) cinemaSelect.value = "all";
+        }
+      }
+
       renderEvents(filterValue);
     });
   });
@@ -773,9 +792,15 @@ function renderEvents(filter = "all") {
   eventsContainer.innerHTML = "";
   currentCategory = filter;
 
-  const filteredEvents = filter === "all" 
+  let filteredEvents = filter === "all" 
     ? EVENTS_DATA 
     : EVENTS_DATA.filter(ev => ev.category === filter);
+
+  const cinemaSelect = document.getElementById("cinema-select");
+  if (filter === "cinema" && cinemaSelect && cinemaSelect.value !== "all") {
+    const selectedCinema = cinemaSelect.value;
+    filteredEvents = filteredEvents.filter(ev => ev.location && ev.location.includes(selectedCinema));
+  }
 
   const totalEvents = filteredEvents.length;
   const totalPages = Math.ceil(totalEvents / EVENTS_PER_PAGE);

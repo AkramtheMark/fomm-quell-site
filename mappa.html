@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   
   <!-- Core Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=2.4">
+  <link rel="stylesheet" href="style.css?v=2.5">
   
   <style>
     /* Custom layout for the full screen map */
@@ -361,6 +361,27 @@
           <button class="filter-btn" data-filter="altro" style="padding: 0.2rem 0.6rem; font-size: 0.7rem;">ALTRO</button>
           <button class="filter-btn" data-filter="cinema" style="padding: 0.2rem 0.6rem; font-size: 0.7rem;">CINEMA</button>
         </div>
+
+        <!-- Cinema Select Filter Dropdown (Hidden by default) -->
+        <div class="cinema-select-wrapper" id="cinema-select-container" style="display: none; align-items: center; gap: 0.5rem; margin-top: 1rem; width: 100%; justify-content: center; flex-wrap: wrap;">
+          <label for="cinema-select" style="font-family: var(--font-body); font-weight: 700; font-size: 0.7rem; letter-spacing: 0.5px; color: var(--color-cream); text-transform: uppercase;">Cinema:</label>
+          <select id="cinema-select" class="brutalist-select" style="font-size: 0.75rem; padding: 0.3rem 0.6rem;">
+            <option value="all">[ TUTTI I CINEMA ]</option>
+            <option value="Al Corso">Al Corso</option>
+            <option value="Rosebud">Rosebud</option>
+            <option value="Nuovo Cinema Cristallo">Nuovo Cinema Cristallo</option>
+            <option value="Olimpia">Olimpia</option>
+            <option value="Arena Stalloni">Arena Stalloni</option>
+            <option value="Apollo">Apollo</option>
+            <option value="Novecento">Novecento</option>
+            <option value="Cinepiù">Cinepiù</option>
+            <option value="Cinema Castello">Cinema Castello</option>
+            <option value="Cinema Eden">Cinema Eden</option>
+            <option value="Cinema Boiardo">Cinema Boiardo</option>
+            <option value="Cinema Bismantova">Cinema Bismantova</option>
+            <option value="CineClub Claudio Zambelli">CineClub Claudio Zambelli</option>
+          </select>
+        </div>
         
         <!-- List of events in active week -->
         <div class="map-events-list" id="map-events-container">
@@ -374,6 +395,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   
   <!-- JavaScript Logic -->
-  <script type="module" src="map-page.js?v=2.4"></script>
+  <script type="module" src="map-page.js?v=2.5"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
   <title>Fômm Quell | Facciamo Qualcosa a Reggio Emilia</title>
   <link rel="icon" href="assets/Images/FQ_icona.ico" type="image/x-icon">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=2.4">
+  <link rel="stylesheet" href="style.css?v=2.5">
 </head>
 
 <body>
@@ -157,6 +157,27 @@
           <button class="filter-btn" data-filter="lab">LAB</button>
           <button class="filter-btn" data-filter="altro">ALTRO</button>
           <button class="filter-btn" data-filter="cinema">CINEMA</button>
+        </div>
+
+        <!-- Cinema Select Filter Dropdown (Hidden by default) -->
+        <div class="cinema-select-wrapper" id="cinema-select-container" style="display: none; align-items: center; gap: 0.8rem; margin-top: 1.5rem; flex-wrap: wrap;">
+          <label for="cinema-select" style="font-family: var(--font-body); font-weight: 700; font-size: 0.75rem; letter-spacing: 1px; color: var(--color-cream); text-transform: uppercase;">Filtra per cinema:</label>
+          <select id="cinema-select" class="brutalist-select">
+            <option value="all">[ TUTTI I CINEMA ]</option>
+            <option value="Al Corso">Al Corso</option>
+            <option value="Rosebud">Rosebud</option>
+            <option value="Nuovo Cinema Cristallo">Nuovo Cinema Cristallo</option>
+            <option value="Olimpia">Olimpia</option>
+            <option value="Arena Stalloni">Arena Stalloni</option>
+            <option value="Apollo">Apollo</option>
+            <option value="Novecento">Novecento</option>
+            <option value="Cinepiù">Cinepiù</option>
+            <option value="Cinema Castello">Cinema Castello</option>
+            <option value="Cinema Eden">Cinema Eden</option>
+            <option value="Cinema Boiardo">Cinema Boiardo</option>
+            <option value="Cinema Bismantova">Cinema Bismantova</option>
+            <option value="CineClub Claudio Zambelli">CineClub Claudio Zambelli</option>
+          </select>
         </div>
       </div>
 
@@ -397,6 +418,6 @@
   </footer>
 
   <!-- Javascript -->
-  <script type="module" src="app.js?v=2.4"></script>
+  <script type="module" src="app.js?v=2.5"></script>
 </body>
 </html>

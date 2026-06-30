@@ -495,7 +495,7 @@ async function loadDynamicEvents() {
   // Carica i film dei cinema dal file JSON locale generato dallo scraper
   try {
     console.log("Tentativo di caricamento programmazione cinema da assets/cinema_events.json...");
-    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.4', { timeout: 3000 });
+    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.5', { timeout: 3000 });
     if (cinemaResponse.ok) {
       const cinemaData = await cinemaResponse.json();
       if (cinemaData && cinemaData.length > 0) {
@@ -567,9 +567,15 @@ function renderMapEvents(filter = "all") {
   const eventsContainer = document.getElementById("map-events-container");
   if (eventsContainer) eventsContainer.innerHTML = "";
 
-  const filteredEvents = filter === 'all' 
+  let filteredEvents = filter === 'all' 
     ? EVENTS_DATA 
     : EVENTS_DATA.filter(ev => ev.category === filter);
+
+  const cinemaSelect = document.getElementById("cinema-select");
+  if (filter === "cinema" && cinemaSelect && cinemaSelect.value !== "all") {
+    const selectedCinema = cinemaSelect.value;
+    filteredEvents = filteredEvents.filter(ev => ev.location && ev.location.includes(selectedCinema));
+  }
 
   if (filteredEvents.length === 0) {
     if (eventsContainer) {
@@ -736,6 +742,18 @@ async function initMapPage() {
 
   markersGroup = L.layerGroup().addTo(mapInstance);
 
+  const cinemaSelect = document.getElementById("cinema-select");
+  if (cinemaSelect) {
+    cinemaSelect.addEventListener("change", () => {
+      renderMapEvents(currentCategory);
+      // Zoom ottimale per racchiudere i marker dopo il filtro
+      if (markersGroup.getLayers().length > 0) {
+        const bounds = L.featureGroup(markersGroup.getLayers()).getBounds();
+        mapInstance.fitBounds(bounds, { padding: [40, 40] });
+      }
+    });
+  }
+
   // 2. Binding pulsanti settimana
   const prevWeekBtn = document.getElementById("prev-week-btn");
   const nextWeekBtn = document.getElementById("next-week-btn");
@@ -764,6 +782,18 @@ async function initMapPage() {
       e.target.classList.add("active");
       const filterValue = e.target.getAttribute("data-filter");
       currentCategory = filterValue;
+
+      // Show/Hide cinema select dropdown
+      const cinemaSelectContainer = document.getElementById("cinema-select-container");
+      if (cinemaSelectContainer) {
+        if (filterValue === "cinema") {
+          cinemaSelectContainer.style.display = "flex";
+        } else {
+          cinemaSelectContainer.style.display = "none";
+          if (cinemaSelect) cinemaSelect.value = "all";
+        }
+      }
+
       renderMapEvents(filterValue);
     });
   });
