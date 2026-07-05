@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-il-silenzio-degli-altri-2100-04072026",
-    "title": "IL SILENZIO DEGLI ALTRI",
-    "category": "cinema",
-    "date": "04/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/il-silenzio-degli-altri/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IL-SILENZIO-DEGLI-ALTRI-e1782393123163.jpg"
-  },
-  {
     "id": "cinema-al-corso-il-silenzio-degli-altri-2100-08072026",
     "title": "IL SILENZIO DEGLI ALTRI",
     "category": "cinema",
@@ -286,19 +273,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-amarga-navidad-2130-04072026",
-    "title": "AMARGA NAVIDAD",
-    "category": "cinema",
-    "date": "04/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/amarga-navidad/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/AMARGA-NAVIDAD.webp"
-  },
-  {
     "id": "cinema-arena-stalloni-norimberga-2130-05072026",
     "title": "NORIMBERGA",
     "category": "cinema",
@@ -364,17 +338,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LE-COSE-NON-DETTE-scaled.jpg"
   },
   {
-    "id": "cinema-apollo-minions--monsters-1700-04072026",
-    "title": "Minions & Monsters",
+    "id": "cinema-arena-stalloni-no-other-choice---non-c-altra-scelta-2130-10072026",
+    "title": "NO OTHER CHOICE  – NON C'È ALTRA SCELTA",
     "category": "cinema",
-    "date": "04/07/2026",
-    "time": "17:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
-    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+    "date": "10/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Rassegna: CiLavoro",
+    "link": "https://www.arenastalloni.it/evento/no-other-choice-non-ce-altra-scelta/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/NO-OTHER-CHOICE.webp"
   },
   {
     "id": "cinema-apollo-minions--monsters-1700-05072026",
@@ -416,11 +390,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
   },
   {
-    "id": "cinema-novecento-toy-story-5-1830-04072026",
+    "id": "cinema-novecento-toy-story-5-1800-05072026",
     "title": "TOY STORY 5",
     "category": "cinema",
-    "date": "04/07/2026",
-    "time": "18:30",
+    "date": "05/07/2026",
+    "time": "18:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrew Stanton | DURATA: 102'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3365",
@@ -429,11 +403,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/toystory5.jpg"
   },
   {
-    "id": "cinema-novecento-toy-story-5-2100-04072026",
+    "id": "cinema-novecento-toy-story-5-2030-05072026",
     "title": "TOY STORY 5",
     "category": "cinema",
-    "date": "04/07/2026",
-    "time": "21:00",
+    "date": "05/07/2026",
+    "time": "20:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrew Stanton | DURATA: 102'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3365",
@@ -442,10 +416,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/toystory5.jpg"
   },
   {
-    "id": "cinema-novecento-il-mago-del-cremlino-le-origini-di-putin-1800-04072026",
+    "id": "cinema-novecento-il-mago-del-cremlino-le-origini-di-putin-1800-05072026",
     "title": "IL MAGO DEL CREMLINO-LE ORIGINI DI PUTIN",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
     "time": "18:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Olivier Assayas | DURATA: 146'",
@@ -455,10 +429,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-ilmago.jpg"
   },
   {
-    "id": "cinema-novecento-il-mago-del-cremlino-le-origini-di-putin-2100-04072026",
+    "id": "cinema-novecento-il-mago-del-cremlino-le-origini-di-putin-2100-05072026",
     "title": "IL MAGO DEL CREMLINO-LE ORIGINI DI PUTIN",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Olivier Assayas | DURATA: 146'",
@@ -468,10 +442,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-ilmago.jpg"
   },
   {
-    "id": "cinema-cinepi-minions--monsters-1840-04072026",
+    "id": "cinema-cinepi-minions--monsters-1645-05072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
+    "time": "16:45",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
+  },
+  {
+    "id": "cinema-cinepi-minions--monsters-1840-05072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "05/07/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
@@ -481,11 +468,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinepi-minions--monsters-2050-04072026",
+    "id": "cinema-cinepi-minions--monsters-2040-05072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "04/07/2026",
-    "time": "20:50",
+    "date": "05/07/2026",
+    "time": "20:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
@@ -494,11 +481,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinepi-toy-story-5-1830-04072026",
+    "id": "cinema-cinepi-toy-story-5-1640-05072026",
     "title": "Toy Story 5",
     "category": "cinema",
-    "date": "04/07/2026",
-    "time": "18:30",
+    "date": "05/07/2026",
+    "time": "16:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21943",
@@ -507,10 +494,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
   },
   {
-    "id": "cinema-cinepi-toy-story-5-2045-04072026",
+    "id": "cinema-cinepi-toy-story-5-1845-05072026",
     "title": "Toy Story 5",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
+    "time": "18:45",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21943",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
+  },
+  {
+    "id": "cinema-cinepi-toy-story-5-2045-05072026",
+    "title": "Toy Story 5",
+    "category": "cinema",
+    "date": "05/07/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
@@ -520,10 +520,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
   },
   {
-    "id": "cinema-cinepi-supergirl-2100-04072026",
+    "id": "cinema-cinepi-supergirl-1630-05072026",
     "title": "Supergirl",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
+    "time": "16:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Azione, Fantasy | Durata: 110 Minuti | Cast: Milly Alcock, Eve Ridley, Matthias Schoenaerts, David Krumholtz, Jason Momoa, Emily Beecham",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21868",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/62714.jpg"
+  },
+  {
+    "id": "cinema-cinepi-supergirl-2100-05072026",
+    "title": "Supergirl",
+    "category": "cinema",
+    "date": "05/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Fantasy | Durata: 110 Minuti | Cast: Milly Alcock, Eve Ridley, Matthias Schoenaerts, David Krumholtz, Jason Momoa, Emily Beecham",
@@ -533,10 +546,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/62714.jpg"
   },
   {
-    "id": "cinema-cinepi-disclosure-day-1830-04072026",
+    "id": "cinema-cinepi-disclosure-day-1830-05072026",
     "title": "Disclosure Day",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
     "time": "18:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Fantascienza, Thriller | Durata: 145 Minuti | Cast: Emily Blunt, Josh O'Connor, Colin Firth, Eve Hewson, Colman Domingo, Wyatt Russell",
@@ -546,10 +559,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68184.jpg"
   },
   {
-    "id": "cinema-cinema-castello-minions--monsters-2100-04072026",
+    "id": "cinema-cinema-castello-minions--monsters-2100-05072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "04/07/2026",
+    "date": "05/07/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
@@ -559,107 +572,29 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinema-eden-toy-story-5-2045-02072026",
-    "title": "TOY STORY 5",
-    "category": "cinema",
-    "date": "02/07/2026",
-    "time": "20:45",
-    "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "I tempi cambiano ma gli amici restano per sempre.I giocattoli tornano ma questa volta dovranno scontrarsi con l’High Tech.Per Buzz, Woody, Jessie e tutto il resto del gruppo, il gi...",
-    "link": "https://cinemaeden.org/2026/05/18/toy-story-5/",
-    "latitude": 44.623102,
-    "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/05/TOYSTORY5_TARGET_PAYOFF_POSTER_ITALY.jpg"
-  },
-  {
-    "id": "cinema-cinema-eden-toy-story-5-2115-03072026",
-    "title": "TOY STORY 5",
-    "category": "cinema",
-    "date": "03/07/2026",
-    "time": "21:15",
-    "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "I tempi cambiano ma gli amici restano per sempre.I giocattoli tornano ma questa volta dovranno scontrarsi con l’High Tech.Per Buzz, Woody, Jessie e tutto il resto del gruppo, il gi...",
-    "link": "https://cinemaeden.org/2026/05/18/toy-story-5/",
-    "latitude": 44.623102,
-    "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/05/TOYSTORY5_TARGET_PAYOFF_POSTER_ITALY.jpg"
-  },
-  {
-    "id": "cinema-cinema-eden-toy-story-5-2115-04072026",
-    "title": "TOY STORY 5",
-    "category": "cinema",
-    "date": "04/07/2026",
-    "time": "21:15",
-    "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "I tempi cambiano ma gli amici restano per sempre.I giocattoli tornano ma questa volta dovranno scontrarsi con l’High Tech.Per Buzz, Woody, Jessie e tutto il resto del gruppo, il gi...",
-    "link": "https://cinemaeden.org/2026/05/18/toy-story-5/",
-    "latitude": 44.623102,
-    "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/05/TOYSTORY5_TARGET_PAYOFF_POSTER_ITALY.jpg"
-  },
-  {
     "id": "cinema-cinema-eden-toy-story-5-1830-05072026",
-    "title": "TOY STORY 5",
+    "title": "Toy Story 5",
     "category": "cinema",
     "date": "05/07/2026",
     "time": "18:30",
     "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "I tempi cambiano ma gli amici restano per sempre.I giocattoli tornano ma questa volta dovranno scontrarsi con l’High Tech.Per Buzz, Woody, Jessie e tutto il resto del gruppo, il gi...",
-    "link": "https://cinemaeden.org/2026/05/18/toy-story-5/",
+    "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/quattro-castella/?idf=21943",
     "latitude": 44.623102,
     "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/05/TOYSTORY5_TARGET_PAYOFF_POSTER_ITALY.jpg"
-  },
-  {
-    "id": "cinema-cinema-eden-supergirl-2100-02072026",
-    "title": "SUPERGIRL",
-    "category": "cinema",
-    "date": "02/07/2026",
-    "time": "21:00",
-    "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "Quando un avversario inaspettato e spietato colpisce troppo vicino a casa, Kara Zor-El, alias Supergirl, è costretta a stringere un’improbabile alleanza intraprendendo un’epica avv...",
-    "link": "https://cinemaeden.org/2026/06/08/supergirl/",
-    "latitude": 44.623102,
-    "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/06/Supergirl-scaled.jpg"
-  },
-  {
-    "id": "cinema-cinema-eden-supergirl-2130-03072026",
-    "title": "SUPERGIRL",
-    "category": "cinema",
-    "date": "03/07/2026",
-    "time": "21:30",
-    "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "Quando un avversario inaspettato e spietato colpisce troppo vicino a casa, Kara Zor-El, alias Supergirl, è costretta a stringere un’improbabile alleanza intraprendendo un’epica avv...",
-    "link": "https://cinemaeden.org/2026/06/08/supergirl/",
-    "latitude": 44.623102,
-    "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/06/Supergirl-scaled.jpg"
-  },
-  {
-    "id": "cinema-cinema-eden-supergirl-2130-04072026",
-    "title": "SUPERGIRL",
-    "category": "cinema",
-    "date": "04/07/2026",
-    "time": "21:30",
-    "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "Quando un avversario inaspettato e spietato colpisce troppo vicino a casa, Kara Zor-El, alias Supergirl, è costretta a stringere un’improbabile alleanza intraprendendo un’epica avv...",
-    "link": "https://cinemaeden.org/2026/06/08/supergirl/",
-    "latitude": 44.623102,
-    "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/06/Supergirl-scaled.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
   },
   {
     "id": "cinema-cinema-eden-supergirl-1845-05072026",
-    "title": "SUPERGIRL",
+    "title": "Supergirl",
     "category": "cinema",
     "date": "05/07/2026",
     "time": "18:45",
     "location": "Cinema Eden (Quattro Castella (RE))",
-    "desc": "Quando un avversario inaspettato e spietato colpisce troppo vicino a casa, Kara Zor-El, alias Supergirl, è costretta a stringere un’improbabile alleanza intraprendendo un’epica avv...",
-    "link": "https://cinemaeden.org/2026/06/08/supergirl/",
+    "desc": "Genere: Azione, Fantasy | Durata: 110 Minuti | Cast: Milly Alcock, Eve Ridley, Matthias Schoenaerts, David Krumholtz, Jason Momoa, Emily Beecham",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/quattro-castella/?idf=21868",
     "latitude": 44.623102,
     "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2026/06/Supergirl-scaled.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/62714.jpg"
   }
 ]
