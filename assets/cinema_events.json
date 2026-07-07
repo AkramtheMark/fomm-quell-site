@@ -1,57 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-sirat-2100-05072026",
-    "title": "SIRAT",
-    "category": "cinema",
-    "date": "05/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/sirat/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
-  },
-  {
-    "id": "cinema-al-corso-sirat-2100-09072026",
-    "title": "SIRAT",
-    "category": "cinema",
-    "date": "09/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/sirat/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
-  },
-  {
-    "id": "cinema-al-corso-sirat-2100-14072026",
-    "title": "SIRAT",
-    "category": "cinema",
-    "date": "14/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/sirat/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
-  },
-  {
-    "id": "cinema-al-corso-lisbon-story-2100-06072026",
-    "title": "LISBON STORY",
-    "category": "cinema",
-    "date": "06/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "RASSEGNA “ IN VIAGGIO CON WIM WENDERS “ Tornano al cinema restaurati in 4K i film più iconici del grande regista tedesco",
-    "link": "https://cinemaalcorso.com/lisbon-story/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_3937-e1781894080991.jpeg"
-  },
-  {
     "id": "cinema-al-corso-il-prigioniero-2100-07072026",
     "title": "IL PRIGIONIERO",
     "category": "cinema",
@@ -130,6 +78,32 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IL-SILENZIO-DEGLI-ALTRI-e1782393123163.jpg"
   },
   {
+    "id": "cinema-al-corso-sirat-2100-09072026",
+    "title": "SIRAT",
+    "category": "cinema",
+    "date": "09/07/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
+    "link": "https://cinemaalcorso.com/sirat/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
+  },
+  {
+    "id": "cinema-al-corso-sirat-2100-14072026",
+    "title": "SIRAT",
+    "category": "cinema",
+    "date": "14/07/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
+    "link": "https://cinemaalcorso.com/sirat/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
+  },
+  {
     "id": "cinema-al-corso-the-million-dollar-hotel-2100-13072026",
     "title": "THE MILLION DOLLAR HOTEL",
     "category": "cinema",
@@ -153,7 +127,7 @@
     "link": "https://cinemaalcorso.com/non-bussare-alla-mia-porta/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_3939.jpeg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_3939-e1783365815354.jpeg"
   },
   {
     "id": "cinema-rosebud-la-grazia---ospite-cristiano-travaglioli-2130-11072026",
@@ -273,19 +247,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-tre-ciotole-2130-06072026",
-    "title": "TRE CIOTOLE",
-    "category": "cinema",
-    "date": "06/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/tre-ciotole/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/TRE-CIOTOLE.webp"
-  },
-  {
     "id": "cinema-arena-stalloni-django-2130-07072026",
     "title": "DJANGO",
     "category": "cinema",
@@ -351,17 +312,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/La20Grazia20-20Toni20Servillo20-20foto20C2A920Andrea20PIrrello.jpg.webp"
   },
   {
-    "id": "cinema-apollo-minions--monsters-2100-06072026",
-    "title": "Minions & Monsters",
+    "id": "cinema-arena-stalloni-hamnet--nel-nome-del-figlio-2130-12072026",
+    "title": "HAMNET – NEL NOME DEL FIGLIO",
     "category": "cinema",
-    "date": "06/07/2026",
-    "time": "21:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
-    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+    "date": "12/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/hamnet-nel-nome-del-figlio-2/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/HAMNET.webp"
   },
   {
     "id": "cinema-apollo-minions--monsters-2100-07072026",
@@ -377,10 +338,49 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
   },
   {
-    "id": "cinema-novecento-toy-story-5-2100-06072026",
+    "id": "cinema-apollo-minions--monsters-1900-10072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "10/07/2026",
+    "time": "19:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
+    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+  },
+  {
+    "id": "cinema-apollo-minions--monsters-1700-11072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "11/07/2026",
+    "time": "17:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
+    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+  },
+  {
+    "id": "cinema-apollo-minions--monsters-1700-12072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "12/07/2026",
+    "time": "17:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
+    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+  },
+  {
+    "id": "cinema-novecento-toy-story-5-2100-07072026",
     "title": "TOY STORY 5",
     "category": "cinema",
-    "date": "06/07/2026",
+    "date": "07/07/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrew Stanton | DURATA: 102'",
@@ -390,10 +390,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/toystory5.jpg"
   },
   {
-    "id": "cinema-novecento-il-mago-del-cremlino-le-origini-di-putin-2100-06072026",
+    "id": "cinema-novecento-il-mago-del-cremlino-le-origini-di-putin-2100-07072026",
     "title": "IL MAGO DEL CREMLINO-LE ORIGINI DI PUTIN",
     "category": "cinema",
-    "date": "06/07/2026",
+    "date": "07/07/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Olivier Assayas | DURATA: 146'",
@@ -403,10 +403,49 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-ilmago.jpg"
   },
   {
-    "id": "cinema-cinema-castello-minions--monsters-2100-06072026",
+    "id": "cinema-cinepi-minions--monsters-2040-07072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "06/07/2026",
+    "date": "07/07/2026",
+    "time": "20:40",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
+  },
+  {
+    "id": "cinema-cinepi-toy-story-5-2045-07072026",
+    "title": "Toy Story 5",
+    "category": "cinema",
+    "date": "07/07/2026",
+    "time": "20:45",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21943",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
+  },
+  {
+    "id": "cinema-cinepi-la-mattina-scrivo-2100-07072026",
+    "title": "La Mattina Scrivo",
+    "category": "cinema",
+    "date": "07/07/2026",
+    "time": "21:00",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Biografico, Drammatico | Durata: 92 Minuti | Cast: Virginie Ledoyen, Bastien Bouillon, Marie Rivière, André Marcon",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=20130",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67565.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-minions--monsters-2100-07072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "07/07/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
