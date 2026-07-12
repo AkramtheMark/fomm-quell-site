@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-il-prigioniero-2100-11072026",
-    "title": "IL PRIGIONIERO",
-    "category": "cinema",
-    "date": "11/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/il-prigioniero/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IL-PRIGIONIERO-e1782394616933.jpg"
-  },
-  {
-    "id": "cinema-al-corso-il-prigioniero-2100-15072026",
-    "title": "IL PRIGIONIERO",
-    "category": "cinema",
-    "date": "15/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/il-prigioniero/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IL-PRIGIONIERO-e1782394616933.jpg"
-  },
-  {
     "id": "cinema-al-corso-il-silenzio-degli-altri-2100-12072026",
     "title": "IL SILENZIO DEGLI ALTRI",
     "category": "cinema",
@@ -63,6 +37,19 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
+  },
+  {
+    "id": "cinema-al-corso-il-prigioniero-2100-15072026",
+    "title": "IL PRIGIONIERO",
+    "category": "cinema",
+    "date": "15/07/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
+    "link": "https://cinemaalcorso.com/il-prigioniero/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IL-PRIGIONIERO-e1782394616933.jpg"
   },
   {
     "id": "cinema-al-corso-odissea-1800-16072026",
@@ -141,19 +128,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_3939-e1783365815354.jpeg"
-  },
-  {
-    "id": "cinema-rosebud-la-grazia---ospite-cristiano-travaglioli-2130-11072026",
-    "title": "La grazia - Ospite Cristiano Travaglioli",
-    "category": "cinema",
-    "date": "11/07/2026",
-    "time": "21:30",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Accadde Domani | Regia: Paolo Sorrentino",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-grazia",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-grazia/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-the-doors-2130-14072026",
@@ -260,19 +234,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-la-grazia-2130-11072026",
-    "title": "LA GRAZIA",
-    "category": "cinema",
-    "date": "11/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Rassegna: Accadde Domani",
-    "link": "https://www.arenastalloni.it/evento/la-grazia-2/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/La20Grazia20-20Toni20Servillo20-20foto20C2A920Andrea20PIrrello.jpg.webp"
-  },
-  {
     "id": "cinema-arena-stalloni-hamnet--nel-nome-del-figlio-2130-12072026",
     "title": "HAMNET – NEL NOME DEL FIGLIO",
     "category": "cinema",
@@ -338,17 +299,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/SENTIMENTAL-VALUE.avif"
   },
   {
-    "id": "cinema-apollo-minions--monsters-1700-11072026",
-    "title": "Minions & Monsters",
+    "id": "cinema-arena-stalloni-il-maestro-2130-17072026",
+    "title": "IL MAESTRO",
     "category": "cinema",
-    "date": "11/07/2026",
-    "time": "17:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
-    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+    "date": "17/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/il-maestro/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/IL-MAESTRO.webp"
   },
   {
     "id": "cinema-apollo-minions--monsters-1700-12072026",
@@ -364,19 +325,6 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
   },
   {
-    "id": "cinema-apollo-cos-lamore-2100-11072026",
-    "title": "Cos'è l'amore?",
-    "category": "cinema",
-    "date": "11/07/2026",
-    "time": "21:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 108 minuti | Regia: Fabien Gorgeart",
-    "link": "http://www.cinemaapolloalbinea.it/movie/cos_lamore",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/cose_lamore.jpg"
-  },
-  {
     "id": "cinema-apollo-cos-lamore-2100-12072026",
     "title": "Cos'è l'amore?",
     "category": "cinema",
@@ -390,10 +338,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/cose_lamore.jpg"
   },
   {
-    "id": "cinema-novecento-lo-straniero-1830-11072026",
+    "id": "cinema-novecento-lo-straniero-1830-12072026",
     "title": "LO STRANIERO",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: François Ozon | DURATA: 122'",
@@ -403,10 +351,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lostraniero.jpg"
   },
   {
-    "id": "cinema-novecento-lo-straniero-2115-11072026",
+    "id": "cinema-novecento-lo-straniero-2115-12072026",
     "title": "LO STRANIERO",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "21:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: François Ozon | DURATA: 122'",
@@ -416,10 +364,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lostraniero.jpg"
   },
   {
-    "id": "cinema-novecento-noi-due-sconosciuti-1830-11072026",
+    "id": "cinema-novecento-noi-due-sconosciuti-1830-12072026",
     "title": "NOI DUE SCONOSCIUTI",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI:Janicke Askevold | DURATA: 99'",
@@ -429,10 +377,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-Noidue.jpg"
   },
   {
-    "id": "cinema-novecento-noi-due-sconosciuti-2115-11072026",
+    "id": "cinema-novecento-noi-due-sconosciuti-2115-12072026",
     "title": "NOI DUE SCONOSCIUTI",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "21:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI:Janicke Askevold | DURATA: 99'",
@@ -442,10 +390,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-Noidue.jpg"
   },
   {
-    "id": "cinema-cinepi-minions--monsters-1840-11072026",
+    "id": "cinema-cinepi-minions--monsters-1640-12072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
+    "time": "16:40",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
+  },
+  {
+    "id": "cinema-cinepi-minions--monsters-1840-12072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "12/07/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
@@ -455,10 +416,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinepi-minions--monsters-2040-11072026",
+    "id": "cinema-cinepi-minions--monsters-2040-12072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "20:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
@@ -468,11 +429,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinepi-toy-story-5-1840-11072026",
+    "id": "cinema-cinepi-toy-story-5-1640-12072026",
     "title": "Toy Story 5",
     "category": "cinema",
-    "date": "11/07/2026",
-    "time": "18:40",
+    "date": "12/07/2026",
+    "time": "16:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21943",
@@ -481,10 +442,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
   },
   {
-    "id": "cinema-cinepi-toy-story-5-2040-11072026",
+    "id": "cinema-cinepi-toy-story-5-1830-12072026",
     "title": "Toy Story 5",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21943",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
+  },
+  {
+    "id": "cinema-cinepi-toy-story-5-2040-12072026",
+    "title": "Toy Story 5",
+    "category": "cinema",
+    "date": "12/07/2026",
     "time": "20:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
@@ -494,10 +468,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
   },
   {
-    "id": "cinema-cinepi-election-day-1840-11072026",
+    "id": "cinema-cinepi-election-day-1840-12072026",
     "title": "Election Day",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Angela Finocchiaro, Giorgio Tirabassi, Antonio Gerardi, Crisula Stafida, Giulia Gualano",
@@ -507,10 +481,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69005.jpg"
   },
   {
-    "id": "cinema-cinepi-election-day-2100-11072026",
+    "id": "cinema-cinepi-election-day-2100-12072026",
     "title": "Election Day",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Angela Finocchiaro, Giorgio Tirabassi, Antonio Gerardi, Crisula Stafida, Giulia Gualano",
@@ -520,10 +494,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69005.jpg"
   },
   {
-    "id": "cinema-cinema-castello-minions--monsters-2100-11072026",
+    "id": "cinema-cinema-castello-minions--monsters-2100-12072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "11/07/2026",
+    "date": "12/07/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
@@ -543,7 +517,7 @@
     "link": "https://cinemaeden.org/2026/07/05/chiuso-per-ferie/",
     "latitude": 44.623102,
     "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2025/07/ChiusoPerFerie.jpeg"
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/07/ChiusoPerFerie2.jpeg"
   },
   {
     "id": "cinema-cinema-eden-chiuso-per-ferie-2100-18082026",
@@ -556,6 +530,6 @@
     "link": "https://cinemaeden.org/2026/07/05/chiuso-per-ferie/",
     "latitude": 44.623102,
     "longitude": 10.472132,
-    "img": "https://cinemaeden.org/wp-content/uploads/2025/07/ChiusoPerFerie.jpeg"
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/07/ChiusoPerFerie2.jpeg"
   }
 ]
