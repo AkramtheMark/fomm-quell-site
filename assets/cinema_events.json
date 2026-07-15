@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-sirat-2100-14072026",
-    "title": "SIRAT",
-    "category": "cinema",
-    "date": "14/07/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "MINI RASSEGNA - 3 GRANDI FILM SPAGNOLI - PER LE SERATE PIÙ CALDE",
-    "link": "https://cinemaalcorso.com/sirat/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/SIRAT-e1782393505877.webp"
-  },
-  {
     "id": "cinema-al-corso-il-prigioniero-2100-15072026",
     "title": "IL PRIGIONIERO",
     "category": "cinema",
@@ -102,19 +89,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_3939-e1783365815354.jpeg"
-  },
-  {
-    "id": "cinema-rosebud-the-doors-2130-14072026",
-    "title": "The Doors",
-    "category": "cinema",
-    "date": "14/07/2026",
-    "time": "21:30",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Cinema Sotto Le Stelle | Regia: Oliver Stone",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/the-doors",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/the-doors/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-la-vita-va-cos---ospite-riccardo-milani-2130-20072026",
@@ -208,19 +182,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-the-doors-2130-14072026",
-    "title": "THE DOORS",
-    "category": "cinema",
-    "date": "14/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Rassegna: Cinema sotto le stelle / Cinema in Piazza",
-    "link": "https://www.arenastalloni.it/evento/the-doors/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/THE-DOORS.webp"
-  },
-  {
     "id": "cinema-arena-stalloni-rental-family---nelle-vite-degli-altri-2130-15072026",
     "title": "RENTAL FAMILY  – NELLE VITE DEGLI ALTRI",
     "category": "cinema",
@@ -286,10 +247,36 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LE-CITTA-DI-PIANURA.jpg"
   },
   {
-    "id": "cinema-cinepi-minions--monsters-2040-14072026",
+    "id": "cinema-arena-stalloni-la-vita-va-cos-2130-20072026",
+    "title": "LA VITA VA COSÌ",
+    "category": "cinema",
+    "date": "20/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Rassegna: Accadde Domani",
+    "link": "https://www.arenastalloni.it/evento/la-vita-va-cosi-2/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LA-VITA-VA-COSI.jpg"
+  },
+  {
+    "id": "cinema-apollo-lupin-iii---il-castello-di-cagliostro-2100-15072026",
+    "title": "Lupin III - Il castello di Cagliostro",
+    "category": "cinema",
+    "date": "15/07/2026",
+    "time": "21:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Durata: 100 minuti | Regia:  Hayao Miyazaki",
+    "link": "http://www.cinemaapolloalbinea.it/movie/lupin_iii_-_il_castello_di_cagliostro",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/LUPIN.jpg"
+  },
+  {
+    "id": "cinema-cinepi-minions--monsters-2040-15072026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "14/07/2026",
+    "date": "15/07/2026",
     "time": "20:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
@@ -299,10 +286,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinepi-the-doors-2035-14072026",
+    "id": "cinema-cinepi-toy-story-5-2040-15072026",
+    "title": "Toy Story 5",
+    "category": "cinema",
+    "date": "15/07/2026",
+    "time": "20:40",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia, Family | Durata: 112 Minuti | Cast: Tom Hanks, Tim Allen, Joan Cusack, Tony Hale, Greta Lee, Conan O'Brien",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21943",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66068.jpg"
+  },
+  {
+    "id": "cinema-cinepi-the-doors-2035-15072026",
     "title": "The Doors",
     "category": "cinema",
-    "date": "14/07/2026",
+    "date": "15/07/2026",
     "time": "20:35",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Biografico, Drammatico, Musicale | Durata: 136 Minuti | Cast: Val Kilmer, Meg Ryan, Michael Wincott, Michael Madsen, Josh Evans, Dennis Burkley",
@@ -310,32 +310,6 @@
     "latitude": 44.773121,
     "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/37692.jpg"
-  },
-  {
-    "id": "cinema-cinepi-mio-fratello--un-vichingo---the-last-viking-2100-14072026",
-    "title": "Mio Fratello è un Vichingo - The Last Viking",
-    "category": "cinema",
-    "date": "14/07/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Commedia, Thriller | Durata: 116 Minuti | Cast: Mads Mikkelsen, Nikolaj Lie  Kaas, Sofie Gråbøl, Lars Ranthe, Kardo Razzazi, Bodil Jørgensen",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=20054",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67594.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-minions--monsters-2100-14072026",
-    "title": "Minions & Monsters",
-    "category": "cinema",
-    "date": "14/07/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=21317",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
     "id": "cinema-cinema-eden-chiuso-per-ferie-2100-06072026",
