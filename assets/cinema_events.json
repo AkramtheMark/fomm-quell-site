@@ -169,19 +169,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-sentimental-value-2130-16072026",
-    "title": "SENTIMENTAL VALUE",
-    "category": "cinema",
-    "date": "16/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/sentimental-value-2/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/SENTIMENTAL-VALUE.avif"
-  },
-  {
     "id": "cinema-arena-stalloni-il-maestro-2130-17072026",
     "title": "IL MAESTRO",
     "category": "cinema",
@@ -247,17 +234,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/ARRAPAHO.jpg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-16072026",
-    "title": "Odissea",
+    "id": "cinema-arena-stalloni-il-diavolo-veste-prada-2-2130-22072026",
+    "title": "IL DIAVOLO VESTE PRADA 2",
     "category": "cinema",
-    "date": "16/07/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "date": "22/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/il-diavolo-veste-prada-2-2/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/IL-DIAVOLO-VESTE-PRADA-2.webp"
   },
   {
     "id": "cinema-apollo-odissea-1800-17072026",
@@ -338,10 +325,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-16072026",
+    "id": "cinema-cinepi-odissea-2030-17072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "16/07/2026",
+    "date": "17/07/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -351,10 +338,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2100-16072026",
+    "id": "cinema-cinepi-odissea-2100-17072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "16/07/2026",
+    "date": "17/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -364,30 +351,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-gli-occhi-degli-altri-2100-16072026",
-    "title": "Gli Occhi degli Altri",
+    "id": "cinema-cinepi-obsession-2100-17072026",
+    "title": "Obsession",
     "category": "cinema",
-    "date": "16/07/2026",
+    "date": "17/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 90 Minuti | Cast: Filippo Timi, Jasmine Trinca, Matteo Olivetti, Anna Ferzetti, Rita Abela, Roberto De Francesco",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=20937",
+    "desc": "Genere: Horror | Durata: 108 Minuti | Cast: Michael Johnston, Inde Navarrette, Cooper Tomlinson, Megan Lawless, Andy Richter, Haley Fitzgerald",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21489",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66510.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-odissea-2100-16072026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "16/07/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=19902",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68140.jpg"
   },
   {
     "id": "cinema-cinema-eden-chiuso-per-ferie-2100-06072026",
