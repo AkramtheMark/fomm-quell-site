@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-1800-22072026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "22/07/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
     "id": "cinema-al-corso-odissea-1800-23072026",
     "title": "ODISSEA",
     "category": "cinema",
@@ -182,19 +169,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-il-diavolo-veste-prada-2-2130-22072026",
-    "title": "IL DIAVOLO VESTE PRADA 2",
-    "category": "cinema",
-    "date": "22/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/il-diavolo-veste-prada-2-2/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/IL-DIAVOLO-VESTE-PRADA-2.webp"
-  },
-  {
     "id": "cinema-arena-stalloni-michael-2130-23072026",
     "title": "MICHAEL",
     "category": "cinema",
@@ -260,17 +234,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/NO-GOOD-MEN.jpg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-22072026",
-    "title": "Odissea",
+    "id": "cinema-arena-stalloni-incontri-ravvicinati-del-terzo-tipo-2130-28072026",
+    "title": "INCONTRI RAVVICINATI DEL TERZO TIPO",
     "category": "cinema",
-    "date": "22/07/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "date": "28/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Rassegna: Cinema sotto le stelle / Cinema in Piazza",
+    "link": "https://www.arenastalloni.it/evento/incontri-ravvicinati-del-terzo-tipo/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/INCONTRI-RAVVICINATI-DEL-TERZO-TIPO.jpg"
   },
   {
     "id": "cinema-apollo-odissea-1800-23072026",
@@ -351,10 +325,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-22072026",
+    "id": "cinema-cinepi-odissea-2030-23072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "22/07/2026",
+    "date": "23/07/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -364,10 +338,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2100-22072026",
+    "id": "cinema-cinepi-odissea-2100-23072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "22/07/2026",
+    "date": "23/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -377,17 +351,30 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-minions--monsters-2040-22072026",
-    "title": "Minions & Monsters",
+    "id": "cinema-cinepi-terapia-di-famiglia-2050-23072026",
+    "title": "Terapia di Famiglia",
     "category": "cinema",
-    "date": "22/07/2026",
-    "time": "20:40",
+    "date": "23/07/2026",
+    "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
+    "desc": "Genere: Commedia | Durata: 91 Minuti | Cast: Christian Clavier, Baptiste Lecaplain, Claire Chust, Cristiana Reali, Rayane Bensetti, Jean-François Cayrey",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22098",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68338.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-giulio-regeni---tutto-il-male-del-mondo-2100-23072026",
+    "title": "Giulio Regeni - Tutto il Male del Mondo",
+    "category": "cinema",
+    "date": "23/07/2026",
+    "time": "21:00",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Documentario | Durata: 96 Minuti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=20779",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68186.jpg"
   },
   {
     "id": "cinema-cinema-eden-chiuso-per-ferie-2100-06072026",
