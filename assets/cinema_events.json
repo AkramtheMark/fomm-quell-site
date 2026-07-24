@@ -117,6 +117,19 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/incontri-ravvicinati-del-terzo-tipo/@@images/image/preview"
   },
   {
+    "id": "cinema-rosebud-primavera---ospite-damiano-michieletto-2115-01082026",
+    "title": "Primavera - Ospite Damiano Michieletto",
+    "category": "cinema",
+    "date": "01/08/2026",
+    "time": "21:15",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Accadde Domani | Regia: Damiano Michieletto",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_primavera",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_primavera/@@images/image/preview"
+  },
+  {
     "id": "cinema-rosebud-quando-la-moglie--in-vacanza-2115-04082026",
     "title": "Quando la moglie è in vacanza",
     "category": "cinema",
@@ -167,19 +180,6 @@
     "latitude": 44.690805,
     "longitude": 10.643324,
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
-  },
-  {
-    "id": "cinema-arena-stalloni-michael-2130-23072026",
-    "title": "MICHAEL",
-    "category": "cinema",
-    "date": "23/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/michael-2/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/MICHAEL.jpg"
   },
   {
     "id": "cinema-arena-stalloni-gioia-mia-2130-24072026",
@@ -247,17 +247,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/INCONTRI-RAVVICINATI-DEL-TERZO-TIPO.jpg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-23072026",
-    "title": "Odissea",
+    "id": "cinema-arena-stalloni-bugonia-2130-29072026",
+    "title": "BUGONIA",
     "category": "cinema",
-    "date": "23/07/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "date": "29/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/bugonia/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/BUGONIA.webp"
   },
   {
     "id": "cinema-apollo-odissea-1800-24072026",
@@ -325,10 +325,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-23072026",
+    "id": "cinema-cinepi-odissea-2030-24072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "23/07/2026",
+    "date": "24/07/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -338,10 +338,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2100-23072026",
+    "id": "cinema-cinepi-odissea-2100-24072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "23/07/2026",
+    "date": "24/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -351,10 +351,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-terapia-di-famiglia-2050-23072026",
+    "id": "cinema-cinepi-terapia-di-famiglia-2050-24072026",
     "title": "Terapia di Famiglia",
     "category": "cinema",
-    "date": "23/07/2026",
+    "date": "24/07/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Durata: 91 Minuti | Cast: Christian Clavier, Baptiste Lecaplain, Claire Chust, Cristiana Reali, Rayane Bensetti, Jean-François Cayrey",
@@ -364,17 +364,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68338.jpg"
   },
   {
-    "id": "cinema-cinema-castello-giulio-regeni---tutto-il-male-del-mondo-2100-23072026",
-    "title": "Giulio Regeni - Tutto il Male del Mondo",
+    "id": "cinema-cinema-castello-odissea-2100-24072026",
+    "title": "Odissea",
     "category": "cinema",
-    "date": "23/07/2026",
+    "date": "24/07/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Documentario | Durata: 96 Minuti",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=20779",
+    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=19902",
     "latitude": 44.871923,
     "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68186.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
     "id": "cinema-cinema-eden-chiuso-per-ferie-2100-06072026",
