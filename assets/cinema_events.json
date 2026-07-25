@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-1800-23072026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "23/07/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
     "id": "cinema-al-corso-odissea-1800-24072026",
     "title": "ODISSEA",
     "category": "cinema",
@@ -39,19 +26,6 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
   },
   {
-    "id": "cinema-al-corso-the-odissey-2115-23072026",
-    "title": "THE ODISSEY",
-    "category": "cinema",
-    "date": "23/07/2026",
-    "time": "21:15",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/odissey-scaled-e1783416449565.jpg"
-  },
-  {
     "id": "cinema-al-corso-odissea-1500-26072026",
     "title": "ODISSEA",
     "category": "cinema",
@@ -59,7 +33,7 @@
     "time": "15:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-2/",
+    "link": "https://cinemaalcorso.com/odissea-3/",
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
@@ -102,6 +76,32 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
+  },
+  {
+    "id": "cinema-al-corso-tutto-ultimo--live-a-tor-vergata-2100-22092026",
+    "title": "TUTTO ULTIMO – LIVE A TOR VERGATA",
+    "category": "cinema",
+    "date": "22/09/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/tutto-ultimo-live-a-tor-vergata/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/07/ULTIMO-TOR-VERGATA-scaled-e1784887391113.jpg"
+  },
+  {
+    "id": "cinema-al-corso-tutto-ultimo--live-a-tor-vergata-2100-23092026",
+    "title": "TUTTO ULTIMO – LIVE A TOR VERGATA",
+    "category": "cinema",
+    "date": "23/09/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/tutto-ultimo-live-a-tor-vergata/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/07/ULTIMO-TOR-VERGATA-scaled-e1784887391113.jpg"
   },
   {
     "id": "cinema-rosebud-incontri-ravvicinati-del-terzo-tipo-2130-28072026",
@@ -182,19 +182,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-gioia-mia-2130-24072026",
-    "title": "GIOIA MIA",
-    "category": "cinema",
-    "date": "24/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/gioia-mia/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/GIOIA-MIA.jpg"
-  },
-  {
     "id": "cinema-arena-stalloni-una-battaglia-dopo-laltra-2130-25072026",
     "title": "UNA BATTAGLIA DOPO L'ALTRA",
     "category": "cinema",
@@ -260,17 +247,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/BUGONIA.webp"
   },
   {
-    "id": "cinema-apollo-odissea-1800-24072026",
-    "title": "Odissea",
+    "id": "cinema-arena-stalloni-che-dio-perdona-a-tutti-2130-30072026",
+    "title": "…CHE DIO PERDONA A TUTTI",
     "category": "cinema",
-    "date": "24/07/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "date": "30/07/2026",
+    "time": "21:30",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/che-dio-perdona-a-tutti-2/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/CHE-DIO-PERDONA-A-TUTTI.jpg"
   },
   {
     "id": "cinema-apollo-odissea-1800-25072026",
@@ -325,10 +312,88 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-24072026",
+    "id": "cinema-apollo-odissea-1800-31072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "24/07/2026",
+    "date": "31/07/2026",
+    "time": "18:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
+    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+  },
+  {
+    "id": "cinema-apollo-odissea-1530-01082026",
+    "title": "Odissea",
+    "category": "cinema",
+    "date": "01/08/2026",
+    "time": "15:30",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
+    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+  },
+  {
+    "id": "cinema-apollo-odissea-1530-02082026",
+    "title": "Odissea",
+    "category": "cinema",
+    "date": "02/08/2026",
+    "time": "15:30",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
+    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+  },
+  {
+    "id": "cinema-apollo-minions--monsters-1600-25072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "25/07/2026",
+    "time": "16:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
+    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+  },
+  {
+    "id": "cinema-apollo-minions--monsters-1530-26072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "26/07/2026",
+    "time": "15:30",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Famiglia | Durata: 87 minuti | Regia: Pierre Coffin",
+    "link": "http://www.cinemaapolloalbinea.it/movie/minions__monsters",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/01KSQSCVPTMXKJ653FRK0RCM6H_resized_at_20260528191700.jpg"
+  },
+  {
+    "id": "cinema-cinepi-odissea-1750-25072026",
+    "title": "Odissea",
+    "category": "cinema",
+    "date": "25/07/2026",
+    "time": "17:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=19902",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
+  },
+  {
+    "id": "cinema-cinepi-odissea-2030-25072026",
+    "title": "Odissea",
+    "category": "cinema",
+    "date": "25/07/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -338,10 +403,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2100-24072026",
+    "id": "cinema-cinepi-odissea-2100-25072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "24/07/2026",
+    "date": "25/07/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -351,10 +416,36 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-terapia-di-famiglia-2050-24072026",
+    "id": "cinema-cinepi-minions--monsters-1830-25072026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "25/07/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
+  },
+  {
+    "id": "cinema-cinepi-terapia-di-famiglia-1830-25072026",
     "title": "Terapia di Famiglia",
     "category": "cinema",
-    "date": "24/07/2026",
+    "date": "25/07/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Commedia | Durata: 91 Minuti | Cast: Christian Clavier, Baptiste Lecaplain, Claire Chust, Cristiana Reali, Rayane Bensetti, Jean-François Cayrey",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22098",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68338.jpg"
+  },
+  {
+    "id": "cinema-cinepi-terapia-di-famiglia-2050-25072026",
+    "title": "Terapia di Famiglia",
+    "category": "cinema",
+    "date": "25/07/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Durata: 91 Minuti | Cast: Christian Clavier, Baptiste Lecaplain, Claire Chust, Cristiana Reali, Rayane Bensetti, Jean-François Cayrey",
@@ -364,10 +455,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68338.jpg"
   },
   {
-    "id": "cinema-cinema-castello-odissea-2100-24072026",
+    "id": "cinema-cinema-castello-odissea-2100-25072026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "24/07/2026",
+    "date": "25/07/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
