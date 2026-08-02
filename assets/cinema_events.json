@@ -1,26 +1,13 @@
 [
   {
-    "id": "cinema-al-corso-odissea-1800-01082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "01/08/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-2/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
-    "id": "cinema-al-corso-odissea-1500-02082026",
+    "id": "cinema-al-corso-odissea-2100-02082026",
     "title": "ODISSEA",
     "category": "cinema",
     "date": "02/08/2026",
-    "time": "15:00",
+    "time": "21:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-2/",
+    "link": "https://cinemaalcorso.com/odissea-3/",
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
@@ -36,7 +23,7 @@
     "link": "https://cinemaalcorso.com/odissea-3/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/odissea-1-scaled-e1783365890441.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
   },
   {
     "id": "cinema-al-corso-odissea-1800-04082026",
@@ -49,7 +36,7 @@
     "link": "https://cinemaalcorso.com/odissea-3/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/odissea-1-scaled-e1783365890441.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
   },
   {
     "id": "cinema-al-corso-odissea-1800-05082026",
@@ -62,7 +49,7 @@
     "link": "https://cinemaalcorso.com/odissea-3/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/odissea-1-scaled-e1783365890441.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
   },
   {
     "id": "cinema-al-corso-katy-perry-the-lifetimes-tour--live-from-paris-2100-02092026",
@@ -117,19 +104,6 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/07/ULTIMO-TOR-VERGATA-scaled-e1784887391113.jpg"
   },
   {
-    "id": "cinema-rosebud-primavera---ospite-damiano-michieletto-2115-01082026",
-    "title": "Primavera - Ospite Damiano Michieletto",
-    "category": "cinema",
-    "date": "01/08/2026",
-    "time": "21:15",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Accadde Domani | Regia: Damiano Michieletto",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_primavera",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_primavera/@@images/image/preview"
-  },
-  {
     "id": "cinema-rosebud-quando-la-moglie--in-vacanza-2115-04082026",
     "title": "Quando la moglie è in vacanza",
     "category": "cinema",
@@ -180,19 +154,6 @@
     "latitude": 44.690805,
     "longitude": 10.643324,
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
-  },
-  {
-    "id": "cinema-arena-stalloni-lagente-segreto-2130-31072026",
-    "title": "L'AGENTE SEGRETO",
-    "category": "cinema",
-    "date": "31/07/2026",
-    "time": "21:30",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/lagente-segreto/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LAGENTE-SEGRETO.webp"
   },
   {
     "id": "cinema-arena-stalloni-primavera-2115-01082026",
@@ -260,17 +221,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/AMARGA-NAVIDAD-1.webp"
   },
   {
-    "id": "cinema-apollo-spider-man-brand-new-day-1830-01082026",
-    "title": "Spider-Man: Brand New Day",
+    "id": "cinema-arena-stalloni-le-citta-di-pianura-2115-06082026",
+    "title": "LE CITTA' DI PIANURA",
     "category": "cinema",
-    "date": "01/08/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Sci-fi | Durata: 140 minuti | Regia: Destin Daniel Cretton",
-    "link": "http://www.cinemaapolloalbinea.it/movie/spiderman_brand_new_day",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
+    "date": "06/08/2026",
+    "time": "21:15",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/le-citta-di-pianura-3/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LE-CITTA-DI-PIANURA.jpg"
   },
   {
     "id": "cinema-apollo-spider-man-brand-new-day-1830-02082026",
@@ -325,19 +286,6 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
   },
   {
-    "id": "cinema-apollo-odissea-1530-01082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "01/08/2026",
-    "time": "15:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
-  },
-  {
     "id": "cinema-apollo-odissea-1530-02082026",
     "title": "Odissea",
     "category": "cinema",
@@ -390,11 +338,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-spider-man-brand-new-day-1820-01082026",
+    "id": "cinema-cinepi-spider-man-brand-new-day-1550-02082026",
     "title": "Spider-Man: Brand New Day",
     "category": "cinema",
-    "date": "01/08/2026",
-    "time": "18:20",
+    "date": "02/08/2026",
+    "time": "15:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22013",
@@ -403,10 +351,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
   },
   {
-    "id": "cinema-cinepi-spider-man-brand-new-day-2100-01082026",
+    "id": "cinema-cinepi-spider-man-brand-new-day-1830-02082026",
     "title": "Spider-Man: Brand New Day",
     "category": "cinema",
-    "date": "01/08/2026",
+    "date": "02/08/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22013",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
+  },
+  {
+    "id": "cinema-cinepi-spider-man-brand-new-day-2100-02082026",
+    "title": "Spider-Man: Brand New Day",
+    "category": "cinema",
+    "date": "02/08/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
@@ -416,10 +377,36 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-1750-01082026",
+    "id": "cinema-cinepi-spider-man-brand-new-day-2110-02082026",
+    "title": "Spider-Man: Brand New Day",
+    "category": "cinema",
+    "date": "02/08/2026",
+    "time": "21:10",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22013",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
+  },
+  {
+    "id": "cinema-cinepi-odissea-1650-02082026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "01/08/2026",
+    "date": "02/08/2026",
+    "time": "16:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=19902",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
+  },
+  {
+    "id": "cinema-cinepi-odissea-1750-02082026",
+    "title": "Odissea",
+    "category": "cinema",
+    "date": "02/08/2026",
     "time": "17:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -429,10 +416,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-01082026",
+    "id": "cinema-cinepi-odissea-2030-02082026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "01/08/2026",
+    "date": "02/08/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -442,24 +429,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2100-01082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "01/08/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=19902",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
-  },
-  {
-    "id": "cinema-cinepi-minions--monsters-1840-01082026",
+    "id": "cinema-cinepi-minions--monsters-1620-02082026",
     "title": "Minions & Monsters",
     "category": "cinema",
-    "date": "01/08/2026",
-    "time": "18:40",
+    "date": "02/08/2026",
+    "time": "16:20",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21317",
@@ -468,10 +442,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   },
   {
-    "id": "cinema-cinema-castello-odissea-2100-01082026",
+    "id": "cinema-cinema-castello-odissea-2100-02082026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "01/08/2026",
+    "date": "02/08/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -479,5 +453,31 @@
     "latitude": 44.871923,
     "longitude": 10.806653,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
+  },
+  {
+    "id": "cinema-cinema-eden-spider-man-2100-01012026",
+    "title": "spider man",
+    "category": "cinema",
+    "date": "01/01/2026",
+    "time": "21:00",
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "Proiezione cinematografica Cinema Eden.",
+    "link": "https://cinemaeden.org/2026/08/01/spider-man-2/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/08/spiderman-1.jpg"
+  },
+  {
+    "id": "cinema-cinema-eden-riapriamo-mercoledi-19-agosto-2100-01012026",
+    "title": "riapriamo mercoledi' 19 agosto",
+    "category": "cinema",
+    "date": "01/01/2026",
+    "time": "21:00",
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "IL CINEMA EDEN RIAPRIRA’ MERCOLEDI’ 19 AGOSTO CON OCEANIA LIVE ACTION E CON SPIDERMAN: BRAND NEW DAYBUONE VACANZE A TUTTI!!!...",
+    "link": "https://cinemaeden.org/2026/06/11/chiuso-per-ferie/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/07/oceania-live-1.jpg"
   }
 ]
