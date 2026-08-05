@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-1800-03082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "03/08/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
     "id": "cinema-al-corso-odissea-1800-04082026",
     "title": "ODISSEA",
     "category": "cinema",
@@ -143,21 +130,8 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/07/ULTIMO-TOR-VERGATA-scaled-e1784887391113.jpg"
   },
   {
-    "id": "cinema-rosebud-quando-la-moglie--in-vacanza-2115-04082026",
-    "title": "Quando la moglie è in vacanza",
-    "category": "cinema",
-    "date": "04/08/2026",
-    "time": "21:15",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Cinema Sotto Le Stelle | Regia: Billy Wilder",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/quando-la-moglie-e-in-vacanza",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/quando-la-moglie-e-in-vacanza/@@images/image/preview"
-  },
-  {
-    "id": "cinema-rosebud-le-bambine-2115-18082026",
-    "title": "Le bambine",
+    "id": "cinema-rosebud-le-bambine---ospiti-valentina-bertani-e-lorenzo-confetta-2115-18082026",
+    "title": "Le bambine - Ospiti Valentina Bertani e Lorenzo Confetta",
     "category": "cinema",
     "date": "18/08/2026",
     "time": "21:15",
@@ -193,19 +167,6 @@
     "latitude": 44.690805,
     "longitude": 10.643324,
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
-  },
-  {
-    "id": "cinema-arena-stalloni-quando-la-moglie--in-vacanza-2115-04082026",
-    "title": "QUANDO LA MOGLIE È IN VACANZA",
-    "category": "cinema",
-    "date": "04/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Rassegna: Cinema sotto le stelle / Cinema in Piazza",
-    "link": "https://www.arenastalloni.it/evento/quando-la-moglie-e-in-vacanza/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/QUANDO-LA-MOGLIE-E-IN-VACANZA.jpg"
   },
   {
     "id": "cinema-arena-stalloni-amarga-navidad-2115-05082026",
@@ -273,17 +234,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/NORIMBERGA.jpg"
   },
   {
-    "id": "cinema-apollo-spider-man-brand-new-day-2115-04082026",
-    "title": "Spider-Man: Brand New Day",
+    "id": "cinema-arena-stalloni-i-colori-del-tempo-2115-10082026",
+    "title": "I COLORI DEL TEMPO",
     "category": "cinema",
-    "date": "04/08/2026",
+    "date": "10/08/2026",
     "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Sci-fi | Durata: 140 minuti | Regia: Destin Daniel Cretton",
-    "link": "http://www.cinemaapolloalbinea.it/movie/spiderman_brand_new_day",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/i-colori-del-tempo-3/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/I-COLORI-DEL-TEMPO.webp"
   },
   {
     "id": "cinema-apollo-spider-man-brand-new-day-1830-05082026",
@@ -351,19 +312,6 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-04082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "04/08/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
-  },
-  {
     "id": "cinema-apollo-odissea-2115-05082026",
     "title": "Odissea",
     "category": "cinema",
@@ -429,10 +377,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-spider-man-brand-new-day-2045-04082026",
+    "id": "cinema-cinepi-spider-man-brand-new-day-2045-05082026",
     "title": "Spider-Man: Brand New Day",
     "category": "cinema",
-    "date": "04/08/2026",
+    "date": "05/08/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
@@ -442,10 +390,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-04082026",
+    "id": "cinema-cinepi-odissea-2030-05082026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "04/08/2026",
+    "date": "05/08/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -455,10 +403,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2050-04082026",
+    "id": "cinema-cinepi-odissea-2050-05082026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "04/08/2026",
+    "date": "05/08/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
@@ -468,16 +416,42 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
   },
   {
-    "id": "cinema-cinema-castello-odissea-2100-04082026",
-    "title": "Odissea",
+    "id": "cinema-cinema-eden-dal-29-settembre-riapre-la-rassegna-del-martedi-e-mercoledi-2100-01012026",
+    "title": "dal 29 settembre riapre la rassegna del martedi' e mercoledi'",
     "category": "cinema",
-    "date": "04/08/2026",
+    "date": "01/01/2026",
     "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=19902",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "Proiezione cinematografica Cinema Eden.",
+    "link": "https://cinemaeden.org/2026/08/02/dal-29-settembre-riapre-la-rassegna-del-martedi-e-mercoledi/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/08/abbon-2-meglio-del-primo-1.jpg"
+  },
+  {
+    "id": "cinema-cinema-eden-spider-man-2100-01012026",
+    "title": "spider man",
+    "category": "cinema",
+    "date": "01/01/2026",
+    "time": "21:00",
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "Proiezione cinematografica Cinema Eden.",
+    "link": "https://cinemaeden.org/2026/08/01/spider-man-2/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/08/spiderman-1.jpg"
+  },
+  {
+    "id": "cinema-cinema-eden-riapriamo-mercoledi-19-agosto-2100-01012026",
+    "title": "riapriamo mercoledi' 19 agosto",
+    "category": "cinema",
+    "date": "01/01/2026",
+    "time": "21:00",
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "IL CINEMA EDEN RIAPRIRA’ MERCOLEDI’ 19 AGOSTO CON OCEANIA LIVE ACTION E CON SPIDERMAN: BRAND NEW DAYBUONE VACANZE A TUTTI!!!...",
+    "link": "https://cinemaeden.org/2026/06/11/chiuso-per-ferie/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/07/oceania-live-1.jpg"
   }
 ]
