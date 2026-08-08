@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-1800-06082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "06/08/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-2/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
-    "id": "cinema-al-corso-odissea-1800-07082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "07/08/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-2/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
     "id": "cinema-al-corso-odissea-1800-08082026",
     "title": "ODISSEA",
     "category": "cinema",
@@ -59,7 +33,7 @@
     "time": "18:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
+    "link": "https://cinemaalcorso.com/odissea-2/",
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
@@ -72,7 +46,7 @@
     "time": "18:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
+    "link": "https://cinemaalcorso.com/odissea-2/",
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
@@ -109,6 +83,32 @@
     "category": "cinema",
     "date": "14/08/2026",
     "time": "20:30",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/odissea-3/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
+  },
+  {
+    "id": "cinema-al-corso-odissea-1800-15082026",
+    "title": "ODISSEA",
+    "category": "cinema",
+    "date": "15/08/2026",
+    "time": "18:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/odissea-3/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
+  },
+  {
+    "id": "cinema-al-corso-odissea-1730-16082026",
+    "title": "ODISSEA",
+    "category": "cinema",
+    "date": "16/08/2026",
+    "time": "17:30",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
     "link": "https://cinemaalcorso.com/odissea-3/",
@@ -208,19 +208,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-michael-2115-07082026",
-    "title": "MICHAEL",
-    "category": "cinema",
-    "date": "07/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/michael-3/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/MICHAEL.jpg"
-  },
-  {
     "id": "cinema-arena-stalloni-un-crimine-imperfetto-2115-08082026",
     "title": "UN CRIMINE IMPERFETTO",
     "category": "cinema",
@@ -286,17 +273,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/IL-DIAVOLO-VESTE-PRADA-2.webp"
   },
   {
-    "id": "cinema-apollo-spider-man-brand-new-day-2115-07082026",
-    "title": "Spider-Man: Brand New Day",
+    "id": "cinema-arena-stalloni-il-caso-137-2115-13082026",
+    "title": "IL CASO 137",
     "category": "cinema",
-    "date": "07/08/2026",
+    "date": "13/08/2026",
     "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Sci-fi | Durata: 140 minuti | Regia: Destin Daniel Cretton",
-    "link": "http://www.cinemaapolloalbinea.it/movie/spiderman_brand_new_day",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/il-caso-137-2/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/IL-CASO-137.jpg"
   },
   {
     "id": "cinema-apollo-spider-man-brand-new-day-1530-08082026",
@@ -325,19 +312,6 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-07082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "07/08/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
-  },
-  {
     "id": "cinema-apollo-odissea-1815-08082026",
     "title": "Odissea",
     "category": "cinema",
@@ -364,10 +338,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-spider-man-brand-new-day-2100-07082026",
+    "id": "cinema-cinepi-spider-man-brand-new-day-2100-08082026",
     "title": "Spider-Man: Brand New Day",
     "category": "cinema",
-    "date": "07/08/2026",
+    "date": "08/08/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
@@ -377,10 +351,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-07082026",
+    "id": "cinema-cinepi-odissea-2030-08082026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "07/08/2026",
+    "date": "08/08/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
