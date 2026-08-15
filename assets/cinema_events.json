@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-2030-13082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "13/08/2026",
-    "time": "20:30",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
-    "id": "cinema-al-corso-odissea-2030-14082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "14/08/2026",
-    "time": "20:30",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
     "id": "cinema-al-corso-odissea-1800-15082026",
     "title": "ODISSEA",
     "category": "cinema",
@@ -143,19 +117,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-rental-family---nelle-vite-degli-altri-2115-14082026",
-    "title": "RENTAL FAMILY  – NELLE VITE DEGLI ALTRI",
-    "category": "cinema",
-    "date": "14/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/rental-family-nelle-vite-degli-altri-3/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/RENTAL-FAMILY.jpg"
-  },
-  {
     "id": "cinema-arena-stalloni-il-bene-comune-2115-15082026",
     "title": "IL BENE COMUNE",
     "category": "cinema",
@@ -221,17 +182,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/TUTTO-QUELLO-CHE-RESTA-DI-TE.png"
   },
   {
-    "id": "cinema-apollo-spider-man-brand-new-day-2115-14082026",
-    "title": "Spider-Man: Brand New Day",
+    "id": "cinema-arena-stalloni-gli-occhi-degli-altri-2115-20082026",
+    "title": "GLI OCCHI DEGLI ALTRI",
     "category": "cinema",
-    "date": "14/08/2026",
+    "date": "20/08/2026",
     "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Sci-fi | Durata: 140 minuti | Regia: Destin Daniel Cretton",
-    "link": "http://www.cinemaapolloalbinea.it/movie/spiderman_brand_new_day",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/gli-occhi-degli-altri/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/GLI-OCCHI-DEGLI-ALTRI.webp"
   },
   {
     "id": "cinema-apollo-spider-man-brand-new-day-1830-15082026",
@@ -271,19 +232,6 @@
     "latitude": 44.628867,
     "longitude": 10.597505,
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
-  },
-  {
-    "id": "cinema-apollo-odissea-1800-14082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "14/08/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
     "id": "cinema-apollo-odissea-2115-15082026",
