@@ -117,19 +117,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-il-bene-comune-2115-15082026",
-    "title": "IL BENE COMUNE",
-    "category": "cinema",
-    "date": "15/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/il-bene-comune-2/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/07/IL-BENE-COMUNE.jpg"
-  },
-  {
     "id": "cinema-arena-stalloni-cena-di-classe-2115-16082026",
     "title": "CENA DI CLASSE",
     "category": "cinema",
@@ -195,17 +182,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/GLI-OCCHI-DEGLI-ALTRI.webp"
   },
   {
-    "id": "cinema-apollo-spider-man-brand-new-day-1830-15082026",
-    "title": "Spider-Man: Brand New Day",
+    "id": "cinema-arena-stalloni-calle-mlaga-2115-21082026",
+    "title": "CALLE MÁLAGA",
     "category": "cinema",
-    "date": "15/08/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Sci-fi | Durata: 140 minuti | Regia: Destin Daniel Cretton",
-    "link": "http://www.cinemaapolloalbinea.it/movie/spiderman_brand_new_day",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
+    "date": "21/08/2026",
+    "time": "21:15",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Rassegna: Anteprima",
+    "link": "https://www.arenastalloni.it/evento/calle-malaga/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/CALLE-MALAGA.jpg.webp"
   },
   {
     "id": "cinema-apollo-spider-man-brand-new-day-2115-16082026",
@@ -232,19 +219,6 @@
     "latitude": 44.628867,
     "longitude": 10.597505,
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
-  },
-  {
-    "id": "cinema-apollo-odissea-2115-15082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "15/08/2026",
-    "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
     "id": "cinema-apollo-odissea-1800-16082026",
