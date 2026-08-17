@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-1800-15082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "15/08/2026",
-    "time": "18:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
-    "id": "cinema-al-corso-odissea-1730-16082026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "16/08/2026",
-    "time": "17:30",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
     "id": "cinema-al-corso-katy-perry-the-lifetimes-tour--live-from-paris-2100-02092026",
     "title": "KATY PERRY: THE LIFETIMES TOUR – LIVE FROM PARIS",
     "category": "cinema",
@@ -117,19 +91,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-cena-di-classe-2115-16082026",
-    "title": "CENA DI CLASSE",
-    "category": "cinema",
-    "date": "16/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/cena-di-classe/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/CENA-DI-CLASSE.jpg"
-  },
-  {
     "id": "cinema-arena-stalloni-la-grazia-2115-17082026",
     "title": "LA GRAZIA",
     "category": "cinema",
@@ -195,17 +156,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/CALLE-MALAGA.jpg.webp"
   },
   {
-    "id": "cinema-apollo-spider-man-brand-new-day-2115-16082026",
-    "title": "Spider-Man: Brand New Day",
+    "id": "cinema-arena-stalloni-la-vita-va-cos-2115-22082026",
+    "title": "LA VITA VA COSÌ",
     "category": "cinema",
-    "date": "16/08/2026",
+    "date": "22/08/2026",
     "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Sci-fi | Durata: 140 minuti | Regia: Destin Daniel Cretton",
-    "link": "http://www.cinemaapolloalbinea.it/movie/spiderman_brand_new_day",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/la-vita-va-cosi-3/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LA-VITA-VA-COSI.jpg"
   },
   {
     "id": "cinema-apollo-spider-man-brand-new-day-2115-17082026",
@@ -219,32 +180,6 @@
     "latitude": 44.628867,
     "longitude": 10.597505,
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SPIDERMA.jpg"
-  },
-  {
-    "id": "cinema-apollo-odissea-1800-16082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "16/08/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
-  },
-  {
-    "id": "cinema-apollo-odissea-2115-18082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "18/08/2026",
-    "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
     "id": "cinema-cinema-eden-oceania-2045-19082026",
@@ -401,5 +336,31 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/07/SMBND_INTL_Online_1080x1350_Reflection_02_IT.jpg"
+  },
+  {
+    "id": "cinema-cinema-bismantova-minions--monsters-1700-17082026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "17/08/2026",
+    "time": "17:00",
+    "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/castelnovo-ne-monti/?idf=21317",
+    "latitude": 44.437121,
+    "longitude": 10.404215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
+  },
+  {
+    "id": "cinema-cinema-bismantova-minions--monsters-2100-17082026",
+    "title": "Minions & Monsters",
+    "category": "cinema",
+    "date": "17/08/2026",
+    "time": "21:00",
+    "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
+    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/castelnovo-ne-monti/?idf=21317",
+    "latitude": 44.437121,
+    "longitude": 10.404215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   }
 ]
