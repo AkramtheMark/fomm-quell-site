@@ -495,7 +495,7 @@ async function loadDynamicEvents() {
   // Carica i film dei cinema dal file JSON locale generato dallo scraper
   try {
     console.log("Tentativo di caricamento programmazione cinema da assets/cinema_events.json...");
-    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.5', { timeout: 3000 });
+    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.6', { timeout: 3000 });
     if (cinemaResponse.ok) {
       const cinemaData = await cinemaResponse.json();
       if (cinemaData && cinemaData.length > 0) {

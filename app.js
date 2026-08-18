@@ -448,7 +448,7 @@ async function loadDynamicEvents() {
   // Carica i film dei cinema dal file JSON locale generato dallo scraper
   try {
     console.log("Tentativo di caricamento programmazione cinema da assets/cinema_events.json...");
-    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.5', { timeout: 3000 });
+    const cinemaResponse = await fetchWithTimeout('assets/cinema_events.json?v=2.6', { timeout: 3000 });
     if (cinemaResponse.ok) {
       const cinemaData = await cinemaResponse.json();
       if (cinemaData && cinemaData.length > 0) {
@@ -773,6 +773,9 @@ function initApp() {
 
   // Set up theme switcher
   initThemeSwitcher();
+
+  // Initialize Venue Authentication Portal
+  initVenueAuth();
 }
 
 // Avvio dell'app sicuro (garantisce l'esecuzione anche se DOMContentLoaded è già scattato)
@@ -1037,6 +1040,193 @@ function initThemeSwitcher() {
     localStorage.setItem("theme", newTheme);
     applyTheme(newTheme);
   });
+}
+
+/* ==========================================================================
+   VENUE AUTHENTICATION & PORTAL LOGIC
+   ========================================================================== */
+function initVenueAuth() {
+  const authContainer = document.getElementById("auth-container");
+  const loggedInContainer = document.getElementById("logged-in-container");
+  const eventIframe = document.getElementById("event-iframe");
+  const loggedVenueNameSpan = document.getElementById("logged-venue-name");
+  
+  const tabLoginBtn = document.getElementById("tab-login-btn");
+  const tabRegisterBtn = document.getElementById("tab-register-btn");
+  const panelLogin = document.getElementById("panel-login");
+  const panelRegister = document.getElementById("panel-register");
+
+  const loginForm = document.getElementById("login-form");
+  const loginError = document.getElementById("login-error");
+  const registerForm = document.getElementById("register-form");
+  const registerError = document.getElementById("register-error");
+  const registerSuccess = document.getElementById("register-success");
+  const btnLogout = document.getElementById("btn-logout");
+
+  // Pre-configured venues & keys
+  const DEFAULT_VENUES = {
+    "Fattoria Scalabrini": "mwxNps5vPitHGkf4",
+    "Al Corso": "alcorso2026",
+    "Rosebud": "rosebud2026",
+    "Novecento": "novecento2026"
+  };
+
+  // Safe base64 encoding (supports UTF-8 strings like accented chars)
+  function safeBtoa(str) {
+    return btoa(unescape(encodeURIComponent(str)));
+  }
+
+  // Load registered venues from localStorage (or init empty)
+  function getStoredVenues() {
+    const data = localStorage.getItem("fomm_quell_venues");
+    return data ? JSON.parse(data) : {};
+  }
+
+  // Save a new venue to localStorage
+  function storeVenue(name, key, password) {
+    const venues = getStoredVenues();
+    venues[name] = { key, password };
+    localStorage.setItem("fomm_quell_venues", JSON.stringify(venues));
+  }
+
+  // Check login credentials
+  function validateCredentials(name, keyOrPassword) {
+    // 1. Check pre-configured defaults
+    if (DEFAULT_VENUES[name] && DEFAULT_VENUES[name] === keyOrPassword) {
+      return { name: name, key: DEFAULT_VENUES[name] };
+    }
+    // 2. Check localStorage custom registrations
+    const venues = getStoredVenues();
+    if (venues[name]) {
+      if (venues[name].password === keyOrPassword || venues[name].key === keyOrPassword) {
+        return { name: name, key: venues[name].key };
+      }
+    }
+    return null;
+  }
+
+  // Build Apps Script iframe URL
+  function loadIframeForVenue(name, key) {
+    if (!eventIframe) return;
+    const encodedName = safeBtoa(name);
+    const scriptUrl = `https://script.google.com/macros/s/AKfycbzbVbGc_9-bA568AuKlewM3IQh05Z1QStAibCr8PWFqpICAD1I5FH1Xtpf8Can6iYqw/exec?action=form&op=${encodedName}&key=${key}&`;
+    eventIframe.src = scriptUrl;
+  }
+
+  // Toggle visible UI state based on session
+  function updateAuthState() {
+    const session = localStorage.getItem("fomm_quell_logged_venue");
+    if (session) {
+      const user = JSON.parse(session);
+      if (authContainer) authContainer.style.display = "none";
+      if (loggedInContainer) loggedInContainer.style.display = "block";
+      if (loggedVenueNameSpan) loggedVenueNameSpan.textContent = user.name;
+      loadIframeForVenue(user.name, user.key);
+    } else {
+      if (authContainer) authContainer.style.display = "block";
+      if (loggedInContainer) loggedInContainer.style.display = "none";
+      if (eventIframe) eventIframe.src = "";
+    }
+  }
+
+  // Tab switching
+  if (tabLoginBtn && tabRegisterBtn && panelLogin && panelRegister) {
+    tabLoginBtn.addEventListener("click", () => {
+      tabLoginBtn.classList.add("active");
+      tabRegisterBtn.classList.remove("active");
+      panelLogin.style.display = "block";
+      panelRegister.style.display = "none";
+      if (loginError) loginError.style.display = "none";
+    });
+
+    tabRegisterBtn.addEventListener("click", () => {
+      tabRegisterBtn.classList.add("active");
+      tabLoginBtn.classList.remove("active");
+      panelRegister.style.display = "block";
+      panelLogin.style.display = "none";
+      if (registerError) registerError.style.display = "none";
+      if (registerSuccess) registerSuccess.style.display = "none";
+    });
+  }
+
+  // Login handler
+  if (loginForm) {
+    loginForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = document.getElementById("login-venue-name").value.trim();
+      const keyOrPassword = document.getElementById("login-key").value.trim();
+
+      const user = validateCredentials(name, keyOrPassword);
+      if (user) {
+        localStorage.setItem("fomm_quell_logged_venue", JSON.stringify(user));
+        loginForm.reset();
+        if (loginError) loginError.style.display = "none";
+        updateAuthState();
+      } else {
+        if (loginError) {
+          loginError.textContent = "Locale o chiave non validi. Controlla e riprova.";
+          loginError.style.display = "block";
+        }
+      }
+    });
+  }
+
+  // Register handler
+  if (registerForm) {
+    registerForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = document.getElementById("register-venue-name").value.trim();
+      const email = document.getElementById("register-email").value.trim();
+      const key = document.getElementById("register-key").value.trim();
+      const password = document.getElementById("register-password").value.trim();
+      const code = document.getElementById("activation-code").value.trim();
+
+      // Check activation code
+      if (code !== "FOMMQUELL2026") {
+        if (registerError) {
+          registerError.textContent = "Codice di attivazione non valido.";
+          registerError.style.display = "block";
+          if (registerSuccess) registerSuccess.style.display = "none";
+        }
+        return;
+      }
+
+      // Check if already exists
+      if (DEFAULT_VENUES[name]) {
+        if (registerError) {
+          registerError.textContent = "Questo locale è pre-configurato. Accedi direttamente.";
+          registerError.style.display = "block";
+        }
+        return;
+      }
+
+      storeVenue(name, key, password);
+      
+      if (registerError) registerError.style.display = "none";
+      if (registerSuccess) {
+        registerSuccess.textContent = "Registrazione completata! Accesso in corso...";
+        registerSuccess.style.display = "block";
+      }
+
+      setTimeout(() => {
+        const user = { name: name, key: key };
+        localStorage.setItem("fomm_quell_logged_venue", JSON.stringify(user));
+        registerForm.reset();
+        if (registerSuccess) registerSuccess.style.display = "none";
+        updateAuthState();
+      }, 1500);
+    });
+  }
+
+  // Logout handler
+  if (btnLogout) {
+    btnLogout.addEventListener("click", () => {
+      localStorage.removeItem("fomm_quell_logged_venue");
+      updateAuthState();
+    });
+  }
+
+  updateAuthState();
 }
 
 

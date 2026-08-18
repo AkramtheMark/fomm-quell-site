@@ -15,7 +15,7 @@
   <title>Fômm Quell | Facciamo Qualcosa a Reggio Emilia</title>
   <link rel="icon" href="assets/Images/FQ_icona.ico" type="image/x-icon">
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=2.5">
+  <link rel="stylesheet" href="style.css?v=2.6">
 </head>
 
 <body>
@@ -291,75 +291,83 @@
         <div class="submit-card">
           <div class="submit-header" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1rem;">
             <img src="assets/Images/FQ_Logo_Form.png" alt="Fômm Quell Logo Form" style="height: 60px; width: auto; margin-bottom: 0.5rem; display: block;">
-            <h2>SEGNALA UN EVENTO</h2>
-            <p>Sei un artista, gestisci un locale o stai organizzando una serata a Reggio Emilia e provincia? Entra nella rubrica settimanale di Fômm Quell.</p>
+            <h2>AREA RISERVATA GESTORI</h2>
+            <p>La segnalazione degli eventi è riservata ai gestori dei locali e organizzatori autorizzati della provincia di Reggio Emilia.</p>
           </div>
-          
-          <form id="event-form" class="retro-form">
-            <div class="form-row-2">
-              <div class="form-group">
-                <label for="org-name">Nome Organizzatore / Locale*</label>
-                <input type="text" id="org-name" required placeholder="Es. Circolo Arci, Nome Band, ecc.">
-              </div>
-              <div class="form-group">
-                <label for="event-title-input">Titolo dell'Evento*</label>
-                <input type="text" id="event-title-input" required placeholder="Es. Live Indie Rock, Tortellata, ecc.">
-              </div>
+
+          <!-- Auth Panel Container (Logged Out State) -->
+          <div id="auth-container" class="auth-panel-wrapper">
+            <div class="auth-tabs">
+              <button class="auth-tab-btn active" id="tab-login-btn">ACCEDI</button>
+              <button class="auth-tab-btn" id="tab-register-btn">REGISTRA LOCALE</button>
             </div>
 
-            <div class="form-row-3">
-              <div class="form-group">
-                <label for="event-date">Data*</label>
-                <input type="date" id="event-date" required>
-              </div>
-              <div class="form-group">
-                <label for="event-time">Ora Inizio</label>
-                <input type="time" id="event-time" placeholder="Es. 21:00">
-              </div>
-              <div class="form-group">
-                <label for="event-cat">Categoria*</label>
-                <select id="event-cat" required>
-                  <option value="" disabled selected>Seleziona...</option>
-                  <option value="musica">Musica</option>
-                  <option value="spettacolo">Spettacolo</option>
-                  <option value="cultura">Cultura</option>
-                  <option value="arte">Arte</option>
-                  <option value="lab">Laboratorio</option>
-                  <option value="altro">Altro</option>
-                </select>
-              </div>
+            <!-- Login Sub-Panel -->
+            <div class="auth-panel active" id="panel-login">
+              <form id="login-form" class="retro-form">
+                <div class="form-group">
+                  <label for="login-venue-name">Nome del Locale*</label>
+                  <input type="text" id="login-venue-name" required placeholder="Es. Fattoria Scalabrini, Al Corso, ecc.">
+                </div>
+                <div class="form-group">
+                  <label for="login-key">Chiave del Locale / Password*</label>
+                  <input type="password" id="login-key" required placeholder="Inserisci la tua chiave segreta...">
+                </div>
+                <button type="submit" class="btn btn-submit" style="margin-top: 1rem; width: 100%;">ACCEDI ORA</button>
+                <p id="login-error" class="auth-msg error-msg" style="display: none;"></p>
+                <div class="auth-note" style="margin-top: 1rem; font-size: 0.75rem; color: var(--color-gray); border-left: 2px solid var(--color-pink); padding-left: 8px;">
+                  Per testare il modulo reale fornito dal cliente, accedi con il nome locale <strong>Fattoria Scalabrini</strong> e chiave <strong>mwxNps5vPitHGkf4</strong>.
+                </div>
+              </form>
             </div>
 
-            <div class="form-group">
-              <label for="event-loc">Luogo / Indirizzo*</label>
-              <input type="text" id="event-loc" required placeholder="Es. Piazza Fontanesi, Reggio Emilia">
+            <!-- Register Sub-Panel -->
+            <div class="auth-panel" id="panel-register" style="display: none;">
+              <form id="register-form" class="retro-form">
+                <div class="form-group">
+                  <label for="register-venue-name">Nome del Locale*</label>
+                  <input type="text" id="register-venue-name" required placeholder="Es. Caffè della Piazza">
+                </div>
+                <div class="form-group">
+                  <label for="register-email">Email di Contatto*</label>
+                  <input type="email" id="register-email" required placeholder="locale@email.com">
+                </div>
+                <div class="form-group">
+                  <label for="register-key">Chiave Google Apps Script*</label>
+                  <input type="text" id="register-key" required placeholder="Chiave data da Fômm Quell (es. mwxNps5vPitHGkf4)">
+                </div>
+                <div class="form-group">
+                  <label for="register-password">Password di Accesso*</label>
+                  <input type="password" id="register-password" required placeholder="Crea una password...">
+                </div>
+                <div class="form-group">
+                  <label for="activation-code">Codice di Attivazione Fômm Quell*</label>
+                  <input type="text" id="activation-code" required placeholder="Inserisci il codice segreto per registrare...">
+                </div>
+                <button type="submit" class="btn btn-submit" style="margin-top: 1rem; width: 100%;">REGISTRA E ACCEDI</button>
+                <p id="register-error" class="auth-msg error-msg" style="display: none;"></p>
+                <p id="register-success" class="auth-msg success-msg" style="display: none;"></p>
+                <div class="auth-note" style="margin-top: 1rem; font-size: 0.75rem; color: var(--color-gray); border-left: 2px solid var(--color-pink); padding-left: 8px;">
+                  Codice di attivazione amministratore segreto per la registrazione: <strong>FOMMQUELL2026</strong>.
+                </div>
+              </form>
             </div>
+          </div>
 
-            <div class="form-group">
-              <label for="event-desc-input">Descrizione dell'evento*</label>
-              <textarea id="event-desc-input" rows="4" required placeholder="Spiegaci brevemente di cosa si tratta, costi d'ingresso, orari o altre info utili..."></textarea>
-            </div>
-
-            <div class="form-row-2">
-              <div class="form-group">
-                <label for="event-links">Link Info/Biglietti (Opzionale)</label>
-                <input type="url" id="event-links" placeholder="https://...">
+          <!-- Logged In Container (Logged In State) -->
+          <div id="logged-in-container" style="display: none; width: 100%;">
+            <div class="logged-in-header" style="display: flex; justify-content: space-between; align-items: center; border: var(--border-width) solid var(--color-cream); padding: 0.8rem 1.2rem; background: var(--color-card-bg); color: var(--color-cream); border-radius: var(--border-radius); margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem; box-shadow: 4px 4px 0px var(--color-pink);">
+              <div style="display: flex; align-items: center; gap: 0.6rem;">
+                <span class="pulse-icon" style="display: inline-block; width: 10px; height: 10px; background: #00FF66; border-radius: 50%; box-shadow: 0 0 8px #00FF66; animation: pulse 1.5s infinite alternate;"></span>
+                <span style="font-family: var(--font-body); font-weight: 700; font-size: 0.85rem; text-transform: uppercase;">Accesso Eseguito: <span id="logged-venue-name" style="color: var(--color-pink);">Fattoria Scalabrini</span></span>
               </div>
-              <div class="form-group">
-                <label for="contact-email">Email di Contatto*</label>
-                <input type="email" id="contact-email" required placeholder="tua@email.com">
-              </div>
+              <button class="btn btn-secondary btn-sm" id="btn-logout" style="padding: 0.3rem 0.8rem; font-size: 0.75rem; cursor: pointer;">LOGOUT</button>
             </div>
 
-            <button type="submit" class="btn btn-submit">INVIA PROPOSTA</button>
-          </form>
-
-          <!-- Success Message -->
-          <div class="form-success-message" id="form-success">
-            <div class="success-icon">✨</div>
-            <h3>EVENTO SEGNALATO CON SUCCESSO!</h3>
-            <p>Grazie per aver fatto "qualcosa"! Valuteremo la proposta per inserirla nella rubrica della prossima settimana su Instagram e sul sito.</p>
-            <button class="btn btn-secondary btn-sm" id="reset-form-btn">Segnala un altro evento</button>
+            <!-- Apps Script Form Iframe -->
+            <div id="iframe-container" style="position: relative; width: 100%;">
+              <iframe src="" style="width: 100%; height: 800px; border: var(--border-width) solid var(--color-cream); box-shadow: 6px 6px 0px var(--color-cream); border-radius: var(--border-radius); display: block; background: #fff;" id="event-iframe" title="Registrazione Evento FommQuell"></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -418,6 +426,6 @@
   </footer>
 
   <!-- Javascript -->
-  <script type="module" src="app.js?v=2.5"></script>
+  <script type="module" src="app.js?v=2.6"></script>
 </body>
 </html>

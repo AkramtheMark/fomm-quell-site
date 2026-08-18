@@ -2048,3 +2048,97 @@ body.light-theme .brutalist-select:focus {
   box-shadow: 3px 3px 0px #00F0FF;
 }
 
+/* Authentication Portal Styles */
+.auth-panel-wrapper {
+  margin-top: 2rem;
+  width: 100%;
+  border: var(--border-width) solid var(--color-cream);
+  background-color: var(--color-card-bg);
+  box-shadow: 4px 4px 0px var(--color-cream);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+body.light-theme .auth-panel-wrapper {
+  border-color: var(--color-dark);
+  box-shadow: 4px 4px 0px var(--color-dark);
+}
+
+.auth-tabs {
+  display: flex;
+  border-bottom: var(--border-width) solid var(--color-cream);
+}
+
+body.light-theme .auth-tabs {
+  border-bottom-color: var(--color-dark);
+}
+
+.auth-tab-btn {
+  flex: 1;
+  background: transparent;
+  color: var(--color-gray);
+  border: none;
+  padding: 0.8rem 1rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.auth-tab-btn:not(:last-child) {
+  border-right: var(--border-width) solid var(--color-cream);
+}
+
+body.light-theme .auth-tab-btn:not(:last-child) {
+  border-right-color: var(--color-dark);
+}
+
+.auth-tab-btn.active {
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+}
+
+body.light-theme .auth-tab-btn.active {
+  background-color: var(--color-dark);
+  color: var(--color-cream);
+}
+
+.auth-panel {
+  padding: 2rem;
+}
+
+.auth-msg {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid transparent;
+}
+
+.auth-msg.error-msg {
+  background-color: rgba(255, 46, 147, 0.15);
+  color: var(--color-pink);
+  border-color: var(--color-pink);
+}
+
+.auth-msg.success-msg {
+  background-color: rgba(0, 255, 102, 0.15);
+  color: #00FF66;
+  border-color: #00FF66;
+}
+
+/* Pulse animation for logged in indicator */
+@keyframes pulse {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
