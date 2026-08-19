@@ -52,19 +52,6 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/07/ULTIMO-TOR-VERGATA-scaled-e1784887391113.jpg"
   },
   {
-    "id": "cinema-rosebud-le-bambine---ospiti-valentina-bertani-e-lorenzo-confetta-2115-18082026",
-    "title": "Le bambine - Ospiti Valentina Bertani e Lorenzo Confetta",
-    "category": "cinema",
-    "date": "18/08/2026",
-    "time": "21:15",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Cinema Sotto Le Stelle | Regia: Valentina Bertani, Nicole Bertani",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/le-bambine",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/le-bambine/@@images/image/preview"
-  },
-  {
     "id": "cinema-rosebud-harry-potter-e-la-pietra-filosofale-2115-26082026",
     "title": "Harry Potter e la pietra filosofale",
     "category": "cinema",
@@ -169,69 +156,82 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/HAMNET.webp"
   },
   {
-    "id": "cinema-apollo-odissea-2115-18082026",
-    "title": "Odissea",
+    "id": "cinema-apollo-oceania-1830-19082026",
+    "title": "Oceania",
     "category": "cinema",
-    "date": "18/08/2026",
-    "time": "21:15",
+    "date": "19/08/2026",
+    "time": "18:30",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
+    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-21082026",
-    "title": "Odissea",
+    "id": "cinema-apollo-oceania-2100-20082026",
+    "title": "Oceania",
+    "category": "cinema",
+    "date": "20/08/2026",
+    "time": "21:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
+    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
+  },
+  {
+    "id": "cinema-apollo-oceania-2115-21082026",
+    "title": "Oceania",
     "category": "cinema",
     "date": "21/08/2026",
-    "time": "18:00",
+    "time": "21:15",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
+    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
   },
   {
-    "id": "cinema-apollo-odissea-1815-22082026",
-    "title": "Odissea",
+    "id": "cinema-apollo-oceania-1600-22082026",
+    "title": "Oceania",
     "category": "cinema",
     "date": "22/08/2026",
-    "time": "18:15",
+    "time": "16:00",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
+    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
   },
   {
-    "id": "cinema-apollo-odissea-2100-23082026",
-    "title": "Odissea",
+    "id": "cinema-apollo-oceania-1600-23082026",
+    "title": "Oceania",
     "category": "cinema",
     "date": "23/08/2026",
-    "time": "21:00",
+    "time": "16:00",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
+    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
   },
   {
-    "id": "cinema-apollo-odissea-2100-25082026",
-    "title": "Odissea",
+    "id": "cinema-apollo-oceania-1830-25082026",
+    "title": "Oceania",
     "category": "cinema",
     "date": "25/08/2026",
-    "time": "21:00",
+    "time": "18:30",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
+    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
+    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
   },
   {
     "id": "cinema-cinema-eden-oceania-2045-19082026",
@@ -388,18 +388,5 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/07/SMBND_INTL_Online_1080x1350_Reflection_02_IT.jpg"
-  },
-  {
-    "id": "cinema-cinema-bismantova-minions--monsters-2100-18082026",
-    "title": "Minions & Monsters",
-    "category": "cinema",
-    "date": "18/08/2026",
-    "time": "21:00",
-    "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
-    "desc": "Genere: Animazione, Avventura, Commedia | Cast: Romesh Ranganathan, Pierre Coffin",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/castelnovo-ne-monti/?idf=21317",
-    "latitude": 44.437121,
-    "longitude": 10.404215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67915.jpg"
   }
 ]
