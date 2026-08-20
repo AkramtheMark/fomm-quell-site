@@ -78,32 +78,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-le-bambine-2115-18082026",
-    "title": "LE BAMBINE",
-    "category": "cinema",
-    "date": "18/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Rassegna: Cinema sotto le stelle / Cinema in Piazza",
-    "link": "https://www.arenastalloni.it/evento/le-bambine/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/LE-BAMBINE.jpg"
-  },
-  {
-    "id": "cinema-arena-stalloni-tutto-quello-che-resta-di-te-2115-19082026",
-    "title": "TUTTO QUELLO CHE RESTA DI TE",
-    "category": "cinema",
-    "date": "19/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/tutto-quello-che-resta-di-te/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/TUTTO-QUELLO-CHE-RESTA-DI-TE.png"
-  },
-  {
     "id": "cinema-arena-stalloni-gli-occhi-degli-altri-2115-20082026",
     "title": "GLI OCCHI DEGLI ALTRI",
     "category": "cinema",
@@ -156,17 +130,30 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/HAMNET.webp"
   },
   {
-    "id": "cinema-apollo-oceania-1830-19082026",
-    "title": "Oceania",
+    "id": "cinema-arena-stalloni-cinque-secondi-2115-24082026",
+    "title": "CINQUE SECONDI",
     "category": "cinema",
-    "date": "19/08/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
-    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
+    "date": "24/08/2026",
+    "time": "21:15",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/cinque-secondi-2/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/5-SECONDI-1.webp"
+  },
+  {
+    "id": "cinema-arena-stalloni-fammi-il-piacere-2115-25082026",
+    "title": "FAMMI IL PIACERE",
+    "category": "cinema",
+    "date": "25/08/2026",
+    "time": "21:15",
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Rassegna: Anteprima",
+    "link": "https://www.arenastalloni.it/evento/fammi-il-piacere/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/FAMMI-IL-PIACERE.webp"
   },
   {
     "id": "cinema-apollo-oceania-2100-20082026",
