@@ -78,19 +78,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-classe-operaia-va-in-paradiso/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-calle-mlaga-2115-21082026",
-    "title": "CALLE MÁLAGA",
-    "category": "cinema",
-    "date": "21/08/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Rassegna: Anteprima",
-    "link": "https://www.arenastalloni.it/evento/calle-malaga/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/CALLE-MALAGA.jpg.webp"
-  },
-  {
     "id": "cinema-arena-stalloni-la-vita-va-cos-2115-22082026",
     "title": "LA VITA VA COSÌ",
     "category": "cinema",
@@ -156,17 +143,17 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/HARRY-POTTER-E-LA-PIETRA-FILOSOFALE.jpeg"
   },
   {
-    "id": "cinema-apollo-oceania-2115-21082026",
-    "title": "Oceania",
+    "id": "cinema-arena-stalloni-2-cuori-e-2-capanne-2115-27082026",
+    "title": "2 CUORI E 2 CAPANNE",
     "category": "cinema",
-    "date": "21/08/2026",
+    "date": "27/08/2026",
     "time": "21:15",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Avventura, Musical | Durata: 116 minuti | Regia: Thomas Kail",
-    "link": "http://www.cinemaapolloalbinea.it/movie/oceania",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
+    "location": "Arena Stalloni (Reggio Emilia)",
+    "desc": "Proiezione all'aperto Arena Stalloni.",
+    "link": "https://www.arenastalloni.it/evento/2-cuori-e-2-capanne/",
+    "latitude": 44.699742,
+    "longitude": 10.638421,
+    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/2-CUORI-2-CAPANNE.jpg"
   },
   {
     "id": "cinema-apollo-oceania-1600-22082026",
@@ -208,19 +195,6 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/oceania_poster.jpeg"
   },
   {
-    "id": "cinema-apollo-odissea-1800-21082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "21/08/2026",
-    "time": "18:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Epico, azione | Durata: 172 minuti | Regia: Christopher Nolan",
-    "link": "http://www.cinemaapolloalbinea.it/movie/odissea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
-  },
-  {
     "id": "cinema-apollo-odissea-1815-22082026",
     "title": "Odissea",
     "category": "cinema",
@@ -260,10 +234,10 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/odissea.jpg"
   },
   {
-    "id": "cinema-cinepi-oceania-2100-21082026",
+    "id": "cinema-cinepi-oceania-2100-22082026",
     "title": "Oceania",
     "category": "cinema",
-    "date": "21/08/2026",
+    "date": "22/08/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Commedia, Family | Durata: 115 Minuti | Cast: Catherine Laga'aia, Dwayne Johnson, Rena Owen, John Tui, Frankie Adams",
@@ -273,29 +247,16 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/63272.jpg"
   },
   {
-    "id": "cinema-cinepi-odissea-2030-21082026",
-    "title": "Odissea",
-    "category": "cinema",
-    "date": "21/08/2026",
-    "time": "20:30",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=19902",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66812.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-spider-man-brand-new-day-2100-21082026",
+    "id": "cinema-cinepi-spider-man-brand-new-day-2045-22082026",
     "title": "Spider-Man: Brand New Day",
     "category": "cinema",
-    "date": "21/08/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
+    "date": "22/08/2026",
+    "time": "20:45",
+    "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 145 Minuti | Cast: Tom Holland, Sadie Sink, Zendaya, Mark Ruffalo, Jon Bernthal, Michael Mando",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22013",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22013",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66984.jpg"
   },
   {
