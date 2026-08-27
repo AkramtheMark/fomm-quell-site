@@ -2142,3 +2142,130 @@ body.light-theme .auth-tab-btn.active {
   }
 }
 
+/* ==========================================================================
+   FOMM QUELL 2.0: CALENDAR & MODE SELECTOR STYLES
+   ========================================================================== */
+.mode-btn {
+  background-color: transparent;
+  color: var(--color-cream);
+  border: var(--border-width) solid var(--color-cream);
+  padding: 0.6rem 1.8rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.1s ease;
+  letter-spacing: 1px;
+}
+
+.mode-btn:hover {
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+}
+
+.mode-btn.active {
+  background-color: var(--color-pink);
+  color: var(--color-dark);
+  border-color: var(--color-pink);
+  box-shadow: 4px 4px 0px var(--color-cream);
+  transform: translate(-2px, -2px);
+}
+
+body.light-theme .mode-btn {
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+}
+
+body.light-theme .mode-btn:hover {
+  background-color: var(--color-dark);
+  color: var(--color-cream);
+}
+
+body.light-theme .mode-btn.active {
+  background-color: var(--color-pink);
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+  box-shadow: 4px 4px 0px var(--color-dark);
+}
+
+/* Calendar Days Grid Styling */
+.calendar-day-card {
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-cream);
+  min-height: 100px;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+body.light-theme .calendar-day-card {
+  border-color: var(--color-dark);
+}
+
+.calendar-day-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 4px 4px 0px var(--color-pink);
+  z-index: 5;
+}
+
+.calendar-day-card.other-month {
+  opacity: 0.3;
+}
+
+.calendar-day-card.today {
+  background-color: rgba(255, 46, 147, 0.15);
+  border: 2px solid var(--color-pink);
+}
+
+.calendar-day-number {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--color-cream);
+}
+
+body.light-theme .calendar-day-number {
+  color: var(--color-dark);
+}
+
+.calendar-day-dots {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  margin-top: 0.8rem;
+}
+
+.category-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-dark);
+  box-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 576px) {
+  .calendar-day-card {
+    min-height: 60px;
+    padding: 0.4rem;
+  }
+  .calendar-day-number {
+    font-size: 0.8rem;
+  }
+  .category-dot {
+    width: 6px;
+    height: 6px;
+    border-width: 1px;
+  }
+  .calendar-day-dots {
+    gap: 0.15rem;
+  }
+}
+
+

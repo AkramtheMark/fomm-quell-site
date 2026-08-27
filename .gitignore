@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Local configuration files
+backend/config/config.json
+.env
+
+# OS Metadata
+.DS_Store
+Thumbs.db

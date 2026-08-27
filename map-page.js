@@ -283,6 +283,89 @@ async function fetchCSVWithFallback(sheetUrl, validationKeyword = 'checked,date'
   throw new Error("Proxy falliti per URL: " + sheetUrl);
 }
 
+// Funzione AJAX per caricare gli eventi della settimana dal database MySQL via get_events_range.php
+async function loadWeekEvents() {
+  const { monday, sunday } = getWeekDates(currentWeekOffset);
+  const startStr = monday.toISOString().split('T')[0];
+  const endStr = sunday.toISOString().split('T')[0];
+  
+  const eventsContainer = document.getElementById("map-events-container");
+  if (eventsContainer) {
+    eventsContainer.innerHTML = `
+      <div style="text-align: center; padding: 2rem;">
+        <p style="font-size: 0.85rem; color: var(--color-cream);">Caricamento eventi della settimana...</p>
+      </div>
+    `;
+  }
+  
+  // Aggiorna il testo del display della settimana
+  const weekDisplay = document.getElementById("week-display-range");
+  if (weekDisplay) {
+    const options = { day: 'numeric', month: 'long' };
+    weekDisplay.textContent = `DAL ${monday.toLocaleDateString('it-IT', options).toUpperCase()} AL ${sunday.toLocaleDateString('it-IT', options).toUpperCase()}`;
+  }
+
+  const url = `backend/api/get_events_range.php?start=${startStr}&end=${endStr}`;
+  try {
+    const res = await fetch(url);
+    const json = await res.json();
+    
+    if (json.success && json.data) {
+      EVENTS_DATA = json.data.map(ev => {
+        // Mappa le categorie del DB alle categorie del frontend per i pin colorati
+        let category = 'altro';
+        if (ev.tipo_evento === 'cinema') {
+          category = 'cinema';
+        } else if (ev.tipo_evento === 'teatro') {
+          category = 'spettacolo';
+        } else if (ev.categorie && ev.categorie.length > 0) {
+          const catId = parseInt(ev.categorie[0].id, 10);
+          if (catId === 1) category = 'musica';
+          else if (catId === 2) category = 'cultura';
+          else if (catId === 3) category = 'spettacolo';
+          else if (catId === 4) category = 'arte';
+          else if (catId === 5) category = 'lab';
+        }
+
+        // Recupera link Instagram o sito web dai contatti
+        let link = 'https://instagram.com/fommquell';
+        if (ev.contatti && ev.contatti.length > 0) {
+          const inst = ev.contatti.find(c => c.tipo === 'instagram');
+          if (inst) {
+            link = inst.valore.startsWith('http') ? inst.valore : `https://instagram.com/${inst.valore.replace('@', '')}`;
+          } else {
+            const web = ev.contatti.find(c => c.tipo === 'sito');
+            if (web) link = web.valore;
+          }
+        }
+
+        // Formatta data
+        const d = ev.data.split('-');
+        const formattedDate = `${d[2]}/${d[1]}/${d[0]}`;
+
+        return {
+          id: ev.id,
+          title: ev.titolo,
+          category: category,
+          date: formattedDate,
+          time: ev.ora_inizio ? ev.ora_inizio.substring(0, 5) : 'Ora da definire',
+          location: ev.luogo_nome || 'Reggio Emilia',
+          address: ev.luogo_indirizzo || 'Reggio Emilia',
+          desc: ev.descrizione,
+          lat: parseFloat(ev.latitudine || 44.69820000),
+          lng: parseFloat(ev.longitudine || 10.63000000),
+          link: link
+        };
+      });
+    } else {
+      EVENTS_DATA = [];
+    }
+  } catch (err) {
+    console.error("Errore fetch mappa eventi:", err);
+    EVENTS_DATA = [];
+  }
+}
+
 /* ==========================================================================
    LOAD DATA
    ========================================================================== */
@@ -720,23 +803,19 @@ async function loadVenuesCoordinates() {
 async function initMapPage() {
   // Carica il catalogo omini all'avvio
   await loadOminiCatalog();
-  // Carica le coordinate della rubrica locali
-  await loadVenuesCoordinates();
 
   // 1. Inizializzazione Mappa centrata su Reggio Emilia
   mapInstance = L.map('leaflet-map', {
-    scrollWheelZoom: true,  // consente zoom con rotella
-    dragging: true,         // consente trascinamento con un dito su mobile
-    touchZoom: true,        // consente pinch-to-zoom
-    zoomControl: false      // disattiviamo il default per metterne uno brutalista
+    scrollWheelZoom: true,  
+    dragging: true,         
+    touchZoom: true,        
+    zoomControl: false      
   }).setView([44.6982, 10.6312], 13);
 
-  // Aggiunge pulsanti zoom personalizzati brutalisti
   L.control.zoom({
     position: 'topright'
   }).addTo(mapInstance);
 
-  // Imposta le tile in base al tema corrente
   const initialTheme = localStorage.getItem("theme") || "dark";
   setMapTheme(initialTheme);
 
@@ -746,7 +825,6 @@ async function initMapPage() {
   if (cinemaSelect) {
     cinemaSelect.addEventListener("change", () => {
       renderMapEvents(currentCategory);
-      // Zoom ottimale per racchiudere i marker dopo il filtro
       if (markersGroup.getLayers().length > 0) {
         const bounds = L.featureGroup(markersGroup.getLayers()).getBounds();
         mapInstance.fitBounds(bounds, { padding: [40, 40] });
@@ -761,16 +839,26 @@ async function initMapPage() {
   if (prevWeekBtn) {
     prevWeekBtn.addEventListener("click", () => {
       currentWeekOffset--;
-      updateWeekEvents();
-      renderMapEvents(currentCategory);
+      loadWeekEvents().then(() => {
+        renderMapEvents(currentCategory);
+        if (markersGroup.getLayers().length > 0) {
+          const bounds = L.featureGroup(markersGroup.getLayers()).getBounds();
+          mapInstance.fitBounds(bounds, { padding: [40, 40] });
+        }
+      });
     });
   }
 
   if (nextWeekBtn) {
     nextWeekBtn.addEventListener("click", () => {
       currentWeekOffset++;
-      updateWeekEvents();
-      renderMapEvents(currentCategory);
+      loadWeekEvents().then(() => {
+        renderMapEvents(currentCategory);
+        if (markersGroup.getLayers().length > 0) {
+          const bounds = L.featureGroup(markersGroup.getLayers()).getBounds();
+          mapInstance.fitBounds(bounds, { padding: [40, 40] });
+        }
+      });
     });
   }
 
@@ -783,7 +871,6 @@ async function initMapPage() {
       const filterValue = e.target.getAttribute("data-filter");
       currentCategory = filterValue;
 
-      // Show/Hide cinema select dropdown
       const cinemaSelectContainer = document.getElementById("cinema-select-container");
       if (cinemaSelectContainer) {
         if (filterValue === "cinema") {
@@ -798,12 +885,9 @@ async function initMapPage() {
     });
   });
 
-  // 4. Carica eventi e renderizza
-  loadDynamicEvents().then(() => {
-    updateWeekEvents();
+  // 4. Carica eventi iniziali e renderizza
+  loadWeekEvents().then(() => {
     renderMapEvents("all");
-    
-    // Zoom ottimale per racchiudere i marker se presenti
     if (markersGroup.getLayers().length > 0) {
       const bounds = L.featureGroup(markersGroup.getLayers()).getBounds();
       mapInstance.fitBounds(bounds, { padding: [40, 40] });
