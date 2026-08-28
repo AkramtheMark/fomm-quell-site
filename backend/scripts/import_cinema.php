@@ -74,9 +74,16 @@ foreach ($screenings as $scr) {
         $formattedDate = date('Y-m-d', strtotime($dateStr));
     }
 
-    // Formatta orario
-    if (strlen($timeStr) === 5) {
-        $timeStr .= ":00";
+    // Valida orario
+    $timeVal = null;
+    $infoGeneriche = null;
+    if (preg_match('/^([0-1]?[0-9]|2[0-3]):[0-5][0-9](:[0-5][0-9])?$/', $timeStr)) {
+        $timeVal = $timeStr;
+        if (strlen($timeVal) === 5) {
+            $timeVal .= ":00";
+        }
+    } else {
+        $infoGeneriche = $timeStr; // Salva la dicitura testuale come info generiche
     }
 
     try {
@@ -122,10 +129,10 @@ foreach ($screenings as $scr) {
             $filmId = $film['id'];
             // Aggiorna l'url della locandina o descrizione se prima mancavano
             if (!empty($img)) {
-                $db->prepare("UPDATE cinema_film SET locandina_url = ? WHERE id = ?")->execute([$img, $filmId]);
+                $db->prepare("UPDATE cinema_film SET locandina = ? WHERE id = ?")->execute([$img, $filmId]);
             }
         } else {
-            $insFilm = $db->prepare("INSERT INTO cinema_film (titolo, descrizione, locandina_url) VALUES (?, ?, ?)");
+            $insFilm = $db->prepare("INSERT INTO cinema_film (titolo, descrizione, locandina) VALUES (?, ?, ?)");
             $insFilm->execute([$title, $desc, $img]);
             $filmId = $db->lastInsertId();
             $stats['new_films']++;
@@ -135,9 +142,9 @@ foreach ($screenings as $scr) {
         $stmtCheck = $db->prepare("
             SELECT e.id FROM eventi e
             INNER JOIN evento_cinema ec ON e.id = ec.evento_id
-            WHERE ec.film_id = ? AND e.data = ? AND e.ora_inizio = ? AND e.luogo_id = ?
+            WHERE ec.cinema_film_id = ? AND e.data = ? AND (e.ora_inizio = ? OR (e.ora_inizio IS NULL AND ? IS NULL)) AND e.luogo_id = ?
         ");
-        $stmtCheck->execute([$filmId, $formattedDate, $timeStr, $luogoId]);
+        $stmtCheck->execute([$filmId, $formattedDate, $timeVal, $timeVal, $luogoId]);
         if ($stmtCheck->fetch()) {
             $db->rollBack();
             $stats['duplicates_skipped']++;
@@ -146,11 +153,11 @@ foreach ($screenings as $scr) {
 
         // 5. Inserimento dell'evento
         $insEvento = $db->prepare("
-            INSERT INTO eventi (titolo, descrizione, data, ora_inizio, realta_id, luogo_id, tipo_evento, stato, created_by, published_at)
-            VALUES (?, ?, ?, ?, ?, ?, 'cinema', 'published', 1, CURRENT_TIMESTAMP)
+            INSERT INTO eventi (titolo, descrizione, data, ora_inizio, realta_id, luogo_id, tipo_evento, stato, created_by, published_at, info_generiche)
+            VALUES (?, ?, ?, ?, ?, ?, 'cinema', 'published', 1, CURRENT_TIMESTAMP, ?)
         ");
         $insEvento->execute([
-            $title, $desc, $formattedDate, $timeStr, $realtaId, $luogoId
+            $title, $desc, $formattedDate, $timeVal, $realtaId, $luogoId, $infoGeneriche
         ]);
         $eventoId = $db->lastInsertId();
 
@@ -159,7 +166,7 @@ foreach ($screenings as $scr) {
 
         // 7. Collega all'evento_cinema (Proiezioni)
         $insProj = $db->prepare("
-            INSERT INTO evento_cinema (evento_id, film_id, link_info_orari)
+            INSERT INTO evento_cinema (evento_id, cinema_film_id, ticket_url)
             VALUES (?, ?, ?)
         ");
         $insProj->execute([$eventoId, $filmId, $link]);

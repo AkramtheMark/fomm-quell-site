@@ -240,17 +240,7 @@ try {
                 $formattedDate = date('Y-m-d', strtotime($dateStr));
             }
 
-            // Valida orario
-            $timeVal = null;
-            $infoGeneriche = null;
-            if (preg_match('/^([0-1]?[0-9]|2[0-3]):[0-5][0-9](:[0-5][0-9])?$/', $timeStr)) {
-                $timeVal = $timeStr;
-                if (strlen($timeVal) === 5) {
-                    $timeVal .= ":00";
-                }
-            } else {
-                $infoGeneriche = $timeStr; // Salva la dicitura testuale come info generiche
-            }
+            if (strlen($timeStr) === 5) $timeStr .= ":00";
 
             try {
                 $db->beginTransaction();
@@ -307,9 +297,9 @@ try {
                 $stmtCheck = $db->prepare("
                     SELECT e.id FROM eventi e
                     INNER JOIN evento_cinema ec ON e.id = ec.evento_id
-                    WHERE ec.cinema_film_id = ? AND e.data = ? AND (e.ora_inizio = ? OR (e.ora_inizio IS NULL AND ? IS NULL)) AND e.luogo_id = ?
+                    WHERE ec.cinema_film_id = ? AND e.data = ? AND e.ora_inizio = ? AND e.luogo_id = ?
                 ");
-                $stmtCheck->execute([$filmId, $formattedDate, $timeVal, $timeVal, $luogoId]);
+                $stmtCheck->execute([$filmId, $formattedDate, $timeStr, $luogoId]);
                 if ($stmtCheck->fetch()) {
                     $db->rollBack();
                     $importStats['duplicates_skipped']++;
@@ -318,11 +308,11 @@ try {
 
                 // 5. Inserimento evento
                 $insEvento = $db->prepare("
-                    INSERT INTO eventi (titolo, descrizione, data, ora_inizio, realta_id, luogo_id, tipo_evento, stato, created_by, published_at, info_generiche)
-                    VALUES (?, ?, ?, ?, ?, ?, 'cinema', 'published', 1, CURRENT_TIMESTAMP, ?)
+                    INSERT INTO eventi (titolo, descrizione, data, ora_inizio, realta_id, luogo_id, tipo_evento, stato, created_by, published_at)
+                    VALUES (?, ?, ?, ?, ?, ?, 'cinema', 'published', 1, CURRENT_TIMESTAMP)
                 ");
                 $insEvento->execute([
-                    $title, $desc, $formattedDate, $timeVal, $realtaId, $luogoId, $infoGeneriche
+                    $title, $desc, $formattedDate, $timeStr, $realtaId, $luogoId
                 ]);
                 $eventoId = $db->lastInsertId();
 

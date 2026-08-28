@@ -104,6 +104,36 @@ $categoriesMap = [
     'Altro' => 6
 ];
 
+// Helper per validare e ripulire gli orari (es. rimuove ~ o converte punti in due punti)
+function cleanTimeStr($timeStr, &$infoGeneriche) {
+    if (empty($timeStr)) return null;
+    
+    $original = trim($timeStr);
+    
+    // Sostituisce punti con due punti e rimuove caratteri estranei
+    $cleaned = str_replace('.', ':', $original);
+    $cleaned = preg_replace('/[^0-9:]/', '', $cleaned);
+    $cleaned = trim($cleaned);
+    
+    if (preg_match('/^([0-1]?[0-9]|2[0-3]):[0-5][0-9](:[0-5][0-9])?$/', $cleaned)) {
+        $parts = explode(':', $cleaned);
+        $hours = intval($parts[0]);
+        $minutes = intval($parts[1]);
+        $seconds = isset($parts[2]) ? intval($parts[2]) : 0;
+        return sprintf("%02d:%02d:%02d", $hours, $minutes, $seconds);
+    } else {
+        // Se è testo generico, lo accoda alle informazioni dell'evento
+        if (strlen($original) > 2) {
+            if ($infoGeneriche === null || $infoGeneriche === '') {
+                $infoGeneriche = $original;
+            } else {
+                $infoGeneriche .= " | " . $original;
+            }
+        }
+        return null;
+    }
+}
+
 // 3. Processo di migrazione riga per riga (saltando le prime 3 righe come in app.js)
 for ($i = 3; $i < count($lines); $i++) {
     if (empty(trim($lines[$i]))) continue;
@@ -129,11 +159,13 @@ for ($i = 3; $i < count($lines); $i++) {
     }
 
     // B. Formattazione orari
-    $startTime = !empty(trim($row[$idxStartTime] ?? '')) ? trim($row[$idxStartTime]) : null;
-    $endTime = !empty(trim($row[$idxEndTime] ?? '')) ? trim($row[$idxEndTime]) : null;
+    $rowStartTime = trim($row[$idxStartTime] ?? '');
+    $rowEndTime = trim($row[$idxEndTime] ?? '');
     
-    if ($startTime && strlen($startTime) === 5) $startTime .= ":00";
-    if ($endTime && strlen($endTime) === 5) $endTime .= ":00";
+    $infoGeneriche = !empty(trim($row[$idxInfo] ?? '')) ? trim($row[$idxInfo]) : null;
+    
+    $startTime = cleanTimeStr($rowStartTime, $infoGeneriche);
+    $endTime = cleanTimeStr($rowEndTime, $infoGeneriche);
 
     // C. Gestione Realtà (Locale)
     $venueName = trim($row[$idxVenue] ?? '');
@@ -248,7 +280,6 @@ for ($i = 3; $i < count($lines); $i++) {
     // H. Inserimento dell'Evento
     $description = trim($row[$idxDesc] ?? 'Nessuna descrizione fornita.');
     $priceInfo = trim($row[$idxPrice] ?? '');
-    $generalInfo = trim($row[$idxInfo] ?? '');
     
     // Rileva tipo di evento
     $tipoEvento = 'evento'; // Default
@@ -262,7 +293,7 @@ for ($i = 3; $i < count($lines); $i++) {
         
         $ins->execute([
             $title, $description, $formattedDate, $startTime, $endTime, 
-            $realtaId, $luogoId, $tipoEvento, $priceInfo, $generalInfo, 
+            $realtaId, $luogoId, $tipoEvento, $priceInfo, $infoGeneriche, 
             $stato, $userId, $publishedAt
         ]);
         
