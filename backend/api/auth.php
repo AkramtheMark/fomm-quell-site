@@ -4,12 +4,7 @@
  * Gestisce: login, logout e controllo dello stato sessione corrente.
  */
 
-// Configurazione CORS con supporto a sessioni/cookie
-$origin = $_SERVER['HTTP_ORIGIN'] ?? '*';
-header("Access-Control-Allow-Origin: $origin");
-header("Access-Control-Allow-Credentials: true");
-header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+// L'API viene usata dalla stessa origine del sito: non riflettere origini esterne.
 header("Content-Type: application/json; charset=utf-8");
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
@@ -20,8 +15,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 ini_set('session.cookie_httponly', 1);
 ini_set('session.use_only_cookies', 1);
 ini_set('session.cookie_samesite', 'Lax');
+ini_set('session.cookie_secure', (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? '1' : '0');
 
 session_start();
+
+// Token usato dalle richieste che modificano dati della sessione corrente.
+if (empty($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
 
 require_once __DIR__ . '/../config/db.php';
 
@@ -105,6 +106,7 @@ if ($action === 'login') {
     }
 
     // Autenticazione superata, inizializza sessione
+    session_regenerate_id(true);
     $_SESSION['user_id'] = (int)$user['id'];
     $_SESSION['nome'] = $user['nome'];
     $_SESSION['cognome'] = $user['cognome'];
@@ -112,6 +114,7 @@ if ($action === 'login') {
     $_SESSION['ruolo'] = $user['ruolo'];
     $_SESSION['realta_ids'] = $realtaIds;
     $_SESSION['realta_nomi'] = $realtaNomi;
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 
     echo json_encode([
         'success' => true,
@@ -124,11 +127,19 @@ if ($action === 'login') {
             'ruolo' => $_SESSION['ruolo'],
             'realta_ids' => $_SESSION['realta_ids'],
             'realta_nomi' => $_SESSION['realta_nomi']
-        ]
+        ],
+        'csrf_token' => $_SESSION['csrf_token']
     ]);
     exit;
 
 } elseif ($action === 'logout') {
+    $csrfToken = $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+    if (!hash_equals($_SESSION['csrf_token'] ?? '', $csrfToken)) {
+        header('HTTP/1.1 403 Forbidden');
+        echo json_encode(['success' => false, 'message' => 'Richiesta non valida. Aggiorna la pagina e riprova.']);
+        exit;
+    }
+
     // Pulisci e distruggi sessione
     $_SESSION = [];
     if (ini_get("session.use_cookies")) {
@@ -156,7 +167,8 @@ if ($action === 'login') {
                 'ruolo' => $_SESSION['ruolo'],
                 'realta_ids' => $_SESSION['realta_ids'] ?? [],
                 'realta_nomi' => $_SESSION['realta_nomi'] ?? []
-            ]
+            ],
+            'csrf_token' => $_SESSION['csrf_token']
         ]);
     } else {
         echo json_encode(['logged_in' => false]);

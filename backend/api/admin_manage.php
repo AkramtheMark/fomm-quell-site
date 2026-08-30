@@ -5,12 +5,7 @@
  * Gestisce: approvazione/rifiuto eventi e realtà, gestione utenti, log di sistema.
  */
 
-// Configurazione CORS con supporto a sessioni/cookie
-$origin = $_SERVER['HTTP_ORIGIN'] ?? '*';
-header("Access-Control-Allow-Origin: $origin");
-header("Access-Control-Allow-Credentials: true");
-header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-header("Access-Control-Allow-Methods: GET, POST, PUT, OPTIONS");
+// Questa API è usata solo dalla stessa origine del sito.
 header("Content-Type: application/json; charset=utf-8");
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
@@ -25,6 +20,15 @@ if (!isset($_SESSION['user_id']) || $_SESSION['ruolo'] !== 'admin') {
     header('HTTP/1.1 403 Forbidden');
     echo json_encode(['success' => false, 'message' => 'Accesso negato. Questa sezione è riservata agli amministratori.']);
     exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
+    $csrfToken = $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+    if (!hash_equals($_SESSION['csrf_token'] ?? '', $csrfToken)) {
+        header('HTTP/1.1 403 Forbidden');
+        echo json_encode(['success' => false, 'message' => 'Richiesta non valida. Aggiorna la pagina e riprova.']);
+        exit;
+    }
 }
 
 require_once __DIR__ . '/../config/db.php';
@@ -88,8 +92,8 @@ try {
             exit;
         }
 
-        $stmt = $db->prepare("UPDATE realta SET attiva = 1 WHERE id = ?");
-        $stmt->execute([$realtaId]);
+        $stmt = $db->prepare("UPDATE realta SET attiva = 1, stato = 'approved', motivo_rifiuto = NULL, approved_at = CURRENT_TIMESTAMP, approved_by = ? WHERE id = ?");
+        $stmt->execute([$adminId, $realtaId]);
 
         // Log
         $log = $db->prepare("INSERT INTO activity_log (user_id, azione, tabella_nome, record_id, descrizione) VALUES (?, 'approvazione', 'realta', ?, ?)");
@@ -99,9 +103,10 @@ try {
         exit;
 
     } elseif ($action === 'reject_realta') {
-        // Rifiuta realtà (elimina registrazione)
+        // Rifiuta realtà senza eliminare dati o storico.
         $input = json_decode(file_get_contents('php://input'), true);
         $realtaId = (int)($input['realta_id'] ?? $_POST['realta_id'] ?? 0);
+        $motivo = trim($input['motivo'] ?? $_POST['motivo'] ?? '');
 
         if ($realtaId <= 0) {
             header('HTTP/1.1 400 Bad Request');
@@ -109,32 +114,17 @@ try {
             exit;
         }
 
-        $db->beginTransaction();
-        
-        // Rileva utenti associati per scriverlo nel log
-        $stmtUsers = $db->prepare("SELECT user_id FROM realta_users WHERE realta_id = ?");
-        $stmtUsers->execute([$realtaId]);
-        $associatedUsers = $stmtUsers->fetchAll(PDO::FETCH_COLUMN);
-
-        // Elimina realtà (le chiavi esterne elimineranno a cascata le associazioni realta_users e gli utenti se non più collegati)
-        $db->prepare("DELETE FROM realta WHERE id = ?")->execute([$realtaId]);
-        
-        // Elimina utenti orfani collegati
-        if (!empty($associatedUsers)) {
-            $inClause = implode(',', array_fill(0, count($associatedUsers), '?'));
-            $db->prepare("DELETE FROM users WHERE id IN ($inClause) AND ruolo = 'gestore'")->execute($associatedUsers);
-        }
+        $stmt = $db->prepare("UPDATE realta SET attiva = 0, stato = 'rejected', motivo_rifiuto = ?, approved_at = NULL, approved_by = NULL WHERE id = ?");
+        $stmt->execute([$motivo, $realtaId]);
 
         $log = $db->prepare("INSERT INTO activity_log (user_id, azione, tabella_nome, record_id, descrizione) VALUES (?, 'rifiuto', 'realta', ?, ?)");
-        $log->execute([$adminId, $realtaId, "Rifiutata ed eliminata realtà ID $realtaId (con i relativi account gestori orfani)"]);
-
-        $db->commit();
-        echo json_encode(['success' => true, 'message' => 'Registrazione realtà rifiutata ed eliminata dal sistema.']);
+        $log->execute([$adminId, $realtaId, "Rifiutata realtà ID $realtaId. Motivazione: $motivo"]);
+        echo json_encode(['success' => true, 'message' => 'Registrazione realtà rifiutata e conservata nello storico.']);
         exit;
 
     } elseif ($action === 'list_pending_realta') {
         // Elenca realtà in attesa di approvazione
-        $stmt = $db->query("SELECT * FROM realta WHERE attiva = 0 ORDER BY created_at DESC");
+        $stmt = $db->query("SELECT * FROM realta WHERE stato = 'pending' ORDER BY created_at DESC");
         $pending = $stmt->fetchAll();
         echo json_encode(['success' => true, 'data' => $pending]);
         exit;
@@ -264,8 +254,8 @@ try {
                 if ($realta) {
                     $realtaId = $realta['id'];
                 } else {
-                    $insRealta = $db->prepare("INSERT INTO realta (nome, tipologia, attiva) VALUES (?, 'cinema', 1)");
-                    $insRealta->execute([$cinemaName]);
+                    $insRealta = $db->prepare("INSERT INTO realta (nome, tipologia, attiva, stato, approved_at, approved_by) VALUES (?, 'cinema', 1, 'approved', CURRENT_TIMESTAMP, ?)");
+                    $insRealta->execute([$cinemaName, $adminId]);
                     $realtaId = $db->lastInsertId();
                     $importStats['new_realta']++;
                 }

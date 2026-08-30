@@ -1,18 +1,12 @@
 <?php
 /**
  * Script di Migrazione dati da Google Sheets a database MySQL Fômm Quell 2.0.
- * Eseguibile da riga di comando (CLI) o tramite browser (con token di sicurezza).
+ * Eseguibile esclusivamente da riga di comando (CLI).
  */
 
-// 1. Configurazione e sicurezza
 if (php_sapi_name() !== 'cli') {
-    // Se richiamato da browser, verifica un token semplice per sicurezza
-    $token = $_GET['token'] ?? '';
-    if ($token !== 'FOMMQUELL2026') {
-        header('HTTP/1.1 401 Unauthorized');
-        die("Non autorizzato. Token mancante o errato.");
-    }
-    header('Content-Type: text/plain; charset=utf-8');
+    http_response_code(403);
+    exit('Questo script puo essere eseguito soltanto dalla riga di comando.');
 }
 
 require_once __DIR__ . '/../config/db.php';
@@ -30,14 +24,21 @@ if ($csvData === false) {
 
 echo "Scaricamento completato. Dimensione file: " . strlen($csvData) . " byte.\n";
 
-// Converte il testo in righe gestendo i ritorni a capo
-$lines = preg_split('/\r\n|\r|\n/', $csvData);
-if (count($lines) < 2) {
+// Usa un file temporaneo e fgetcsv: le descrizioni del foglio possono contenere ritorni a capo.
+$csvHandle = fopen('php://temp', 'r+');
+fwrite($csvHandle, $csvData);
+rewind($csvHandle);
+$rows = [];
+while (($csvRow = fgetcsv($csvHandle)) !== false) {
+    $rows[] = $csvRow;
+}
+fclose($csvHandle);
+if (count($rows) < 2) {
     die("Errore: Il file CSV scaricato è vuoto o non valido.\n");
 }
 
 // 2. Lettura e mappatura intestazioni (Riga 0)
-$headers = str_getcsv($lines[0]);
+$headers = $rows[0];
 $headers = array_map(function($h) { return trim(strtolower($h)); }, $headers);
 
 function getColIdx($headers, $name, $fallback) {
@@ -107,14 +108,14 @@ $categoriesMap = [
 // Helper per validare e ripulire gli orari (es. rimuove ~ o converte punti in due punti)
 function cleanTimeStr($timeStr, &$infoGeneriche) {
     if (empty($timeStr)) return null;
-    
+
     $original = trim($timeStr);
-    
+
     // Sostituisce punti con due punti e rimuove caratteri estranei
     $cleaned = str_replace('.', ':', $original);
     $cleaned = preg_replace('/[^0-9:]/', '', $cleaned);
     $cleaned = trim($cleaned);
-    
+
     if (preg_match('/^([0-1]?[0-9]|2[0-3]):[0-5][0-9](:[0-5][0-9])?$/', $cleaned)) {
         $parts = explode(':', $cleaned);
         $hours = intval($parts[0]);
@@ -135,10 +136,9 @@ function cleanTimeStr($timeStr, &$infoGeneriche) {
 }
 
 // 3. Processo di migrazione riga per riga (saltando le prime 3 righe come in app.js)
-for ($i = 3; $i < count($lines); $i++) {
-    if (empty(trim($lines[$i]))) continue;
-    
-    $row = str_getcsv($lines[$i]);
+for ($i = 3; $i < count($rows); $i++) {
+    $row = $rows[$i];
+    if (empty(array_filter($row, static function ($value) { return trim((string)$value) !== ''; }))) continue;
     if (count($row) < 5) continue; // Salta righe vuote o incomplete
 
     $stats['parsed_rows']++;
@@ -161,9 +161,9 @@ for ($i = 3; $i < count($lines); $i++) {
     // B. Formattazione orari
     $rowStartTime = trim($row[$idxStartTime] ?? '');
     $rowEndTime = trim($row[$idxEndTime] ?? '');
-    
+
     $infoGeneriche = !empty(trim($row[$idxInfo] ?? '')) ? trim($row[$idxInfo]) : null;
-    
+
     $startTime = cleanTimeStr($rowStartTime, $infoGeneriche);
     $endTime = cleanTimeStr($rowEndTime, $infoGeneriche);
 
@@ -245,9 +245,10 @@ for ($i = 3; $i < count($lines); $i++) {
         if ($user) {
             $userId = $user['id'];
         } else {
-            // Crea operatore con email e password fittizie
+            // Gli operatori importati non ricevono una password: un amministratore dovrà
+            // invitarli/attivarli prima di consentire l'accesso.
             $email = strtolower(str_replace(' ', '', $operatorName)) . "@fommquell.it";
-            $pwdHash = password_hash("password2026", PASSWORD_DEFAULT);
+            $pwdHash = password_hash(bin2hex(random_bytes(32)), PASSWORD_DEFAULT);
             try {
                 $ins = $db->prepare("INSERT INTO users (nome, cognome, email, password_hash, ruolo, attivo) VALUES (?, 'Operatore', ?, ?, 'operatore', 1)");
                 $ins->execute([$operatorName, $email, $pwdHash]);
@@ -290,13 +291,13 @@ for ($i = 3; $i < count($lines); $i++) {
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ");
         $publishedAt = ($stato === 'published') ? date('Y-m-d H:i:s') : null;
-        
+
         $ins->execute([
-            $title, $description, $formattedDate, $startTime, $endTime, 
-            $realtaId, $luogoId, $tipoEvento, $priceInfo, $infoGeneriche, 
+            $title, $description, $formattedDate, $startTime, $endTime,
+            $realtaId, $luogoId, $tipoEvento, $priceInfo, $infoGeneriche,
             $stato, $userId, $publishedAt
         ]);
-        
+
         $eventoId = $db->lastInsertId();
         $stats['imported_events']++;
 

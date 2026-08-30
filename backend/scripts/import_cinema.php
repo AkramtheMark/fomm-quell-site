@@ -5,12 +5,8 @@
  */
 
 if (php_sapi_name() !== 'cli') {
-    $token = $_GET['token'] ?? '';
-    if ($token !== 'FOMMQUELL2026') {
-        header('HTTP/1.1 401 Unauthorized');
-        die("Non autorizzato. Token mancante o errato.");
-    }
-    header('Content-Type: text/plain; charset=utf-8');
+    http_response_code(403);
+    exit('Questo script puo essere eseguito soltanto dalla riga di comando.');
 }
 
 require_once __DIR__ . '/../config/db.php';

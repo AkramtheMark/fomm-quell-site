@@ -4,12 +4,7 @@
  * Gestisce: creazione, recupero filtrato per ruolo, modifica ed eliminazione eventi.
  */
 
-// Configurazione CORS con supporto a sessioni/cookie
-$origin = $_SERVER['HTTP_ORIGIN'] ?? '*';
-header("Access-Control-Allow-Origin: $origin");
-header("Access-Control-Allow-Credentials: true");
-header("Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With");
-header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS");
+// Questa API è usata solo dalla stessa origine del sito.
 header("Content-Type: application/json; charset=utf-8");
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
@@ -23,6 +18,15 @@ if (!isset($_SESSION['user_id'])) {
     header('HTTP/1.1 401 Unauthorized');
     echo json_encode(['success' => false, 'message' => 'Devi effettuare l\'accesso per gestire gli eventi.']);
     exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
+    $csrfToken = $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '';
+    if (!hash_equals($_SESSION['csrf_token'] ?? '', $csrfToken)) {
+        header('HTTP/1.1 403 Forbidden');
+        echo json_encode(['success' => false, 'message' => 'Richiesta non valida. Aggiorna la pagina e riprova.']);
+        exit;
+    }
 }
 
 require_once __DIR__ . '/../config/db.php';

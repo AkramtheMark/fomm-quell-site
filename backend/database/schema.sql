@@ -45,8 +45,13 @@ CREATE TABLE `realta` (
   `instagram` VARCHAR(100),
   `facebook` VARCHAR(100),
   `attiva` TINYINT(1) NOT NULL DEFAULT 0, -- Richiede approvazione admin iniziale
+  `stato` ENUM('pending', 'approved', 'rejected', 'disabled') NOT NULL DEFAULT 'pending',
+  `motivo_rifiuto` TEXT,
+  `approved_at` TIMESTAMP NULL,
+  `approved_by` INT NULL,
   `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (`approved_by`) REFERENCES `users` (`id`) ON DELETE SET NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- 3. Tabella Relazione molti-a-molti REALTÀ - UTENTI
