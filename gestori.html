@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Accedi all'Area Gestori di Fomm Quell o richiedi la registrazione della tua realtà.">
+  <title>Area Gestori | Fômm Quell</title>
+  <link rel="icon" href="assets/Images/FQ_icona.ico" type="image/x-icon">
+  <link rel="stylesheet" href="portal.css?v=2">
+</head>
+<body>
+  <script>
+    (function () {
+      if ((localStorage.getItem('theme') || 'dark') === 'light') {
+        document.documentElement.classList.add('light-theme');
+        document.body.classList.add('light-theme');
+      }
+    })();
+  </script>
+
+  <main class="portal-page">
+    <header class="portal-header">
+      <div>
+        <a href="index.html" class="btn btn-secondary">← SITO PUBBLICO</a>
+        <h1>AREA<br><span class="highlight">GESTORI.</span></h1>
+        <p>Accedi al tuo spazio oppure richiedi la registrazione della tua realtà.</p>
+      </div>
+    </header>
+
+    <section class="portal-card" aria-labelledby="access-title">
+      <h2 id="access-title">ACCESSO E REGISTRAZIONE</h2>
+      <div class="auth-panel-wrapper">
+        <div class="auth-tabs" role="tablist" aria-label="Area gestori">
+          <button class="auth-tab-btn active" id="tab-login-btn" type="button" role="tab" aria-selected="true" aria-controls="panel-login">ACCEDI</button>
+          <button class="auth-tab-btn" id="tab-register-btn" type="button" role="tab" aria-selected="false" aria-controls="panel-register">REGISTRA LA TUA REALTÀ</button>
+        </div>
+
+        <div class="auth-panel active" id="panel-login" role="tabpanel" aria-labelledby="tab-login-btn">
+          <form id="login-form" class="retro-form">
+            <div class="form-group">
+              <label for="login-email">Email *</label>
+              <input type="email" id="login-email" required autocomplete="email" placeholder="nome@realta.it">
+            </div>
+            <div class="form-group">
+              <label for="login-password">Password *</label>
+              <input type="password" id="login-password" required autocomplete="current-password" placeholder="Inserisci la password">
+            </div>
+            <button type="submit" class="btn btn-submit">ACCEDI ORA</button>
+            <p id="login-message" class="auth-msg error-msg" role="alert" hidden></p>
+          </form>
+        </div>
+
+        <div class="auth-panel" id="panel-register" role="tabpanel" aria-labelledby="tab-register-btn" hidden>
+          <form id="register-form" class="retro-form">
+            <div class="form-group">
+              <label for="register-venue-name">Nome della realtà *</label>
+              <input type="text" id="register-venue-name" required placeholder="Es. Caffè della Piazza">
+            </div>
+            <div class="form-group">
+              <label for="register-email">Email di contatto *</label>
+              <input type="email" id="register-email" required autocomplete="email" placeholder="locale@email.com">
+            </div>
+            <div class="form-group">
+              <label for="register-password">Password di accesso *</label>
+              <input type="password" id="register-password" required minlength="12" autocomplete="new-password" placeholder="Almeno 12 caratteri">
+            </div>
+            <button type="submit" class="btn btn-submit">INVIA RICHIESTA DI REGISTRAZIONE</button>
+            <p id="register-message" class="auth-msg" role="status" hidden></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="gestori.js?v=1"></script>
+</body>
+</html>
