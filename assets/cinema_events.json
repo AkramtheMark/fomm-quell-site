@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-il-malloppo-2100-04092026",
-    "title": "IL MALLOPPO",
-    "category": "cinema",
-    "date": "04/09/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/il-malloppo/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/08/MALLOPPO-e1786004993210.jpg"
-  },
-  {
-    "id": "cinema-al-corso-il-malloppo-1915-05092026",
-    "title": "IL MALLOPPO",
-    "category": "cinema",
-    "date": "05/09/2026",
-    "time": "19:15",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/il-malloppo/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/08/MALLOPPO-e1786004993210.jpg"
-  },
-  {
     "id": "cinema-al-corso-il-malloppo-1830-06092026",
     "title": "IL MALLOPPO",
     "category": "cinema",
@@ -43,6 +17,19 @@
     "title": "IL MALLOPPO",
     "category": "cinema",
     "date": "08/09/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/il-malloppo/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/08/MALLOPPO-e1786004993210.jpg"
+  },
+  {
+    "id": "cinema-al-corso-il-malloppo-2100-09092026",
+    "title": "IL MALLOPPO",
+    "category": "cinema",
+    "date": "09/09/2026",
     "time": "21:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
@@ -286,19 +273,6 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_her-private-hell/@@images/image/preview"
   },
   {
-    "id": "cinema-arena-stalloni-mio-fratello--un-vichingo-2115-05092026",
-    "title": "MIO FRATELLO È UN VICHINGO",
-    "category": "cinema",
-    "date": "05/09/2026",
-    "time": "21:15",
-    "location": "Arena Stalloni (Reggio Emilia)",
-    "desc": "Proiezione all'aperto Arena Stalloni.",
-    "link": "https://www.arenastalloni.it/evento/mio-fratello-e-un-vichingo/",
-    "latitude": 44.699742,
-    "longitude": 10.638421,
-    "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/VICHINGO_1.jpg"
-  },
-  {
     "id": "cinema-arena-stalloni-santiago--un-cammino-per-ricominciare-2115-06092026",
     "title": "SANTIAGO – UN CAMMINO PER RICOMINCIARE",
     "category": "cinema",
@@ -312,10 +286,10 @@
     "img": "https://www.arenastalloni.it/wp-content/uploads/2026/06/santiago_film.jpg"
   },
   {
-    "id": "cinema-novecento-coyote-vs-acme-1600-05092026",
+    "id": "cinema-novecento-coyote-vs-acme-1600-06092026",
     "title": "COYOTE VS ACME",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "16:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Dave Green | DURATA: 101'",
@@ -325,10 +299,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/coyote.jpg"
   },
   {
-    "id": "cinema-novecento-coyote-vs-acme-1830-05092026",
+    "id": "cinema-novecento-coyote-vs-acme-1830-06092026",
     "title": "COYOTE VS ACME",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Dave Green | DURATA: 101'",
@@ -338,10 +312,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/coyote.jpg"
   },
   {
-    "id": "cinema-novecento-coyote-vs-acme-2100-05092026",
+    "id": "cinema-novecento-coyote-vs-acme-2100-06092026",
     "title": "COYOTE VS ACME",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Dave Green | DURATA: 101'",
@@ -351,10 +325,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/coyote.jpg"
   },
   {
-    "id": "cinema-novecento-oceania-1615-05092026",
+    "id": "cinema-novecento-oceania-1615-06092026",
     "title": "OCEANIA",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "16:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Thomas Kall | DURATA: 117'",
@@ -364,10 +338,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-Oceania.jpg"
   },
   {
-    "id": "cinema-novecento-fammi-il-piacere-1845-05092026",
+    "id": "cinema-novecento-fammi-il-piacere-1845-06092026",
     "title": "FAMMI IL PIACERE",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "18:45",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Reem Kherici | DURATA: 90'",
@@ -377,10 +351,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/FAMMIILPIACERE.jpg"
   },
   {
-    "id": "cinema-novecento-fammi-il-piacere-2045-05092026",
+    "id": "cinema-novecento-fammi-il-piacere-2045-06092026",
     "title": "FAMMI IL PIACERE",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "20:45",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Reem Kherici | DURATA: 90'",
@@ -390,11 +364,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/FAMMIILPIACERE.jpg"
   },
   {
-    "id": "cinema-cinepi-oceania-1830-05092026",
+    "id": "cinema-cinepi-oceania-1620-06092026",
     "title": "Oceania",
     "category": "cinema",
-    "date": "05/09/2026",
-    "time": "18:30",
+    "date": "06/09/2026",
+    "time": "16:20",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Avventura, Commedia, Family | Durata: 115 Minuti | Cast: Catherine Laga'aia, Dwayne Johnson, Rena Owen, John Tui, Frankie Adams",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22150",
@@ -403,10 +377,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/63272.jpg"
   },
   {
-    "id": "cinema-cinepi-coyote-vs-acme-2045-05092026",
+    "id": "cinema-cinepi-coyote-vs-acme-1830-06092026",
     "title": "Coyote vs. Acme",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Family, Commedia | Durata: 103 Minuti | Cast: John Cena, Lana Condor, Will Forte, P.J. Byrne",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22160",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68703.jpg"
+  },
+  {
+    "id": "cinema-cinepi-coyote-vs-acme-2045-06092026",
+    "title": "Coyote vs. Acme",
+    "category": "cinema",
+    "date": "06/09/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione, Family, Commedia | Durata: 103 Minuti | Cast: John Cena, Lana Condor, Will Forte, P.J. Byrne",
@@ -416,10 +403,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68703.jpg"
   },
   {
-    "id": "cinema-cinepi-il-malloppo-1840-05092026",
+    "id": "cinema-cinepi-il-malloppo-1620-06092026",
     "title": "Il Malloppo",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
+    "time": "16:20",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Commedia | Cast: Diego Abatantuono, Max Angioni, Antonio Catania, Michele Foresta, Irene Girotti, Maria Amelia Monti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21858",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68366.jpg"
+  },
+  {
+    "id": "cinema-cinepi-il-malloppo-1840-06092026",
+    "title": "Il Malloppo",
+    "category": "cinema",
+    "date": "06/09/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Diego Abatantuono, Max Angioni, Antonio Catania, Michele Foresta, Irene Girotti, Maria Amelia Monti",
@@ -429,10 +429,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68366.jpg"
   },
   {
-    "id": "cinema-cinepi-il-malloppo-2100-05092026",
+    "id": "cinema-cinepi-il-malloppo-2100-06092026",
     "title": "Il Malloppo",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Diego Abatantuono, Max Angioni, Antonio Catania, Michele Foresta, Irene Girotti, Maria Amelia Monti",
@@ -442,10 +442,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68366.jpg"
   },
   {
-    "id": "cinema-cinema-castello-couture-2100-05092026",
+    "id": "cinema-cinema-castello-oceania-1830-06092026",
+    "title": "Oceania",
+    "category": "cinema",
+    "date": "06/09/2026",
+    "time": "18:30",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Avventura, Commedia, Family | Durata: 115 Minuti | Cast: Catherine Laga'aia, Dwayne Johnson, Rena Owen, John Tui, Frankie Adams",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22150",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/63272.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-couture-2100-06092026",
     "title": "Couture",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Drammatico | Durata: 106 Minuti | Cast: Angelina Jolie, Louis Garrel, Ella Rumpf, Garance Marillier, Sean Gullette, Finnegan Oldfield",
@@ -650,10 +663,10 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/08/GATOR_TEASER2_POSTER_ITALY.jpg"
   },
   {
-    "id": "cinema-cinema-bismantova-odissea-2100-05092026",
+    "id": "cinema-cinema-bismantova-odissea-2100-06092026",
     "title": "Odissea",
     "category": "cinema",
-    "date": "05/09/2026",
+    "date": "06/09/2026",
     "time": "21:00",
     "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
     "desc": "Genere: Avventura, Azione, Storico, Drammatico | Durata: 172 Minuti | Cast: Matt Damon, Tom Holland, Anne Hathaway, Zendaya, Elliot Page, Robert Pattinson",
