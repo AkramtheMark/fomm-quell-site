@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-odissea-2030-09092026",
-    "title": "ODISSEA",
-    "category": "cinema",
-    "date": "09/09/2026",
-    "time": "20:30",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea-3/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/06/IMG_4089-e1783423014705.jpeg"
-  },
-  {
-    "id": "cinema-al-corso-serpenti-2100-10092026",
-    "title": "SERPENTI",
-    "category": "cinema",
-    "date": "10/09/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/serpenti/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/SERPENTI-FILM-e1788779810921.webp"
-  },
-  {
     "id": "cinema-al-corso-serpenti-1930-11092026",
     "title": "SERPENTI",
     "category": "cinema",
@@ -193,19 +167,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/I-RACCONTI-DEL-MARE-2-e1788520055637.jpg"
-  },
-  {
-    "id": "cinema-rosebud-after-life---qual--il-tuo-ricordo-pi-bello-vedidettaglischeda-08092026",
-    "title": "After Life - Qual è il tuo ricordo più bello?",
-    "category": "cinema",
-    "date": "08/09/2026",
-    "time": "vedi dettagli scheda",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Gli invisibili | Regia: Kore'eda Hirokazu",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/after-life-qual-e-il-tuo-ricordo-piu-bello",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/after-life-qual-e-il-tuo-ricordo-piu-bello/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-camp-miasma---adolescenza-sesso-e-morte-2100-11092026",
@@ -416,10 +377,23 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/una-storia-ospite-anna-foglietta/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-the-echo-chamber-2100-10092026",
+    "id": "cinema-rosebud-un-po-di-luce---ospite-il-regista-ali-asgari-2100-02102026",
+    "title": "Un po' di luce - Ospite il regista Ali Asgari",
+    "category": "cinema",
+    "date": "02/10/2026",
+    "time": "21:00",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Prima visione | Regia: Ali Asgari",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/un-po-di-luce-ospite-il-regista-ali-asgari",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/un-po-di-luce-ospite-il-regista-ali-asgari/@@images/image/preview"
+  },
+  {
+    "id": "cinema-olimpia-the-echo-chamber-2100-11092026",
     "title": "The Echo Chamber",
     "category": "cinema",
-    "date": "10/09/2026",
+    "date": "11/09/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Sentimentale | Durata: 120 Minuti | Cast: Luca Marinelli, Alicia Vikander, Susan Sarandon, Ann Akinjirin, Peter Coonan, Aomi Muyock",
@@ -429,10 +403,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68816.jpg"
   },
   {
-    "id": "cinema-novecento-amore-e-incantesimi-2-2100-10092026",
+    "id": "cinema-novecento-amore-e-incantesimi-2-2100-11092026",
     "title": "AMORE E INCANTESIMI 2",
     "category": "cinema",
-    "date": "10/09/2026",
+    "date": "11/09/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI:i Susanne Bier | DURATA: 125'",
@@ -442,10 +416,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-amorieincantesimi2.jpg"
   },
   {
-    "id": "cinema-novecento-the-echo-chamber-2115-10092026",
+    "id": "cinema-novecento-the-echo-chamber-2115-11092026",
     "title": "THE ECHO CHAMBER",
     "category": "cinema",
-    "date": "10/09/2026",
+    "date": "11/09/2026",
     "time": "21:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrea Pallaoro | DURATA: 12'",
@@ -455,43 +429,30 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Theechochamber.jpg"
   },
   {
-    "id": "cinema-cinepi-amori--incantesimi-2-2045-10092026",
-    "title": "Amori & Incantesimi 2",
+    "id": "cinema-cinepi-coyote-vs-acme-2100-11092026",
+    "title": "Coyote vs. Acme",
     "category": "cinema",
-    "date": "10/09/2026",
+    "date": "11/09/2026",
+    "time": "21:00",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Family, Commedia | Durata: 103 Minuti | Cast: John Cena, Lana Condor, Will Forte, P.J. Byrne",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22160",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68703.jpg"
+  },
+  {
+    "id": "cinema-cinepi-a-cena-con-il-dittatore-2045-11092026",
+    "title": "A Cena con il Dittatore",
+    "category": "cinema",
+    "date": "11/09/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Fantasy, Sentimentale | Durata: 110 Minuti | Cast: Nicole Kidman, Sandra Bullock, Stockard Channing, Dianne Wiest, Joey King, Maisie Williams",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22109",
+    "desc": "Genere: Commedia, Drammatico | Durata: 106 Minuti | Cast: Mario Casas, Alberto San Juan, Asier Etxeandia, Nora Hernández, Oscar Lasarte, Martín Páez",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21169",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67190.jpg"
-  },
-  {
-    "id": "cinema-cinepi-lo-straniero-2100-10092026",
-    "title": "Lo Straniero",
-    "category": "cinema",
-    "date": "10/09/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 123 Minuti | Cast: Benjamin Voisin, Pierre Lottin, Swann Arlaud, Denis Lavant, Rebecca Marder, Benjamin Hicquel",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=20132",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67494.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-tony---diario-di-un-giovane-cuoco-2100-10092026",
-    "title": "Tony - Diario di un Giovane Cuoco",
-    "category": "cinema",
-    "date": "10/09/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Biografico | Cast: Dominic Sessa, Antonio Banderas, Leo Woodall, Emilia Jones, Monica Raymund, Stavros Halkias",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22143",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68788.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67981.jpg"
   },
   {
     "id": "cinema-cinema-eden-ferrari-250-gto-2100-08092026",
