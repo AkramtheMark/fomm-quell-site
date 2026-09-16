@@ -1,29 +1,16 @@
 [
   {
-    "id": "cinema-al-corso-un-giorno-senza-donne-2100-15092026",
-    "title": "UN GIORNO SENZA DONNE",
+    "id": "cinema-al-corso-palestina-36--quando-tutto-ebbe-inizio-1900-16092026",
+    "title": "PALESTINA 36 – QUANDO TUTTO EBBE INIZIO",
     "category": "cinema",
-    "date": "15/09/2026",
-    "time": "21:00",
+    "date": "16/09/2026",
+    "time": "19:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/un-giorno-senza-donne/",
+    "link": "https://cinemaalcorso.com/palestina-36-quando-tutto-ebbe-inizio/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/08/SENZA-DONNE-2-GRANDE--e1788177179397.jpg"
-  },
-  {
-    "id": "cinema-al-corso-serpenti-2100-15092026",
-    "title": "SERPENTI",
-    "category": "cinema",
-    "date": "15/09/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/serpenti/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/SERPENTI-FILM-e1788779810921.webp"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/PALESTINA-36-e1788780054758.jpg"
   },
   {
     "id": "cinema-al-corso-serpenti-2100-16092026",
@@ -37,19 +24,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/SERPENTI-FILM-e1788779810921.webp"
-  },
-  {
-    "id": "cinema-al-corso-palestina-36--quando-tutto-ebbe-inizio-1900-16092026",
-    "title": "PALESTINA 36 – QUANDO TUTTO EBBE INIZIO",
-    "category": "cinema",
-    "date": "16/09/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/palestina-36-quando-tutto-ebbe-inizio/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/PALESTINA-36-e1788780054758.jpg"
   },
   {
     "id": "cinema-al-corso-i-figli-della-scimmia-1900-17092026",
@@ -234,17 +208,17 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/SANTIAGO-UN-CAMMINO-PER-RICOMINCIARE-e1789124848427.jpg"
   },
   {
-    "id": "cinema-rosebud-m---il-mostro-di-dusseldorf-vedidettaglischeda-14092026",
-    "title": "M - Il mostro di Dusseldorf",
+    "id": "cinema-al-corso-i-racconti-del-mare-2100-05102026",
+    "title": "I RACCONTI DEL MARE",
     "category": "cinema",
-    "date": "14/09/2026",
-    "time": "vedi dettagli scheda",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Il cinema ritrovato | Regia: Fritz Lang",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/m-il-mostro-di-dusseldorf",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/m-il-mostro-di-dusseldorf/@@images/image/preview"
+    "date": "05/10/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/i-racconti-del-mare/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/I-RACCONTI-DEL-MARE-2-e1788520055637.jpg"
   },
   {
     "id": "cinema-rosebud-train-to-busan-2100-16092026",
@@ -416,10 +390,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/un-po-di-luce-ospite-il-regista-ali-asgari/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-the-echo-chamber-2100-15092026",
+    "id": "cinema-olimpia-the-echo-chamber-2100-16092026",
     "title": "The Echo Chamber",
     "category": "cinema",
-    "date": "15/09/2026",
+    "date": "16/09/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Sentimentale | Durata: 120 Minuti | Cast: Luca Marinelli, Alicia Vikander, Susan Sarandon, Ann Akinjirin, Peter Coonan, Aomi Muyock",
@@ -429,10 +403,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68816.jpg"
   },
   {
-    "id": "cinema-novecento-amore-e-incantesimi-2-2100-15092026",
+    "id": "cinema-novecento-amore-e-incantesimi-2-2100-16092026",
     "title": "AMORE E INCANTESIMI 2",
     "category": "cinema",
-    "date": "15/09/2026",
+    "date": "16/09/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI:i Susanne Bier | DURATA: 125'",
@@ -442,23 +416,36 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-amorieincantesimi2.jpg"
   },
   {
-    "id": "cinema-novecento-30-anniversario-del-novecento-pareven-furmighi-il-backstage-2100-15092026",
-    "title": "30° anniversario del Novecento: PAREVEN FURMIGHI-IL BACKSTAGE",
+    "id": "cinema-novecento-the-echo-chamber-2115-16092026",
+    "title": "THE ECHO CHAMBER",
     "category": "cinema",
-    "date": "15/09/2026",
-    "time": "21:00",
+    "date": "16/09/2026",
+    "time": "21:15",
     "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Daniele Segre | DURATA: 65'",
-    "link": "https://www.multisala900.it/IT/site/Home",
+    "desc": "DI: Andrea Pallaoro | DURATA: 122'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3417",
     "latitude": 44.695325,
     "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/LocandinaWeb.jpg"
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Theechochamber.jpg"
   },
   {
-    "id": "cinema-cinepi-amori--incantesimi-2-2045-15092026",
+    "id": "cinema-cinepi-coyote-vs-acme-2100-16092026",
+    "title": "Coyote vs. Acme",
+    "category": "cinema",
+    "date": "16/09/2026",
+    "time": "21:00",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Family, Commedia | Durata: 103 Minuti | Cast: John Cena, Lana Condor, Will Forte, P.J. Byrne",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22160",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68703.jpg"
+  },
+  {
+    "id": "cinema-cinepi-amori--incantesimi-2-2045-16092026",
     "title": "Amori & Incantesimi 2",
     "category": "cinema",
-    "date": "15/09/2026",
+    "date": "16/09/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Fantasy, Sentimentale | Durata: 110 Minuti | Cast: Nicole Kidman, Sandra Bullock, Stockard Channing, Dianne Wiest, Joey King, Maisie Williams",
@@ -466,32 +453,6 @@
     "latitude": 44.773121,
     "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67190.jpg"
-  },
-  {
-    "id": "cinema-cinepi-lo-straniero-2100-15092026",
-    "title": "Lo Straniero",
-    "category": "cinema",
-    "date": "15/09/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 123 Minuti | Cast: Benjamin Voisin, Pierre Lottin, Swann Arlaud, Denis Lavant, Rebecca Marder, Benjamin Hicquel",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=20132",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67494.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-tony---diario-di-un-giovane-cuoco-2100-15092026",
-    "title": "Tony - Diario di un Giovane Cuoco",
-    "category": "cinema",
-    "date": "15/09/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Biografico | Cast: Dominic Sessa, Antonio Banderas, Leo Woodall, Emilia Jones, Monica Raymund, Stavros Halkias",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22143",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68788.jpg"
   },
   {
     "id": "cinema-cinema-eden-alice-nelle-citta-2115-15092026",
