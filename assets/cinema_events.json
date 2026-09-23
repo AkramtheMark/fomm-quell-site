@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-dove-la-fiesta-1900-22092026",
-    "title": "DOV'E' LA FIESTA",
-    "category": "cinema",
-    "date": "22/09/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/dove-la-fiesta/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/Dove-la-Fiesta-e1789038313838.jpeg"
-  },
-  {
-    "id": "cinema-al-corso-tutto-ultimo--live-a-tor-vergata-2100-22092026",
-    "title": "TUTTO ULTIMO – LIVE A TOR VERGATA",
-    "category": "cinema",
-    "date": "22/09/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/tutto-ultimo-live-a-tor-vergata/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/07/ULTIMO-TOR-VERGATA-scaled-e1784887391113.jpg"
-  },
-  {
     "id": "cinema-al-corso-tutto-ultimo--live-a-tor-vergata-2100-23092026",
     "title": "TUTTO ULTIMO – LIVE A TOR VERGATA",
     "category": "cinema",
@@ -130,6 +104,19 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/IMG_4851-e1789025736613.webp"
   },
   {
+    "id": "cinema-al-corso-palestina-36--quando-tutto-ebbe-inizio-2100-05102026",
+    "title": "PALESTINA 36 – QUANDO TUTTO EBBE INIZIO",
+    "category": "cinema",
+    "date": "05/10/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/palestina-36-quando-tutto-ebbe-inizio/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/PALESTINA-36-e1788780054758.jpg"
+  },
+  {
     "id": "cinema-al-corso-santiago--un-cammino-per-ricominciare-2100-28092026",
     "title": "SANTIAGO – UN CAMMINO PER RICOMINCIARE",
     "category": "cinema",
@@ -156,32 +143,6 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/SANTIAGO-UN-CAMMINO-PER-RICOMINCIARE-e1789124848427.jpg"
   },
   {
-    "id": "cinema-al-corso-i-racconti-del-mare-1900-05102026",
-    "title": "I RACCONTI DEL MARE",
-    "category": "cinema",
-    "date": "05/10/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/i-racconti-del-mare/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/I-RACCONTI-DEL-MARE-2-e1788520055637.jpg"
-  },
-  {
-    "id": "cinema-rosebud-la-casa-dalle-finestre-che-ridono-2100-22092026",
-    "title": "La casa dalle finestre che ridono",
-    "category": "cinema",
-    "date": "22/09/2026",
-    "time": "21:00",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Il cinema ritrovato | Regia: Pupi Avati",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-casa-dalle-finestre-che-ridono-cinema-sotto-le-stelle",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/la-casa-dalle-finestre-che-ridono-cinema-sotto-le-stelle/@@images/image/preview"
-  },
-  {
     "id": "cinema-rosebud-metti-una-sera-a-cena-2100-23092026",
     "title": "Metti una sera a cena",
     "category": "cinema",
@@ -193,6 +154,19 @@
     "latitude": 44.690805,
     "longitude": 10.643324,
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/metti-una-sera-a-cena/@@images/image/preview"
+  },
+  {
+    "id": "cinema-rosebud-una-storia-vedidettaglischeda-24092026",
+    "title": "Una storia",
+    "category": "cinema",
+    "date": "24/09/2026",
+    "time": "vedi dettagli scheda",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Prima visione | Regia: Anna Foglietta",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_una-storia-ospite-anna-foglietta",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_una-storia-ospite-anna-foglietta/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-corso-di-cinema-m-e-i-grandi-mostri-umani-della-storia-del-cinema-1530-26092026",
@@ -260,8 +234,8 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_the-bibi-files-ospite-in-collegamento-giulia-innocenzi/@@images/image/preview"
   },
   {
-    "id": "cinema-rosebud-the-bibi-files---ospite-in-collegamento-giulia-innocenzi-2100-30092026",
-    "title": "The Bibi Files - Ospite in collegamento Giulia Innocenzi",
+    "id": "cinema-rosebud--sold-out----the-bibi-files---ospite-in-collegamento-giulia-innocenzi-2100-30092026",
+    "title": "## SOLD OUT ## - The Bibi Files - Ospite in collegamento Giulia Innocenzi",
     "category": "cinema",
     "date": "30/09/2026",
     "time": "21:00",
@@ -273,8 +247,8 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/the-bibi-files-ospite-in-collegamento-giulia-innocenzi/@@images/image/preview"
   },
   {
-    "id": "cinema-rosebud-una-storia---ospite-anna-foglietta-2100-01102026",
-    "title": "Una storia - Ospite Anna Foglietta",
+    "id": "cinema-rosebud-una-storia---ospiti-anna-foglietta-e-tania-pedroni-2100-01102026",
+    "title": "Una storia - Ospiti Anna Foglietta e Tania Pedroni",
     "category": "cinema",
     "date": "01/10/2026",
     "time": "21:00",
@@ -325,10 +299,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_naza/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-the-echo-chamber-2100-22092026",
+    "id": "cinema-olimpia-the-echo-chamber-2100-23092026",
     "title": "The Echo Chamber",
     "category": "cinema",
-    "date": "22/09/2026",
+    "date": "23/09/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Sentimentale | Durata: 120 Minuti | Cast: Luca Marinelli, Alicia Vikander, Susan Sarandon, Ann Akinjirin, Peter Coonan, Aomi Muyock",
@@ -338,11 +312,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68816.jpg"
   },
   {
-    "id": "cinema-novecento-ultimo-tutto-live-a-tor-vergata-2000-22092026",
+    "id": "cinema-novecento-ultimo-tutto-live-a-tor-vergata-2100-23092026",
     "title": "ULTIMO-TUTTO. LIVE A TOR VERGATA",
     "category": "cinema",
-    "date": "22/09/2026",
-    "time": "20:00",
+    "date": "23/09/2026",
+    "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Giorgio Testi | DURATA: 165'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3375",
@@ -351,23 +325,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ultimo.jpg"
   },
   {
-    "id": "cinema-novecento-the-invite---il-piacere-e-tutto-nostro-2100-22092026",
-    "title": "THE INVITE - IL PIACERE E' TUTTO NOSTRO",
+    "id": "cinema-novecento-chef-si-gira-chef-la-ricetta-perfetta-2030-23092026",
+    "title": "Chef, si gira: CHEF-LA RICETTA PERFETTA",
     "category": "cinema",
-    "date": "22/09/2026",
-    "time": "21:00",
+    "date": "23/09/2026",
+    "time": "20:30",
     "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Olivia Wilde | DURATA: 107'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3418",
+    "desc": "DI: Jon Favreau | DURATA: 115'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3405",
     "latitude": 44.695325,
     "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-theinvite.jpg"
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Locandinachef-laricettaWeb.jpg"
   },
   {
-    "id": "cinema-cinepi-the-invite---il-piacere--tutto-nostro-2100-22092026",
+    "id": "cinema-cinepi-the-invite---il-piacere--tutto-nostro-2100-23092026",
     "title": "The Invite - Il Piacere è tutto nostro",
     "category": "cinema",
-    "date": "22/09/2026",
+    "date": "23/09/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia, Drammatico | Durata: 107 Minuti | Cast: Edward Norton, Seth Rogen, Olivia Wilde, Penélope Cruz",
@@ -377,10 +351,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68663.jpg"
   },
   {
-    "id": "cinema-cinepi-cars-motori-ruggenti-2030-22092026",
+    "id": "cinema-cinepi-cars-motori-ruggenti-2030-23092026",
     "title": "Cars: Motori Ruggenti",
     "category": "cinema",
-    "date": "22/09/2026",
+    "date": "23/09/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Animazione | Durata: 114 Minuti",
@@ -390,30 +364,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/401.jpg"
   },
   {
-    "id": "cinema-cinepi-the-sea-2100-22092026",
-    "title": "The Sea",
+    "id": "cinema-cinepi-i-figli-della-scimmia-2100-23092026",
+    "title": "I Figli Della Scimmia",
     "category": "cinema",
-    "date": "22/09/2026",
+    "date": "23/09/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 93 Minuti | Cast: Muhammad Gazawi, Khalifa Natour, Marlene Bajjali, Hila Surjon Fischer",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21675",
+    "desc": "Genere: Drammatico | Durata: 110 Minuti | Cast: Riccardo Scamarcio, Fausto Russo Alesi, Luigi Diberti, Lidiya Liberman, Tancredi Naldini, Cristina Odasso",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22267",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68807.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-coyote-vs-acme-2100-22092026",
-    "title": "Coyote vs. Acme",
-    "category": "cinema",
-    "date": "22/09/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Animazione, Family, Commedia | Durata: 103 Minuti | Cast: John Cena, Lana Condor, Will Forte, P.J. Byrne",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22160",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68703.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69222.jpg"
   },
   {
     "id": "cinema-cinema-eden-the-invite-2115-22092026",
@@ -434,6 +395,32 @@
     "category": "cinema",
     "date": "23/09/2026",
     "time": "21:15",
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "Il matrimonio di Joe e Angela è ormai logorato dalla routine, ma quando invitano a cena i loro enigmatici vicini di casa, una coppia affascinante e spregiudicata, la serata – e la ...",
+    "link": "https://cinemaeden.org/2026/09/14/the-invite/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/09/THEINVITE_poster_IG_web.jpg"
+  },
+  {
+    "id": "cinema-cinema-eden-the-invite-1900-26092026",
+    "title": "the invite",
+    "category": "cinema",
+    "date": "26/09/2026",
+    "time": "19:00",
+    "location": "Cinema Eden (Quattro Castella (RE))",
+    "desc": "Il matrimonio di Joe e Angela è ormai logorato dalla routine, ma quando invitano a cena i loro enigmatici vicini di casa, una coppia affascinante e spregiudicata, la serata – e la ...",
+    "link": "https://cinemaeden.org/2026/09/14/the-invite/",
+    "latitude": 44.623102,
+    "longitude": 10.472132,
+    "img": "https://cinemaeden.org/wp-content/uploads/2026/09/THEINVITE_poster_IG_web.jpg"
+  },
+  {
+    "id": "cinema-cinema-eden-the-invite-2100-27092026",
+    "title": "the invite",
+    "category": "cinema",
+    "date": "27/09/2026",
+    "time": "21:00",
     "location": "Cinema Eden (Quattro Castella (RE))",
     "desc": "Il matrimonio di Joe e Angela è ormai logorato dalla routine, ma quando invitano a cena i loro enigmatici vicini di casa, una coppia affascinante e spregiudicata, la serata – e la ...",
     "link": "https://cinemaeden.org/2026/09/14/the-invite/",
