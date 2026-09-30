@@ -130,6 +130,32 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/PALESTINA-36-e1788780054758.jpg"
   },
   {
+    "id": "cinema-al-corso-queen--budapest-2100-07102026",
+    "title": "QUEEN – BUDAPEST",
+    "category": "cinema",
+    "date": "07/10/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/queen-budapest/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/QUEEN-BUDAPEST-e1788518818793.jpg"
+  },
+  {
+    "id": "cinema-al-corso-queen--budapest-2100-08102026",
+    "title": "QUEEN – BUDAPEST",
+    "category": "cinema",
+    "date": "08/10/2026",
+    "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/queen-budapest/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/QUEEN-BUDAPEST-e1788518818793.jpg"
+  },
+  {
     "id": "cinema-al-corso-i-racconti-del-mare-1900-12102026",
     "title": "I RACCONTI DEL MARE",
     "category": "cinema",
@@ -156,34 +182,8 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/CARLO-ACUTIS-100x140-digital-scaled-1-e1790171527194.jpg"
   },
   {
-    "id": "cinema-rosebud-her-private-hell---il-nuovo-film-di-nicolas-winding-refn-1900-29092026",
-    "title": "Her Private Hell - Il nuovo film di Nicolas Winding Refn",
-    "category": "cinema",
-    "date": "29/09/2026",
-    "time": "19:00",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Prima visione | Regia: Nicolas Winding Refn",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/her-private-hell",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/her-private-hell/@@images/image/preview"
-  },
-  {
-    "id": "cinema-rosebud-her-private-hell---il-nuovo-film-di-nicolas-winding-refn-2100-29092026",
-    "title": "Her Private Hell - Il nuovo film di Nicolas Winding Refn",
-    "category": "cinema",
-    "date": "29/09/2026",
-    "time": "21:00",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Prima visione | Regia: Nicolas Winding Refn",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_her-private-hell",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_her-private-hell/@@images/image/preview"
-  },
-  {
-    "id": "cinema-rosebud-the-bibi-files-1900-30092026",
-    "title": "The Bibi Files",
+    "id": "cinema-rosebud--sold-out----the-bibi-files-1900-30092026",
+    "title": "## SOLD OUT ## - The Bibi Files",
     "category": "cinema",
     "date": "30/09/2026",
     "time": "19:00",
@@ -208,6 +208,19 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/the-bibi-files-ospite-in-collegamento-giulia-innocenzi/@@images/image/preview"
   },
   {
+    "id": "cinema-rosebud-the-bibi-files-1900-01102026",
+    "title": "The Bibi Files",
+    "category": "cinema",
+    "date": "01/10/2026",
+    "time": "19:00",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Prima visione | Regia: Alexis Bloom",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy2_of_the-bibi-files-ospite-in-collegamento-giulia-innocenzi",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy2_of_the-bibi-files-ospite-in-collegamento-giulia-innocenzi/@@images/image/preview"
+  },
+  {
     "id": "cinema-rosebud-una-storia---ospiti-anna-foglietta-e-tania-pedroni-2100-01102026",
     "title": "Una storia - Ospiti Anna Foglietta e Tania Pedroni",
     "category": "cinema",
@@ -221,6 +234,19 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/una-storia-ospite-anna-foglietta/@@images/image/preview"
   },
   {
+    "id": "cinema-rosebud-era-meglio-domani-1600-02102026",
+    "title": "Era meglio domani",
+    "category": "cinema",
+    "date": "02/10/2026",
+    "time": "16:00",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Buon pomeriggio al cinema | Regia: Vinciane Millereau",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/era-meglio-domani",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/era-meglio-domani/@@images/image/preview"
+  },
+  {
     "id": "cinema-rosebud-un-po-di-luce---ospite-il-regista-ali-asgari-2100-02102026",
     "title": "Un po' di luce - Ospite il regista Ali Asgari",
     "category": "cinema",
@@ -232,6 +258,71 @@
     "latitude": 44.690805,
     "longitude": 10.643324,
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/un-po-di-luce-ospite-il-regista-ali-asgari/@@images/image/preview"
+  },
+  {
+    "id": "cinema-rosebud-una-storia-vedidettaglischeda-03102026",
+    "title": "Una storia",
+    "category": "cinema",
+    "date": "03/10/2026",
+    "time": "vedi dettagli scheda",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Prima visione | Regia: Anna Foglietta",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_una-storia-ospite-anna-foglietta",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_una-storia-ospite-anna-foglietta/@@images/image/preview"
+  },
+  {
+    "id": "cinema-rosebud-naza---premio-speciale-giuria-venezia-83-vedidettaglischeda-03102026",
+    "title": "Naza - Premio Speciale Giuria (Venezia 83°)",
+    "category": "cinema",
+    "date": "03/10/2026",
+    "time": "vedi dettagli scheda",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Prima visione | Regia: Yuval Abraham, Rachel Szor",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy2_of_naza",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy2_of_naza/@@images/image/preview"
+  },
+  {
+    "id": "cinema-rosebud-un-po-di-luce-1700-04102026",
+    "title": "Un po' di luce",
+    "category": "cinema",
+    "date": "04/10/2026",
+    "time": "17:00",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Prima visione | Regia: Ali Asgari",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_un-po-di-luce-ospite-il-regista-ali-asgari",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_un-po-di-luce-ospite-il-regista-ali-asgari/@@images/image/preview"
+  },
+  {
+    "id": "cinema-rosebud-fratello-sole-sorella-luna-2100-05102026",
+    "title": "Fratello Sole, Sorella Luna",
+    "category": "cinema",
+    "date": "05/10/2026",
+    "time": "21:00",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Il cinema ritrovato | Regia: Franco Zeffirelli",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/fratello-sole-sorella-luna",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/fratello-sole-sorella-luna/@@images/image/preview"
+  },
+  {
+    "id": "cinema-rosebud-linfernale-quinlan-vedidettaglischeda-05102026",
+    "title": "L'infernale Quinlan",
+    "category": "cinema",
+    "date": "05/10/2026",
+    "time": "vedi dettagli scheda",
+    "location": "Rosebud (Reggio Emilia)",
+    "desc": "Rassegna: Il cinema ritrovato | Regia: Orson Welles",
+    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/linfernale-quinlan",
+    "latitude": 44.690805,
+    "longitude": 10.643324,
+    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/linfernale-quinlan/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-naza---premio-speciale-giuria-venezia-83-vedidettaglischeda-06102026",
@@ -260,10 +351,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_naza/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-nessun-dolore-2100-29092026",
+    "id": "cinema-olimpia-nessun-dolore-2100-30092026",
     "title": "Nessun Dolore",
     "category": "cinema",
-    "date": "29/09/2026",
+    "date": "30/09/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico | Durata: 96 Minuti | Cast: Alessandro Borghi, Valeria Golino, Valerio Mastandrea",
@@ -273,11 +364,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68136.jpg"
   },
   {
-    "id": "cinema-novecento-la-torta-del-presidente-2115-29092026",
+    "id": "cinema-novecento-la-torta-del-presidente-1815-30092026",
     "title": "LA TORTA DEL PRESIDENTE",
     "category": "cinema",
-    "date": "29/09/2026",
-    "time": "21:15",
+    "date": "30/09/2026",
+    "time": "18:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Hasan Hadi | DURATA: 102'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3376",
@@ -286,10 +377,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Latorta.jpg"
   },
   {
-    "id": "cinema-novecento-naza-2100-29092026",
+    "id": "cinema-novecento-la-torta-del-presidente-2100-30092026",
+    "title": "LA TORTA DEL PRESIDENTE",
+    "category": "cinema",
+    "date": "30/09/2026",
+    "time": "21:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Hasan Hadi | DURATA: 102'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3376",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Latorta.jpg"
+  },
+  {
+    "id": "cinema-novecento-naza-2100-30092026",
     "title": "NAZA",
     "category": "cinema",
-    "date": "29/09/2026",
+    "date": "30/09/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Yuval Abraham, Rachel Szor | DURATA: 80'",
@@ -299,10 +403,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/naza.jpg"
   },
   {
-    "id": "cinema-cinepi-naza-2030-29092026",
+    "id": "cinema-cinepi-naza-2030-30092026",
     "title": "Naza",
     "category": "cinema",
-    "date": "29/09/2026",
+    "date": "30/09/2026",
     "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Documentario | Durata: 80 Minuti",
@@ -312,10 +416,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69271.jpg"
   },
   {
-    "id": "cinema-cinepi-heart-of-the-beast---nel-profondo-selvaggio-2100-29092026",
+    "id": "cinema-cinepi-heart-of-the-beast---nel-profondo-selvaggio-2100-30092026",
     "title": "Heart of the Beast - Nel Profondo Selvaggio",
     "category": "cinema",
-    "date": "29/09/2026",
+    "date": "30/09/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Drammatico, Thriller | Durata: 101 Minuti | Cast: Brad Pitt, J.K. Simmons, Anna Lambe",
@@ -325,30 +429,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68979.jpg"
   },
   {
-    "id": "cinema-cinepi-los-domingos-2100-29092026",
-    "title": "Los Domingos",
+    "id": "cinema-cinepi-lisola-dei-ricordi-2030-30092026",
+    "title": "L'Isola dei Ricordi",
     "category": "cinema",
-    "date": "29/09/2026",
-    "time": "21:00",
+    "date": "30/09/2026",
+    "time": "20:30",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 115 Minuti | Cast: Bego Arístegui, Miguel Garcés, Nagore Aranburu, Juan Minujín, Patricia López Arnaiz, Blanca Soroa",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21447",
+    "desc": "Genere: Animazione, Avventura, Commedia | Durata: 93 Minuti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21158",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67932.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-santiago---un-cammino-per-ricominciare-2100-29092026",
-    "title": "Santiago - Un Cammino per Ricominciare",
-    "category": "cinema",
-    "date": "29/09/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Drammatico | Cast: Alexandra Lamy, Julien Le Berre, Melanie Doutey, Eric Métayer",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22021",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68241.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67916.jpg"
   },
   {
     "id": "cinema-cinema-eden-naza-1900-29092026",
