@@ -1,16 +1,16 @@
 [
   {
-    "id": "cinema-al-corso-heart-of-the-beast--nel-profondo-selvaggio-1900-03102026",
-    "title": "HEART OF THE BEAST – NEL PROFONDO SELVAGGIO",
+    "id": "cinema-al-corso-la-citta-dei-vivi-1630-04102026",
+    "title": "LA CITTA' DEI VIVI",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "19:00",
+    "date": "04/10/2026",
+    "time": "16:30",
     "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/heart-of-the-beast-nel-profondo-selvaggio/",
+    "desc": "NELL' AMBITO DELLA RASSEGNA \"RIUSCIRANNO I NOSTRI EROI\"",
+    "link": "https://cinemaalcorso.com/la-citta-dei-vivi/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/heart-of-the-beast1-e1789998301202.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/LA-CITTA-DEI-VIVI-e1790172374815.jpg"
   },
   {
     "id": "cinema-al-corso-heart-of-the-beast--nel-profondo-selvaggio-2030-04102026",
@@ -24,32 +24,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/heart-of-the-beast1-e1789998301202.jpg"
-  },
-  {
-    "id": "cinema-al-corso-la-citta-dei-vivi-2115-03102026",
-    "title": "LA CITTA' DEI VIVI",
-    "category": "cinema",
-    "date": "03/10/2026",
-    "time": "21:15",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "NELL' AMBITO DELLA RASSEGNA \"RIUSCIRANNO I NOSTRI EROI\"",
-    "link": "https://cinemaalcorso.com/la-citta-dei-vivi/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/LA-CITTA-DEI-VIVI-e1790172374815.jpg"
-  },
-  {
-    "id": "cinema-al-corso-la-citta-dei-vivi-1630-04102026",
-    "title": "LA CITTA' DEI VIVI",
-    "category": "cinema",
-    "date": "04/10/2026",
-    "time": "16:30",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "NELL' AMBITO DELLA RASSEGNA \"RIUSCIRANNO I NOSTRI EROI\"",
-    "link": "https://cinemaalcorso.com/la-citta-dei-vivi/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/LA-CITTA-DEI-VIVI-e1790172374815.jpg"
   },
   {
     "id": "cinema-al-corso-palestina-36--quando-tutto-ebbe-inizio-2100-05102026",
@@ -117,8 +91,8 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/I-RACCONTI-DEL-MARE-2-e1788520055637.jpg"
   },
   {
-    "id": "cinema-al-corso-rassegna--costruire-visioni-1900-16102026",
-    "title": "RASSEGNA – COSTRUIRE VISIONI",
+    "id": "cinema-al-corso-costruire-visioni-1900-16102026",
+    "title": "COSTRUIRE VISIONI",
     "category": "cinema",
     "date": "16/10/2026",
     "time": "19:00",
@@ -130,8 +104,8 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/IMG_5158-e1790966322549.jpeg"
   },
   {
-    "id": "cinema-al-corso-rassegna--costruire-visioni-1900-06112026",
-    "title": "RASSEGNA – COSTRUIRE VISIONI",
+    "id": "cinema-al-corso-costruire-visioni-1900-06112026",
+    "title": "COSTRUIRE VISIONI",
     "category": "cinema",
     "date": "06/11/2026",
     "time": "19:00",
@@ -143,8 +117,8 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/IMG_5158-e1790966322549.jpeg"
   },
   {
-    "id": "cinema-al-corso-rassegna--costruire-visioni-1900-04122026",
-    "title": "RASSEGNA – COSTRUIRE VISIONI",
+    "id": "cinema-al-corso-costruire-visioni-1900-04122026",
+    "title": "COSTRUIRE VISIONI",
     "category": "cinema",
     "date": "04/12/2026",
     "time": "19:00",
@@ -162,7 +136,7 @@
     "date": "19/10/2026",
     "time": "21:00",
     "location": "Al Corso (Reggio Emilia)",
-    "desc": "I MISTERI DELLA FEDE DEBUTTANO AL CINEMA CON 'CARLO ACUTIS, IL GIOVANE SANTO', NELL'AMBITO DELLA RASSEGNA \"RIUSCIRANNO I NOSTRI EROI\".",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
     "link": "https://cinemaalcorso.com/carlo-acutis-il-giovane-santo/",
     "latitude": 44.698305,
     "longitude": 10.627725,
@@ -494,10 +468,23 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/borgo/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-nessun-dolore-1830-03102026",
+    "id": "cinema-olimpia-nessun-dolore-1630-04102026",
     "title": "Nessun Dolore",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
+    "time": "16:30",
+    "location": "Olimpia (Reggio Emilia)",
+    "desc": "Genere: Drammatico | Durata: 96 Minuti | Cast: Alessandro Borghi, Valeria Golino, Valerio Mastandrea",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/?idf=22334",
+    "latitude": 44.686561,
+    "longitude": 10.631553,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68136.jpg"
+  },
+  {
+    "id": "cinema-olimpia-nessun-dolore-1830-04102026",
+    "title": "Nessun Dolore",
+    "category": "cinema",
+    "date": "04/10/2026",
     "time": "18:30",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico | Durata: 96 Minuti | Cast: Alessandro Borghi, Valeria Golino, Valerio Mastandrea",
@@ -507,10 +494,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68136.jpg"
   },
   {
-    "id": "cinema-olimpia-nessun-dolore-2100-03102026",
+    "id": "cinema-olimpia-nessun-dolore-2100-04102026",
     "title": "Nessun Dolore",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico | Durata: 96 Minuti | Cast: Alessandro Borghi, Valeria Golino, Valerio Mastandrea",
@@ -518,19 +505,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68136.jpg"
-  },
-  {
-    "id": "cinema-apollo-digger-1830-03102026",
-    "title": "Digger",
-    "category": "cinema",
-    "date": "03/10/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 128 minuti | Regia: Alejandro González Iñárritu",
-    "link": "http://www.cinemaapolloalbinea.it/movie/digger",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/digger.jpg"
   },
   {
     "id": "cinema-apollo-digger-1600-04102026",
@@ -559,24 +533,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/digger.jpg"
   },
   {
-    "id": "cinema-novecento-naza-1600-03102026",
-    "title": "NAZA",
-    "category": "cinema",
-    "date": "03/10/2026",
-    "time": "16:00",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Yuval Abraham, Rachel Szor | DURATA: 80'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3420",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/naza.jpg"
-  },
-  {
-    "id": "cinema-novecento-digger-1800-03102026",
+    "id": "cinema-novecento-digger-1530-04102026",
     "title": "DIGGER",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "18:00",
+    "date": "04/10/2026",
+    "time": "15:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Alejandro G. Inarritu | DURATA: 129'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3423",
@@ -585,10 +546,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-DIGGER.jpg"
   },
   {
-    "id": "cinema-novecento-digger-2100-03102026",
+    "id": "cinema-novecento-digger-1815-04102026",
     "title": "DIGGER",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
+    "time": "18:15",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Alejandro G. Inarritu | DURATA: 129'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3423",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-DIGGER.jpg"
+  },
+  {
+    "id": "cinema-novecento-digger-2100-04102026",
+    "title": "DIGGER",
+    "category": "cinema",
+    "date": "04/10/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Alejandro G. Inarritu | DURATA: 129'",
@@ -598,11 +572,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-DIGGER.jpg"
   },
   {
-    "id": "cinema-novecento-una-storia-1615-03102026",
+    "id": "cinema-novecento-una-storia-1600-04102026",
     "title": "UNA STORIA",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "16:15",
+    "date": "04/10/2026",
+    "time": "16:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Anna Foglietta | DURATA: 110'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3419",
@@ -611,11 +585,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/unastoria_202609191626.jpg"
   },
   {
-    "id": "cinema-novecento-nessun-dolore-1845-03102026",
+    "id": "cinema-novecento-nessun-dolore-1830-04102026",
     "title": "NESSUN DOLORE",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "18:45",
+    "date": "04/10/2026",
+    "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Gianni Amelio | DURATA: 95'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3424",
@@ -624,11 +598,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-nessun-dolore.jpg"
   },
   {
-    "id": "cinema-novecento-nessun-dolore-2115-03102026",
+    "id": "cinema-novecento-nessun-dolore-2045-04102026",
     "title": "NESSUN DOLORE",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "21:15",
+    "date": "04/10/2026",
+    "time": "20:45",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Gianni Amelio | DURATA: 95'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3424",
@@ -637,11 +611,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-nessun-dolore.jpg"
   },
   {
-    "id": "cinema-cinepi-digger-1820-03102026",
+    "id": "cinema-cinepi-digger-1600-04102026",
     "title": "Digger",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "18:20",
+    "date": "04/10/2026",
+    "time": "16:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia, Drammatico, Avventura | Durata: 129 Minuti | Cast: Tom Cruise, Jesse Plemons, John Goodman, Sandra Hüller, Michael Stuhlbarg, Sophie Wilde",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22430",
@@ -650,11 +624,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67181.jpg"
   },
   {
-    "id": "cinema-cinepi-digger-2040-03102026",
+    "id": "cinema-cinepi-digger-1815-04102026",
     "title": "Digger",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "20:40",
+    "date": "04/10/2026",
+    "time": "18:15",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia, Drammatico, Avventura | Durata: 129 Minuti | Cast: Tom Cruise, Jesse Plemons, John Goodman, Sandra Hüller, Michael Stuhlbarg, Sophie Wilde",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22430",
@@ -663,10 +637,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67181.jpg"
   },
   {
-    "id": "cinema-cinepi-heart-of-the-beast---nel-profondo-selvaggio-1840-03102026",
+    "id": "cinema-cinepi-digger-2030-04102026",
+    "title": "Digger",
+    "category": "cinema",
+    "date": "04/10/2026",
+    "time": "20:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Commedia, Drammatico, Avventura | Durata: 129 Minuti | Cast: Tom Cruise, Jesse Plemons, John Goodman, Sandra Hüller, Michael Stuhlbarg, Sophie Wilde",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22430",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67181.jpg"
+  },
+  {
+    "id": "cinema-cinepi-heart-of-the-beast---nel-profondo-selvaggio-1840-04102026",
     "title": "Heart of the Beast - Nel Profondo Selvaggio",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Drammatico, Thriller | Durata: 101 Minuti | Cast: Brad Pitt, J.K. Simmons, Anna Lambe",
@@ -676,10 +663,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68979.jpg"
   },
   {
-    "id": "cinema-cinepi-heart-of-the-beast---nel-profondo-selvaggio-2045-03102026",
+    "id": "cinema-cinepi-heart-of-the-beast---nel-profondo-selvaggio-2045-04102026",
     "title": "Heart of the Beast - Nel Profondo Selvaggio",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Drammatico, Thriller | Durata: 101 Minuti | Cast: Brad Pitt, J.K. Simmons, Anna Lambe",
@@ -689,10 +676,36 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68979.jpg"
   },
   {
-    "id": "cinema-cinepi-verity-2100-03102026",
+    "id": "cinema-cinepi-verity-1630-04102026",
     "title": "Verity",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
+    "time": "16:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Thriller | Durata: 114 Minuti | Cast: Josh Hartnett, Anne Hathaway, Dakota Johnson, Ismael Cruz Cordova, Michael Abbott Jr., Lou Martini Jr.",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22494",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67041.jpg"
+  },
+  {
+    "id": "cinema-cinepi-verity-1840-04102026",
+    "title": "Verity",
+    "category": "cinema",
+    "date": "04/10/2026",
+    "time": "18:40",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Thriller | Durata: 114 Minuti | Cast: Josh Hartnett, Anne Hathaway, Dakota Johnson, Ismael Cruz Cordova, Michael Abbott Jr., Lou Martini Jr.",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22494",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67041.jpg"
+  },
+  {
+    "id": "cinema-cinepi-verity-2100-04102026",
+    "title": "Verity",
+    "category": "cinema",
+    "date": "04/10/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Thriller | Durata: 114 Minuti | Cast: Josh Hartnett, Anne Hathaway, Dakota Johnson, Ismael Cruz Cordova, Michael Abbott Jr., Lou Martini Jr.",
@@ -702,11 +715,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67041.jpg"
   },
   {
-    "id": "cinema-cinema-castello-digger-1830-03102026",
+    "id": "cinema-cinema-castello-digger-2100-04102026",
     "title": "Digger",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "18:30",
+    "date": "04/10/2026",
+    "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Commedia, Drammatico, Avventura | Durata: 129 Minuti | Cast: Tom Cruise, Jesse Plemons, John Goodman, Sandra Hüller, Michael Stuhlbarg, Sophie Wilde",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22430",
@@ -715,17 +728,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67181.jpg"
   },
   {
-    "id": "cinema-cinema-castello-digger-2100-03102026",
-    "title": "Digger",
+    "id": "cinema-cinema-castello-dio-ride-1600-04102026",
+    "title": "Dio Ride",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "21:00",
+    "date": "04/10/2026",
+    "time": "16:00",
     "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Commedia, Drammatico, Avventura | Durata: 129 Minuti | Cast: Tom Cruise, Jesse Plemons, John Goodman, Sandra Hüller, Michael Stuhlbarg, Sophie Wilde",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22430",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22281",
     "latitude": 44.871923,
     "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67181.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
     "id": "cinema-cinema-eden-heart-of-the-beast--nel-profondo-selvaggio-2100-01102026",
@@ -858,11 +871,11 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/09/dalla-fine-allinizio.png"
   },
   {
-    "id": "cinema-cinema-boiardo-nessun-dolore-1900-03102026",
+    "id": "cinema-cinema-boiardo-nessun-dolore-2100-04102026",
     "title": "Nessun Dolore",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "19:00",
+    "date": "04/10/2026",
+    "time": "21:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico | Durata: 96 Minuti | Cast: Alessandro Borghi, Valeria Golino, Valerio Mastandrea",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22334",
@@ -871,10 +884,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68136.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-coyote-vs-acme-1700-03102026",
+    "id": "cinema-cinema-boiardo-coyote-vs-acme-1700-04102026",
     "title": "Coyote vs. Acme",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
     "time": "17:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Animazione, Family, Commedia | Durata: 103 Minuti | Cast: John Cena, Lana Condor, Will Forte, P.J. Byrne",
@@ -884,11 +897,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68703.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-the-invite---il-piacere--tutto-nostro-2100-03102026",
+    "id": "cinema-cinema-boiardo-the-invite---il-piacere--tutto-nostro-1900-04102026",
     "title": "The Invite - Il Piacere è tutto nostro",
     "category": "cinema",
-    "date": "03/10/2026",
-    "time": "21:00",
+    "date": "04/10/2026",
+    "time": "19:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Commedia, Drammatico | Durata: 107 Minuti | Cast: Edward Norton, Seth Rogen, Olivia Wilde, Penélope Cruz",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22145",
@@ -897,10 +910,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68663.jpg"
   },
   {
-    "id": "cinema-cinema-bismantova-the-echo-chamber-2100-03102026",
+    "id": "cinema-cinema-bismantova-the-echo-chamber-2100-04102026",
     "title": "The Echo Chamber",
     "category": "cinema",
-    "date": "03/10/2026",
+    "date": "04/10/2026",
     "time": "21:00",
     "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
     "desc": "Genere: Drammatico, Sentimentale | Durata: 120 Minuti | Cast: Luca Marinelli, Alicia Vikander, Susan Sarandon, Ann Akinjirin, Peter Coonan, Aomi Muyock",
