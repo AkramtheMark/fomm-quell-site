@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-the-odissey-2030-15102026",
-    "title": "THE ODISSEY",
-    "category": "cinema",
-    "date": "15/10/2026",
-    "time": "20:30",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/odissea/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5331-e1791795329864.jpeg"
-  },
-  {
     "id": "cinema-al-corso-costruire-visioni-1900-16102026",
     "title": "COSTRUIRE VISIONI",
     "category": "cinema",
@@ -117,6 +104,19 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/CARLO-ACUTIS-100x140-digital-scaled-1-e1790171527194.jpg"
   },
   {
+    "id": "cinema-al-corso-carlo-acutis--il-giovane-santo-1900-20102026",
+    "title": "CARLO ACUTIS – IL GIOVANE SANTO",
+    "category": "cinema",
+    "date": "20/10/2026",
+    "time": "19:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/carlo-acutis-il-giovane-santo/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/CARLO-ACUTIS-100x140-digital-scaled-1-e1790171527194.jpg"
+  },
+  {
     "id": "cinema-al-corso-rendez-vous-al-cinema-1900-21102026",
     "title": "RENDEZ-VOUS AL CINEMA",
     "category": "cinema",
@@ -193,32 +193,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/bhutan-web-71k4-scaled-e1791469381596.jpg"
-  },
-  {
-    "id": "cinema-rosebud--sold-out----naza---premio-speciale-giuria-venezia-83-1900-15102026",
-    "title": "## SOLD OUT ## - Naza - Premio Speciale Giuria (Venezia 83°)",
-    "category": "cinema",
-    "date": "15/10/2026",
-    "time": "19:00",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Prima visione | Regia: Yuval Abraham, Rachel Szor",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy4_of_naza",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy4_of_naza/@@images/image/preview"
-  },
-  {
-    "id": "cinema-rosebud-naza---premio-speciale-giuria-venezia-83-2030-15102026",
-    "title": "Naza - Premio Speciale Giuria (Venezia 83°)",
-    "category": "cinema",
-    "date": "15/10/2026",
-    "time": "20:30",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Prima visione | Regia: Yuval Abraham, Rachel Szor",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy6_of_naza",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy6_of_naza/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-calle-malaga-1600-16102026",
@@ -416,10 +390,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/borgo/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-lestranea-2100-15102026",
+    "id": "cinema-olimpia-lestranea-2100-16102026",
     "title": "L'Estranea",
     "category": "cinema",
-    "date": "15/10/2026",
+    "date": "16/10/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
@@ -429,23 +403,114 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
   },
   {
-    "id": "cinema-novecento-digger-2100-15102026",
-    "title": "DIGGER",
+    "id": "cinema-apollo-naza-1900-16102026",
+    "title": "NAZA",
     "category": "cinema",
-    "date": "15/10/2026",
-    "time": "21:00",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Alejandro G. Inarritu | DURATA: 129'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3423",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-DIGGER.jpg"
+    "date": "16/10/2026",
+    "time": "19:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Documentario | Durata: 80 minuti | Regia: Yuval Abraham, Rachel Szor",
+    "link": "http://www.cinemaapolloalbinea.it/movie/naza",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/RASSEGNA_32_x_47_cm.jpg"
   },
   {
-    "id": "cinema-novecento-lestranea-2100-15102026",
+    "id": "cinema-apollo-naza-2100-17102026",
+    "title": "NAZA",
+    "category": "cinema",
+    "date": "17/10/2026",
+    "time": "21:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Documentario | Durata: 80 minuti | Regia: Yuval Abraham, Rachel Szor",
+    "link": "http://www.cinemaapolloalbinea.it/movie/naza",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/RASSEGNA_32_x_47_cm.jpg"
+  },
+  {
+    "id": "cinema-apollo-naza-1845-18102026",
+    "title": "NAZA",
+    "category": "cinema",
+    "date": "18/10/2026",
+    "time": "18:45",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Documentario | Durata: 80 minuti | Regia: Yuval Abraham, Rachel Szor",
+    "link": "http://www.cinemaapolloalbinea.it/movie/naza",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/RASSEGNA_32_x_47_cm.jpg"
+  },
+  {
+    "id": "cinema-apollo-se-ami-qualcuno-dillo-2100-16102026",
+    "title": "Se ami qualcuno dillo",
+    "category": "cinema",
+    "date": "16/10/2026",
+    "time": "21:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Commedia | Durata: 110 minuti | Regia: Marco Bonini",
+    "link": "http://www.cinemaapolloalbinea.it/movie/se_ami_qualcuno_dillo",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SAQD_Artwork_Teaser_13_2.jpg"
+  },
+  {
+    "id": "cinema-apollo-se-ami-qualcuno-dillo-1845-17102026",
+    "title": "Se ami qualcuno dillo",
+    "category": "cinema",
+    "date": "17/10/2026",
+    "time": "18:45",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Commedia | Durata: 110 minuti | Regia: Marco Bonini",
+    "link": "http://www.cinemaapolloalbinea.it/movie/se_ami_qualcuno_dillo",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SAQD_Artwork_Teaser_13_2.jpg"
+  },
+  {
+    "id": "cinema-apollo-se-ami-qualcuno-dillo-1630-18102026",
+    "title": "Se ami qualcuno dillo",
+    "category": "cinema",
+    "date": "18/10/2026",
+    "time": "16:30",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Commedia | Durata: 110 minuti | Regia: Marco Bonini",
+    "link": "http://www.cinemaapolloalbinea.it/movie/se_ami_qualcuno_dillo",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SAQD_Artwork_Teaser_13_2.jpg"
+  },
+  {
+    "id": "cinema-apollo-se-ami-qualcuno-dillo-1845-19102026",
+    "title": "Se ami qualcuno dillo",
+    "category": "cinema",
+    "date": "19/10/2026",
+    "time": "18:45",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Commedia | Durata: 110 minuti | Regia: Marco Bonini",
+    "link": "http://www.cinemaapolloalbinea.it/movie/se_ami_qualcuno_dillo",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/SAQD_Artwork_Teaser_13_2.jpg"
+  },
+  {
+    "id": "cinema-novecento-fatherland-2100-16102026",
+    "title": "FATHERLAND",
+    "category": "cinema",
+    "date": "16/10/2026",
+    "time": "21:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Pawel Pawlikowski | DURATA: 88'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3428",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/FATHERLAND.jpg"
+  },
+  {
+    "id": "cinema-novecento-lestranea-2100-16102026",
     "title": "L'ESTRANEA",
     "category": "cinema",
-    "date": "15/10/2026",
+    "date": "16/10/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Strippoli | DURATA: 115'",
@@ -455,10 +520,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lestranea-9OTT.jpg"
   },
   {
-    "id": "cinema-cinepi-mammina-2100-15102026",
+    "id": "cinema-cinepi-lestranea-2050-16102026",
+    "title": "L'Estranea",
+    "category": "cinema",
+    "date": "16/10/2026",
+    "time": "20:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22259",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
+  },
+  {
+    "id": "cinema-cinepi-mammina-2100-16102026",
     "title": "Mammina",
     "category": "cinema",
-    "date": "15/10/2026",
+    "date": "16/10/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Horror | Durata: 93 Minuti | Cast: Jessica Chastain, Dichen Lachman, Karen Allen, Jay Duplass, Arabella Olivia Clark, Arian Moayed",
@@ -468,10 +546,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67091.jpg"
   },
   {
-    "id": "cinema-cinepi-se-ami-qualcuno-dillo-2050-15102026",
+    "id": "cinema-cinepi-se-ami-qualcuno-dillo-2050-16102026",
     "title": "Se Ami Qualcuno Dillo",
     "category": "cinema",
-    "date": "15/10/2026",
+    "date": "16/10/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Durata: 100 Minuti | Cast: Edoardo Leo, Claudia Gerini, Giovanna Mezzogiorno, Biagio Venditti",
@@ -479,45 +557,6 @@
     "latitude": 44.773121,
     "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68566.jpg"
-  },
-  {
-    "id": "cinema-cinepi-la-pi-piccola-2100-15102026",
-    "title": "La Più Piccola",
-    "category": "cinema",
-    "date": "15/10/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 106 Minuti | Cast: Park Ji-min, Nadia Melliti, Mouna Soualem, Aloïse Sauvage, Melissa Guers, Sophie Garagnon",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21020",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67094.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-tuner-laccordatore-1500-15102026",
-    "title": "Tuner: L'Accordatore",
-    "category": "cinema",
-    "date": "15/10/2026",
-    "time": "15:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Drammatico, Thriller | Durata: 109 Minuti | Cast: Leo Woodall, Dustin Hoffman, Havana Rose Liu, Lior Raz, Tovah Feldshuh, Nissan Sakira",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=21927",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67766.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-tuner-laccordatore-2100-15102026",
-    "title": "Tuner: L'Accordatore",
-    "category": "cinema",
-    "date": "15/10/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Drammatico, Thriller | Durata: 109 Minuti | Cast: Leo Woodall, Dustin Hoffman, Havana Rose Liu, Lior Raz, Tovah Feldshuh, Nissan Sakira",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=21927",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67766.jpg"
   },
   {
     "id": "cinema-cinema-eden-je-so-pazzo-2100-15102026",
@@ -661,5 +700,31 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/09/per-silenzio-e-vento-poster-web-98k4-scaled.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-lestranea-1830-16102026",
+    "title": "L'Estranea",
+    "category": "cinema",
+    "date": "16/10/2026",
+    "time": "18:30",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22259",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-je-so-pazzo-2100-16102026",
+    "title": "Je so' Pazzo",
+    "category": "cinema",
+    "date": "16/10/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Biografico | Cast: Massimiliano Caiazzo",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22579",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67032.jpg"
   }
 ]
