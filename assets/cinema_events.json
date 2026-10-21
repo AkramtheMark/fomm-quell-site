@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-carlo-acutis--il-giovane-santo-1900-20102026",
-    "title": "CARLO ACUTIS – IL GIOVANE SANTO",
-    "category": "cinema",
-    "date": "20/10/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/carlo-acutis-il-giovane-santo/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/CARLO-ACUTIS-100x140-digital-scaled-1-e1790171527194.jpg"
-  },
-  {
     "id": "cinema-al-corso-se-ami-qualcuno-dillo-2100-20102026",
     "title": "SE AMI QUALCUNO DILLO",
     "category": "cinema",
@@ -221,19 +208,6 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/IMG_5158-e1790966322549.jpeg"
   },
   {
-    "id": "cinema-rosebud-trainspotting-vedidettaglischeda-19102026",
-    "title": "Trainspotting",
-    "category": "cinema",
-    "date": "19/10/2026",
-    "time": "vedi dettagli scheda",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Il cinema ritrovato | Regia: Danny Boyle",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/trainspotting",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/trainspotting/@@images/image/preview"
-  },
-  {
     "id": "cinema-rosebud-the-devils---i-diavoli-vedidettaglischeda-20102026",
     "title": "The Devils - I Diavoli",
     "category": "cinema",
@@ -416,10 +390,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/borgo/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-lestranea-2100-20102026",
+    "id": "cinema-olimpia-lestranea-2100-21102026",
     "title": "L'Estranea",
     "category": "cinema",
-    "date": "20/10/2026",
+    "date": "21/10/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
@@ -427,19 +401,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
-  },
-  {
-    "id": "cinema-apollo-che-dio-perdona-a-tutti-1845-20102026",
-    "title": "...che Dio perdona a tutti",
-    "category": "cinema",
-    "date": "20/10/2026",
-    "time": "18:45",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 113 minuti | Regia: Pif",
-    "link": "http://www.cinemaapolloalbinea.it/movie/che_dio_perdona_a_tutti",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/che_dio_perdona_a_tutti.jpg"
   },
   {
     "id": "cinema-apollo-che-dio-perdona-a-tutti-1845-21102026",
@@ -455,24 +416,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/che_dio_perdona_a_tutti.jpg"
   },
   {
-    "id": "cinema-novecento-lestranea-1830-20102026",
-    "title": "L'ESTRANEA",
-    "category": "cinema",
-    "date": "20/10/2026",
-    "time": "18:30",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Paolo Strippoli | DURATA: 115'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3426",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lestranea-9OTT.jpg"
-  },
-  {
-    "id": "cinema-novecento-rental-family-nelle-vite-degli-altri-2115-20102026",
+    "id": "cinema-novecento-rental-family-nelle-vite-degli-altri-1815-21102026",
     "title": "RENTAL FAMILY-NELLE VITE DEGLI ALTRI",
     "category": "cinema",
-    "date": "20/10/2026",
-    "time": "21:15",
+    "date": "21/10/2026",
+    "time": "18:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Hikari | DURATA: 109'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3329",
@@ -481,36 +429,62 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Rental_Family.jpg"
   },
   {
-    "id": "cinema-novecento-fatherland-1830-20102026",
-    "title": "FATHERLAND",
+    "id": "cinema-novecento-rental-family-nelle-vite-degli-altri-2100-21102026",
+    "title": "RENTAL FAMILY-NELLE VITE DEGLI ALTRI",
     "category": "cinema",
-    "date": "20/10/2026",
-    "time": "18:30",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Pawel Pawlikowski | DURATA: 88'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3428",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/FATHERLAND.jpg"
-  },
-  {
-    "id": "cinema-novecento-fatherland-2100-20102026",
-    "title": "FATHERLAND",
-    "category": "cinema",
-    "date": "20/10/2026",
+    "date": "21/10/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Pawel Pawlikowski | DURATA: 88'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3428",
+    "desc": "DI: Hikari | DURATA: 109'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3329",
     "latitude": 44.695325,
     "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/FATHERLAND.jpg"
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Rental_Family.jpg"
   },
   {
-    "id": "cinema-cinepi-mammina-2100-20102026",
+    "id": "cinema-novecento-naza-1830-21102026",
+    "title": "NAZA",
+    "category": "cinema",
+    "date": "21/10/2026",
+    "time": "18:30",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Yuval Abraham, Rachel Szor | DURATA: 80'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3420",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/naza.jpg"
+  },
+  {
+    "id": "cinema-novecento-naza-2100-21102026",
+    "title": "NAZA",
+    "category": "cinema",
+    "date": "21/10/2026",
+    "time": "21:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Yuval Abraham, Rachel Szor | DURATA: 80'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3420",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/naza.jpg"
+  },
+  {
+    "id": "cinema-cinepi-lestranea-2050-21102026",
+    "title": "L'Estranea",
+    "category": "cinema",
+    "date": "21/10/2026",
+    "time": "20:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22259",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
+  },
+  {
+    "id": "cinema-cinepi-mammina-2100-21102026",
     "title": "Mammina",
     "category": "cinema",
-    "date": "20/10/2026",
+    "date": "21/10/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Horror | Durata: 93 Minuti | Cast: Jessica Chastain, Dichen Lachman, Karen Allen, Jay Duplass, Arabella Olivia Clark, Arian Moayed",
@@ -520,10 +494,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67091.jpg"
   },
   {
-    "id": "cinema-cinepi-se-ami-qualcuno-dillo-2050-20102026",
+    "id": "cinema-cinepi-se-ami-qualcuno-dillo-2050-21102026",
     "title": "Se Ami Qualcuno Dillo",
     "category": "cinema",
-    "date": "20/10/2026",
+    "date": "21/10/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Durata: 100 Minuti | Cast: Edoardo Leo, Claudia Gerini, Giovanna Mezzogiorno, Biagio Venditti",
@@ -531,32 +505,6 @@
     "latitude": 44.773121,
     "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68566.jpg"
-  },
-  {
-    "id": "cinema-cinepi-la-pi-piccola-2100-20102026",
-    "title": "La Più Piccola",
-    "category": "cinema",
-    "date": "20/10/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 106 Minuti | Cast: Park Ji-min, Nadia Melliti, Mouna Soualem, Aloïse Sauvage, Melissa Guers, Sophie Garagnon",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21020",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67094.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-maigret-lamore-e-la-morte-2100-20102026",
-    "title": "Maigret, l'Amore e la Morte",
-    "category": "cinema",
-    "date": "20/10/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Giallo | Durata: 80 Minuti | Cast: Denis Podalydès, Dominique Reymond, Anne Alvaro, Manuel Guillot, Irène Jacob, Gaëtan Galliod",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=21189",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69162.jpg"
   },
   {
     "id": "cinema-cinema-eden-per-silenzio-e-vento-1900-20102026",
@@ -650,11 +598,11 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/07/JeSoPazzo_low.jpeg"
   },
   {
-    "id": "cinema-cinema-eden-je-so-pazzo-1915-24102026",
+    "id": "cinema-cinema-eden-je-so-pazzo-1715-24102026",
     "title": "je so' pazzo",
     "category": "cinema",
     "date": "24/10/2026",
-    "time": "19:15",
+    "time": "17:15",
     "location": "Cinema Eden (Quattro Castella (RE))",
     "desc": "Je so’ pazzo è un ritratto intenso di Pino Daniele, un’anima ribelle nata nei vicoli di Napoli, che ha rivoluzionato la musica italiana fondendo blues, jazz e tradizione partenopea...",
     "link": "https://cinemaeden.org/2026/07/27/je-so-pazzo/",
@@ -674,5 +622,18 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/07/JeSoPazzo_low.jpeg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-calle-malaga-2100-21102026",
+    "title": "Calle Malaga",
+    "category": "cinema",
+    "date": "21/10/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Drammatico | Durata: 116 Minuti | Cast: Marta Etura, Carmen Maura, María Alfonsa Rosso, Miguel Garcés, Ahmed Boulane, Fouad Mnebhi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=20080",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67547.jpg"
   }
 ]
