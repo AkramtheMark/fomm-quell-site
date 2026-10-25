@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-doppiata-2100-23102026",
-    "title": "RAGIONE E SENTIMENTO (versione doppiata)",
-    "category": "cinema",
-    "date": "23/10/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-2/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/SEN_INTL_TEASER_6SHEET_OOH_CMYK_ITA-pdf-scaled-e1792397970650.jpg"
-  },
-  {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-doppiata-1900-24102026",
-    "title": "RAGIONE E SENTIMENTO (versione doppiata)",
-    "category": "cinema",
-    "date": "24/10/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-2/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/SEN_INTL_TEASER_6SHEET_OOH_CMYK_ITA-pdf-scaled-e1792397970650.jpg"
-  },
-  {
     "id": "cinema-al-corso-ragione-e-sentimento-versione-doppiata-1600-25102026",
     "title": "RAGIONE E SENTIMENTO (versione doppiata)",
     "category": "cinema",
@@ -52,30 +26,17 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/SEN_INTL_TEASER_6SHEET_OOH_CMYK_ITA-pdf-scaled-e1792397970650.jpg"
   },
   {
-    "id": "cinema-al-corso-se-ami-qualcuno-dillo-1515-24102026",
-    "title": "SE AMI QUALCUNO DILLO",
+    "id": "cinema-al-corso-ragione-e-sentimento-versione-doppiata-2120-28102026",
+    "title": "RAGIONE E SENTIMENTO (versione doppiata)",
     "category": "cinema",
-    "date": "24/10/2026",
-    "time": "15:15",
+    "date": "28/10/2026",
+    "time": "21:20",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/__trashed/",
+    "link": "https://cinemaalcorso.com/ragione-e-sentimento-2/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/SE-AMI-QUALCUNO-e1791468423515.jpg"
-  },
-  {
-    "id": "cinema-al-corso-il-tempo-di-anne-1700-24102026",
-    "title": "IL TEMPO DI ANNE",
-    "category": "cinema",
-    "date": "24/10/2026",
-    "time": "17:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Dopo la partenza dei figli, Anne assapora finalmente la propria libertà. Un inaspettato ritorno a casa e la notizia che sta per diventare nonna stravolgono i suoi piani, costringendola a riscoprire sé stessa. Il film fa parte della nostra rassegna dedicata al cinema francese \"Rendez-vous al cinema\".",
-    "link": "https://cinemaalcorso.com/rendez-vous-al-cinema/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/IMG_5415-scaled-e1792678302883.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/SEN_INTL_TEASER_6SHEET_OOH_CMYK_ITA-pdf-scaled-e1792397970650.jpg"
   },
   {
     "id": "cinema-al-corso-agent-of-happiness--il-bhutan-e-la-felicita-2100-26102026",
@@ -325,10 +286,23 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/borgo/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-lestranea-1830-24102026",
+    "id": "cinema-olimpia-lestranea-1600-25102026",
     "title": "L'Estranea",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
+    "time": "16:00",
+    "location": "Olimpia (Reggio Emilia)",
+    "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/?idf=22259",
+    "latitude": 44.686561,
+    "longitude": 10.631553,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
+  },
+  {
+    "id": "cinema-olimpia-lestranea-1830-25102026",
+    "title": "L'Estranea",
+    "category": "cinema",
+    "date": "25/10/2026",
     "time": "18:30",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
@@ -338,10 +312,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
   },
   {
-    "id": "cinema-olimpia-lestranea-2100-24102026",
+    "id": "cinema-olimpia-lestranea-2100-25102026",
     "title": "L'Estranea",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Thriller | Durata: 115 Minuti | Cast: Valeria Bruni Tedeschi, Jasmine Trinca, Adriano Giannini, Romana Maggiora Vergano, Marina Limosani, Raffaele Braia",
@@ -349,19 +323,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68142.jpg"
-  },
-  {
-    "id": "cinema-apollo-ragione-e-sentimento-1830-24102026",
-    "title": "Ragione e sentimento",
-    "category": "cinema",
-    "date": "24/10/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Romantico | Durata: 133 minuti | Regia: Georgia Oakley",
-    "link": "http://www.cinemaapolloalbinea.it/movie/ragione_e_sentimento",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/ragione_e_sentimento.webp"
   },
   {
     "id": "cinema-apollo-ragione-e-sentimento-1530-25102026",
@@ -390,11 +351,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/ragione_e_sentimento.webp"
   },
   {
-    "id": "cinema-novecento-teatro-ragazzi-il-gatto-con-gli-stivali-1700-24102026",
+    "id": "cinema-novecento-teatro-ragazzi-il-gatto-con-gli-stivali-1100-25102026",
     "title": "Teatro ragazzi: IL GATTO CON GLI STIVALI",
     "category": "cinema",
-    "date": "24/10/2026",
-    "time": "17:00",
+    "date": "25/10/2026",
+    "time": "11:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI:mpagnia Bottega Buffa Circo Vacanti | DURATA: 60'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3384",
@@ -403,11 +364,24 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-2-Ilgatto-24-25ott2026.jpg"
   },
   {
-    "id": "cinema-novecento-fatherland-2100-24102026",
+    "id": "cinema-novecento-teatro-ragazzi-il-gatto-con-gli-stivali-1630-25102026",
+    "title": "Teatro ragazzi: IL GATTO CON GLI STIVALI",
+    "category": "cinema",
+    "date": "25/10/2026",
+    "time": "16:30",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI:mpagnia Bottega Buffa Circo Vacanti | DURATA: 60'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3384",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-2-Ilgatto-24-25ott2026.jpg"
+  },
+  {
+    "id": "cinema-novecento-fatherland-2030-25102026",
     "title": "FATHERLAND",
     "category": "cinema",
-    "date": "24/10/2026",
-    "time": "21:00",
+    "date": "25/10/2026",
+    "time": "20:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Pawel Pawlikowski | DURATA: 88'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3428",
@@ -416,10 +390,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/FATHERLAND.jpg"
   },
   {
-    "id": "cinema-novecento-lestranea-1600-24102026",
+    "id": "cinema-novecento-lestranea-1600-25102026",
     "title": "L'ESTRANEA",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "16:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Strippoli | DURATA: 115'",
@@ -429,10 +403,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lestranea-9OTT.jpg"
   },
   {
-    "id": "cinema-novecento-lestranea-1830-24102026",
+    "id": "cinema-novecento-lestranea-1830-25102026",
     "title": "L'ESTRANEA",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Strippoli | DURATA: 115'",
@@ -442,10 +416,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lestranea-9OTT.jpg"
   },
   {
-    "id": "cinema-novecento-lestranea-2100-24102026",
+    "id": "cinema-novecento-lestranea-2100-25102026",
     "title": "L'ESTRANEA",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Strippoli | DURATA: 115'",
@@ -455,10 +429,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-lestranea-9OTT.jpg"
   },
   {
-    "id": "cinema-cinepi-je-so-pazzo-1840-24102026",
+    "id": "cinema-cinepi-je-so-pazzo-1640-25102026",
     "title": "Je So' Pazzo",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
+    "time": "16:40",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Biografico | Durata: 105 Minuti | Cast: Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno, Giuseppe Brunetti, Leonardo Bianconi, Monica Nappo",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22579",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67032.jpg"
+  },
+  {
+    "id": "cinema-cinepi-je-so-pazzo-1840-25102026",
+    "title": "Je So' Pazzo",
+    "category": "cinema",
+    "date": "25/10/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Biografico | Durata: 105 Minuti | Cast: Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno, Giuseppe Brunetti, Leonardo Bianconi, Monica Nappo",
@@ -468,10 +455,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67032.jpg"
   },
   {
-    "id": "cinema-cinepi-je-so-pazzo-2100-24102026",
+    "id": "cinema-cinepi-je-so-pazzo-2100-25102026",
     "title": "Je So' Pazzo",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Biografico | Durata: 105 Minuti | Cast: Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno, Giuseppe Brunetti, Leonardo Bianconi, Monica Nappo",
@@ -481,11 +468,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67032.jpg"
   },
   {
-    "id": "cinema-cinepi-ragione-e-sentimento-1830-24102026",
+    "id": "cinema-cinepi-ragione-e-sentimento-1620-25102026",
     "title": "Ragione e Sentimento",
     "category": "cinema",
-    "date": "24/10/2026",
-    "time": "18:30",
+    "date": "25/10/2026",
+    "time": "16:20",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico | Durata: 131 Minuti | Cast: Daisy Edgar-Jones, Caitriona Balfe, Fiona Shaw, Esme Creed-Miles, George MacKay, Frank Dillane",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21856",
@@ -494,10 +481,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67762.jpg"
   },
   {
-    "id": "cinema-cinepi-ragione-e-sentimento-2050-24102026",
+    "id": "cinema-cinepi-ragione-e-sentimento-1835-25102026",
     "title": "Ragione e Sentimento",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
+    "time": "18:35",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico | Durata: 131 Minuti | Cast: Daisy Edgar-Jones, Caitriona Balfe, Fiona Shaw, Esme Creed-Miles, George MacKay, Frank Dillane",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21856",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67762.jpg"
+  },
+  {
+    "id": "cinema-cinepi-ragione-e-sentimento-2050-25102026",
+    "title": "Ragione e Sentimento",
+    "category": "cinema",
+    "date": "25/10/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico | Durata: 131 Minuti | Cast: Daisy Edgar-Jones, Caitriona Balfe, Fiona Shaw, Esme Creed-Miles, George MacKay, Frank Dillane",
@@ -507,10 +507,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67762.jpg"
   },
   {
-    "id": "cinema-cinepi-lassurda-storia-della-gialappas-band-1840-24102026",
+    "id": "cinema-cinepi-lassurda-storia-della-gialappas-band-1630-25102026",
     "title": "L'Assurda Storia della Gialappa's Band",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
+    "time": "16:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Documentario | Durata: 105 Minuti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22756",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69167.jpg"
+  },
+  {
+    "id": "cinema-cinepi-lassurda-storia-della-gialappas-band-1840-25102026",
+    "title": "L'Assurda Storia della Gialappa's Band",
+    "category": "cinema",
+    "date": "25/10/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Documentario | Durata: 105 Minuti",
@@ -520,11 +533,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69167.jpg"
   },
   {
-    "id": "cinema-cinepi-lassurda-storia-della-gialappas-band-2100-24102026",
+    "id": "cinema-cinepi-lassurda-storia-della-gialappas-band-2050-25102026",
     "title": "L'Assurda Storia della Gialappa's Band",
     "category": "cinema",
-    "date": "24/10/2026",
-    "time": "21:00",
+    "date": "25/10/2026",
+    "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Documentario | Durata: 105 Minuti",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22756",
@@ -533,10 +546,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69167.jpg"
   },
   {
-    "id": "cinema-cinema-castello-heart-of-the-beast---nel-profondo-selvaggio-1830-24102026",
+    "id": "cinema-cinema-castello-heart-of-the-beast---nel-profondo-selvaggio-1600-25102026",
     "title": "Heart of the Beast - Nel Profondo Selvaggio",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
+    "time": "16:00",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Azione, Avventura, Drammatico, Thriller | Durata: 101 Minuti | Cast: Brad Pitt, J.K. Simmons, Anna Lambe",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22339",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68979.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-heart-of-the-beast---nel-profondo-selvaggio-1830-25102026",
+    "title": "Heart of the Beast - Nel Profondo Selvaggio",
+    "category": "cinema",
+    "date": "25/10/2026",
     "time": "18:30",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Azione, Avventura, Drammatico, Thriller | Durata: 101 Minuti | Cast: Brad Pitt, J.K. Simmons, Anna Lambe",
@@ -546,10 +572,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68979.jpg"
   },
   {
-    "id": "cinema-cinema-castello-heart-of-the-beast---nel-profondo-selvaggio-2100-24102026",
+    "id": "cinema-cinema-castello-heart-of-the-beast---nel-profondo-selvaggio-2100-25102026",
     "title": "Heart of the Beast - Nel Profondo Selvaggio",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Azione, Avventura, Drammatico, Thriller | Durata: 101 Minuti | Cast: Brad Pitt, J.K. Simmons, Anna Lambe",
@@ -689,10 +715,10 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/Taddeo1080x1920.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-je-so-pazzo-1900-24102026",
+    "id": "cinema-cinema-boiardo-je-so-pazzo-1900-25102026",
     "title": "Je So' Pazzo",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "19:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Biografico | Durata: 105 Minuti | Cast: Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno, Giuseppe Brunetti, Leonardo Bianconi, Monica Nappo",
@@ -702,11 +728,24 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67032.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-fatherland-2100-24102026",
+    "id": "cinema-cinema-boiardo-je-so-pazzo-2100-25102026",
+    "title": "Je So' Pazzo",
+    "category": "cinema",
+    "date": "25/10/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Biografico | Durata: 105 Minuti | Cast: Massimiliano Caiazzo, Mariasole Pollio, Giovanni Ludeno, Giuseppe Brunetti, Leonardo Bianconi, Monica Nappo",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22579",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67032.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-fatherland-1700-25102026",
     "title": "Fatherland",
     "category": "cinema",
-    "date": "24/10/2026",
-    "time": "21:00",
+    "date": "25/10/2026",
+    "time": "17:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico | Durata: 82 Minuti | Cast: Sandra Hüller, Hanns Zischler, August Diehl, Anna Madeley, Joanna Kulig, Devid Striesow",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22713",
@@ -715,10 +754,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68676.jpg"
   },
   {
-    "id": "cinema-cinema-bismantova-digger-2100-24102026",
+    "id": "cinema-cinema-bismantova-digger-2100-25102026",
     "title": "Digger",
     "category": "cinema",
-    "date": "24/10/2026",
+    "date": "25/10/2026",
     "time": "21:00",
     "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
     "desc": "Genere: Commedia, Drammatico, Avventura | Durata: 129 Minuti | Cast: Tom Cruise, Jesse Plemons, John Goodman, Sandra Hüller, Michael Stuhlbarg, Sophie Wilde",
