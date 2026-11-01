@@ -1,31 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-2100-30102026",
-    "title": "RAGIONE E SENTIMENTO (versione italiana)",
-    "category": "cinema",
-    "date": "30/10/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
-  },
-  {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-1900-31102026",
-    "title": "RAGIONE E SENTIMENTO (versione italiana)",
-    "category": "cinema",
-    "date": "31/10/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
-  },
-  {
     "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-1600-01112026",
     "title": "RAGIONE E SENTIMENTO (versione italiana)",
     "category": "cinema",
@@ -52,17 +26,17 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
   },
   {
-    "id": "cinema-al-corso-la-maison-des-femmes-1700-31102026",
-    "title": "LA MAISON DES FEMMES",
+    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-2100-04112026",
+    "title": "RAGIONE E SENTIMENTO (versione italiana)",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "17:00",
+    "date": "04/11/2026",
+    "time": "21:00",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/la-maison-des-femmes/",
+    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5425-scaled-e1792682311513.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
   },
   {
     "id": "cinema-al-corso-saman-1930-03112026",
@@ -494,10 +468,23 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_pesciolino-superverme/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-dio-ride-1830-31102026",
+    "id": "cinema-olimpia-dio-ride-1600-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
+    "time": "16:00",
+    "location": "Olimpia (Reggio Emilia)",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/?idf=22281",
+    "latitude": 44.686561,
+    "longitude": 10.631553,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-olimpia-dio-ride-1830-01112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "01/11/2026",
     "time": "18:30",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -507,10 +494,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-olimpia-dio-ride-2100-31102026",
+    "id": "cinema-olimpia-dio-ride-2100-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -518,32 +505,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
-  },
-  {
-    "id": "cinema-apollo-frankenstein-junior-2100-31102026",
-    "title": "Frankenstein Junior",
-    "category": "cinema",
-    "date": "31/10/2026",
-    "time": "21:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 106 minuti | Regia: Mel Brooks",
-    "link": "http://www.cinemaapolloalbinea.it/movie/frankenstein_junior",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/FRANKENSTEIN_JUNIOT.jpeg"
-  },
-  {
-    "id": "cinema-apollo-ragione-e-sentimento-1830-31102026",
-    "title": "Ragione e sentimento",
-    "category": "cinema",
-    "date": "31/10/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Romantico | Durata: 133 minuti | Regia: Georgia Oakley",
-    "link": "http://www.cinemaapolloalbinea.it/movie/ragione_e_sentimento",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/ragione_e_sentimento.webp"
   },
   {
     "id": "cinema-apollo-ragione-e-sentimento-1530-01112026",
@@ -559,24 +520,24 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/ragione_e_sentimento.webp"
   },
   {
-    "id": "cinema-apollo-coco-1600-31102026",
-    "title": "Coco",
+    "id": "cinema-apollo-dracula-di-bram-stoker-2045-01112026",
+    "title": "Dracula di Bram Stoker",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "16:00",
+    "date": "01/11/2026",
+    "time": "20:45",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Animazione, Family, Musicale | Durata: 106 minuti | Regia:  Lee Unkrich",
-    "link": "http://www.cinemaapolloalbinea.it/movie/coco",
+    "desc": "Genere: Horror, drammatico, romantico | Durata: 127 minuti | Regia: Francis Ford Coppola",
+    "link": "http://www.cinemaapolloalbinea.it/movie/dracula_di_bram_stoker",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/coco_1.png"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/dracula.png"
   },
   {
-    "id": "cinema-novecento-dio-ride-1615-31102026",
+    "id": "cinema-novecento-dio-ride-1600-01112026",
     "title": "DIO RIDE",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "16:15",
+    "date": "01/11/2026",
+    "time": "16:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Giovanni Veronesi | DURATA: 114'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
@@ -585,11 +546,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
   },
   {
-    "id": "cinema-novecento-dio-ride-1845-31102026",
+    "id": "cinema-novecento-dio-ride-1830-01112026",
     "title": "DIO RIDE",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "18:45",
+    "date": "01/11/2026",
+    "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Giovanni Veronesi | DURATA: 114'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
@@ -598,11 +559,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
   },
   {
-    "id": "cinema-novecento-dio-ride-2115-31102026",
+    "id": "cinema-novecento-dio-ride-2100-01112026",
     "title": "DIO RIDE",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "21:15",
+    "date": "01/11/2026",
+    "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Giovanni Veronesi | DURATA: 114'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
@@ -611,10 +572,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
   },
   {
-    "id": "cinema-novecento-minotaur-1530-31102026",
+    "id": "cinema-novecento-minotaur-1530-01112026",
     "title": "MINOTAUR",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "15:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrey Zvyagintsev | DURATA: 135'",
@@ -624,10 +585,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Minotaur.jpg"
   },
   {
-    "id": "cinema-novecento-minotaur-1815-31102026",
+    "id": "cinema-novecento-minotaur-1815-01112026",
     "title": "MINOTAUR",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "18:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrey Zvyagintsev | DURATA: 135'",
@@ -637,10 +598,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Minotaur.jpg"
   },
   {
-    "id": "cinema-novecento-minotaur-2100-31102026",
+    "id": "cinema-novecento-minotaur-2100-01112026",
     "title": "MINOTAUR",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Andrey Zvyagintsev | DURATA: 135'",
@@ -650,11 +611,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Minotaur.jpg"
   },
   {
-    "id": "cinema-cinepi-dio-ride-1840-31102026",
+    "id": "cinema-cinepi-dio-ride-1630-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "18:40",
+    "date": "01/11/2026",
+    "time": "16:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22281",
@@ -663,10 +624,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinepi-dio-ride-2050-31102026",
+    "id": "cinema-cinepi-dio-ride-1830-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22281",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-cinepi-dio-ride-2050-01112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "01/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -676,11 +650,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-1930-31102026",
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-1630-01112026",
     "title": "Un Tranquillo Funerale di Famiglia",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "19:30",
+    "date": "01/11/2026",
+    "time": "16:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22736",
@@ -689,11 +663,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
   },
   {
-    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2100-31102026",
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-1855-01112026",
     "title": "Un Tranquillo Funerale di Famiglia",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "21:00",
+    "date": "01/11/2026",
+    "time": "18:55",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22736",
@@ -702,11 +676,24 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
   },
   {
-    "id": "cinema-cinepi-ragione-e-sentimento-1830-31102026",
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2050-01112026",
+    "title": "Un Tranquillo Funerale di Famiglia",
+    "category": "cinema",
+    "date": "01/11/2026",
+    "time": "20:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22736",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
+  },
+  {
+    "id": "cinema-cinepi-ragione-e-sentimento-1820-01112026",
     "title": "Ragione e Sentimento",
     "category": "cinema",
-    "date": "31/10/2026",
-    "time": "18:30",
+    "date": "01/11/2026",
+    "time": "18:20",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico | Durata: 131 Minuti | Cast: Daisy Edgar-Jones, Caitriona Balfe, Fiona Shaw, Esme Creed-Miles, George MacKay, Frank Dillane",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21856",
@@ -715,10 +702,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67762.jpg"
   },
   {
-    "id": "cinema-cinepi-ragione-e-sentimento-2045-31102026",
+    "id": "cinema-cinepi-ragione-e-sentimento-2045-01112026",
     "title": "Ragione e Sentimento",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico | Durata: 131 Minuti | Cast: Daisy Edgar-Jones, Caitriona Balfe, Fiona Shaw, Esme Creed-Miles, George MacKay, Frank Dillane",
@@ -728,10 +715,49 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67762.jpg"
   },
   {
-    "id": "cinema-cinema-castello-dio-ride-1830-31102026",
+    "id": "cinema-cinepi-shaun-vita-da-pecora-operazione-zucca-1600-01112026",
+    "title": "Shaun, Vita da Pecora: Operazione Z.U.C.C.A.",
+    "category": "cinema",
+    "date": "01/11/2026",
+    "time": "16:00",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Commedia, Azione, Family | Durata: 91 Minuti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22810",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68572.jpg"
+  },
+  {
+    "id": "cinema-cinepi-shaun-vita-da-pecora-operazione-zucca-1730-01112026",
+    "title": "Shaun, Vita da Pecora: Operazione Z.U.C.C.A.",
+    "category": "cinema",
+    "date": "01/11/2026",
+    "time": "17:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Commedia, Azione, Family | Durata: 91 Minuti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22810",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68572.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-dio-ride-1600-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
+    "time": "16:00",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22281",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-dio-ride-1830-01112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "01/11/2026",
     "time": "18:30",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -741,10 +767,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinema-castello-dio-ride-2100-31102026",
+    "id": "cinema-cinema-castello-dio-ride-2100-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -949,10 +975,10 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/Poster_Wildwood-scaled.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-dio-ride-1900-31102026",
+    "id": "cinema-cinema-boiardo-dio-ride-1900-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "19:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -962,10 +988,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-dio-ride-2100-31102026",
+    "id": "cinema-cinema-boiardo-dio-ride-2100-01112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "21:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -975,10 +1001,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-shaun-vita-da-pecora-operazione-zucca-1700-31102026",
+    "id": "cinema-cinema-boiardo-shaun-vita-da-pecora-operazione-zucca-1700-01112026",
     "title": "Shaun, Vita da Pecora: Operazione Z.U.C.C.A.",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "17:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Animazione, Commedia, Azione, Family | Durata: 91 Minuti",
@@ -988,10 +1014,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68572.jpg"
   },
   {
-    "id": "cinema-cinema-bismantova-naza-2100-31102026",
+    "id": "cinema-cinema-bismantova-naza-2100-01112026",
     "title": "Naza",
     "category": "cinema",
-    "date": "31/10/2026",
+    "date": "01/11/2026",
     "time": "21:00",
     "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
     "desc": "Genere: Documentario | Durata: 80 Minuti",
