@@ -1,29 +1,29 @@
 [
   {
-    "id": "cinema-al-corso-saman-1930-03112026",
-    "title": "SAMAN",
+    "id": "cinema-al-corso-nel-silenzio-delle-stanze-1900-04112026",
+    "title": "NEL SILENZIO DELLE STANZE",
     "category": "cinema",
-    "date": "03/11/2026",
-    "time": "19:30",
+    "date": "04/11/2026",
+    "time": "19:00",
     "location": "Al Corso (Reggio Emilia)",
-    "desc": "La tragica storia di Saman Abbas, giovane pakistana uccisa dalla propria famiglia perché ha rifiutato un matrimonio combinato. Il film fa parte della rassegna \"DOC IN TOUR\".",
-    "link": "https://cinemaalcorso.com/saman/",
+    "desc": "Nel 1908 in Normandia, l'infelice borghese Victoire e la giovane domestica Céleste stringono un'inaspettata alleanza per cambiare la propria vita. Il film fa parte della nostra rassegna dedicata al cinema francese \"RENDEZ-VOUS AL CINEMA\". Il biglietto del mercoledì garantisce uno sconto per l'aperitivo al Bar cafeteria Garibaldi.",
+    "link": "https://cinemaalcorso.com/nel-silenzio-delle-stanze/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/SAMAN_verticale-scaled-e1793055289530.png"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5428-scaled-e1792702389829.jpg"
   },
   {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-2100-03112026",
-    "title": "RAGIONE E SENTIMENTO (versione italiana)",
+    "id": "cinema-al-corso-nel-silenzio-delle-stanze-1700-07112026",
+    "title": "NEL SILENZIO DELLE STANZE",
     "category": "cinema",
-    "date": "03/11/2026",
-    "time": "21:00",
+    "date": "07/11/2026",
+    "time": "17:00",
     "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
+    "desc": "Nel 1908 in Normandia, l'infelice borghese Victoire e la giovane domestica Céleste stringono un'inaspettata alleanza per cambiare la propria vita. Il film fa parte della nostra rassegna dedicata al cinema francese \"RENDEZ-VOUS AL CINEMA\". Il biglietto del mercoledì garantisce uno sconto per l'aperitivo al Bar cafeteria Garibaldi.",
+    "link": "https://cinemaalcorso.com/nel-silenzio-delle-stanze/",
     "latitude": 44.698305,
     "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5428-scaled-e1792702389829.jpg"
   },
   {
     "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-2100-04112026",
@@ -63,32 +63,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
-  },
-  {
-    "id": "cinema-al-corso-nel-silenzio-delle-stanze-1900-04112026",
-    "title": "NEL SILENZIO DELLE STANZE",
-    "category": "cinema",
-    "date": "04/11/2026",
-    "time": "19:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Nel 1908 in Normandia, l'infelice borghese Victoire e la giovane domestica Céleste stringono un'inaspettata alleanza per cambiare la propria vita. Il film fa parte della nostra rassegna dedicata al cinema francese \"RENDEZ-VOUS AL CINEMA\". Il biglietto del mercoledì garantisce uno sconto per l'aperitivo al Bar cafeteria Garibaldi.",
-    "link": "https://cinemaalcorso.com/nel-silenzio-delle-stanze/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5428-scaled-e1792702389829.jpg"
-  },
-  {
-    "id": "cinema-al-corso-nel-silenzio-delle-stanze-1700-07112026",
-    "title": "NEL SILENZIO DELLE STANZE",
-    "category": "cinema",
-    "date": "07/11/2026",
-    "time": "17:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Nel 1908 in Normandia, l'infelice borghese Victoire e la giovane domestica Céleste stringono un'inaspettata alleanza per cambiare la propria vita. Il film fa parte della nostra rassegna dedicata al cinema francese \"RENDEZ-VOUS AL CINEMA\". Il biglietto del mercoledì garantisce uno sconto per l'aperitivo al Bar cafeteria Garibaldi.",
-    "link": "https://cinemaalcorso.com/nel-silenzio-delle-stanze/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5428-scaled-e1792702389829.jpg"
   },
   {
     "id": "cinema-al-corso-se-domani-non-torno-2100-05112026",
@@ -154,6 +128,19 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/68c7f3ed119e14b64d14cee2_20250824-Locandina-Morassutti-ITA-p-500-e1793112529701.png"
+  },
+  {
+    "id": "cinema-al-corso-viva-tondelli--uno-scrittore-delle-nostre-parti-1930-09112026",
+    "title": "VIVA TONDELLI – UNO SCRITTORE DELLE NOSTRE PARTI",
+    "category": "cinema",
+    "date": "09/11/2026",
+    "time": "19:30",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "A 70 anni dalla sua nascita, un ritratto intimo e corale ripercorre vita e opere di Pier Vittorio Tondelli attraverso ricordi personali, repertori inediti e testimonianze di amici, familiari e artisti. Il film fa parte della rassegna \"DOC IN TOUR\". Sono previsti ospiti in sala prima della proiezione.",
+    "link": "https://cinemaalcorso.com/viva-tondelli-uno-scrittore-delle-nostre-parti/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/11/tondelli-e1793725868593.jpg"
   },
   {
     "id": "cinema-al-corso-va-sentiero-2100-10112026",
@@ -481,10 +468,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/european-cinema-night-2026/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-dio-ride-2100-03112026",
+    "id": "cinema-olimpia-dio-ride-2100-04112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "03/11/2026",
+    "date": "04/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -492,19 +479,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
-  },
-  {
-    "id": "cinema-apollo-lultima-missione-project-hail-mary-1830-03112026",
-    "title": "L'ultima missione: Project Hail Mary",
-    "category": "cinema",
-    "date": "03/11/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere:  Fantascienza, Avventura | Durata: 156 minuti | Regia: Phil Lord, Chris Miller",
-    "link": "http://www.cinemaapolloalbinea.it/movie/lultima_missione_project_hail_mary",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/ultima_missione.jpg"
   },
   {
     "id": "cinema-apollo-lultima-missione-project-hail-mary-1830-04112026",
@@ -520,24 +494,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/ultima_missione.jpg"
   },
   {
-    "id": "cinema-novecento-dio-ride-1830-03112026",
-    "title": "DIO RIDE",
-    "category": "cinema",
-    "date": "03/11/2026",
-    "time": "18:30",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Giovanni Veronesi | DURATA: 114'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
-  },
-  {
-    "id": "cinema-novecento-calle-malaga-2115-03112026",
+    "id": "cinema-novecento-calle-malaga-1815-04112026",
     "title": "CALLE MALAGA",
     "category": "cinema",
-    "date": "03/11/2026",
-    "time": "21:15",
+    "date": "04/11/2026",
+    "time": "18:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Maryam Touzani | DURATA: 116'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3379",
@@ -546,36 +507,49 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/CalleMalaga.jpg"
   },
   {
-    "id": "cinema-novecento-minotaur-1815-03112026",
-    "title": "MINOTAUR",
+    "id": "cinema-novecento-calle-malaga-2100-04112026",
+    "title": "CALLE MALAGA",
     "category": "cinema",
-    "date": "03/11/2026",
-    "time": "18:15",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Andrey Zvyagintsev | DURATA: 135'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3433",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Minotaur.jpg"
-  },
-  {
-    "id": "cinema-novecento-minotaur-2100-03112026",
-    "title": "MINOTAUR",
-    "category": "cinema",
-    "date": "03/11/2026",
+    "date": "04/11/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Andrey Zvyagintsev | DURATA: 135'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3433",
+    "desc": "DI: Maryam Touzani | DURATA: 116'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3379",
     "latitude": 44.695325,
     "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Minotaur.jpg"
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/CalleMalaga.jpg"
   },
   {
-    "id": "cinema-cinepi-dio-ride-2050-03112026",
+    "id": "cinema-novecento-dio-ride-1815-04112026",
+    "title": "DIO RIDE",
+    "category": "cinema",
+    "date": "04/11/2026",
+    "time": "18:15",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Giovanni Veronesi | DURATA: 114'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
+  },
+  {
+    "id": "cinema-novecento-dio-ride-2100-04112026",
+    "title": "DIO RIDE",
+    "category": "cinema",
+    "date": "04/11/2026",
+    "time": "21:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Giovanni Veronesi | DURATA: 114'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
+  },
+  {
+    "id": "cinema-cinepi-dio-ride-2050-04112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "03/11/2026",
+    "date": "04/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -585,10 +559,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2045-03112026",
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2045-04112026",
     "title": "Un Tranquillo Funerale di Famiglia",
     "category": "cinema",
-    "date": "03/11/2026",
+    "date": "04/11/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
@@ -598,30 +572,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
   },
   {
-    "id": "cinema-cinepi-un-anno-di-scuola-2100-03112026",
-    "title": "Un Anno di Scuola",
+    "id": "cinema-cinepi-ragione-e-sentimento-2050-04112026",
+    "title": "Ragione e Sentimento",
     "category": "cinema",
-    "date": "03/11/2026",
-    "time": "21:00",
+    "date": "04/11/2026",
+    "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 102 Minuti | Cast: Giacomo Covi, Pietro Giustolisi, Samuel Volturno, Stella Wendick",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=20058",
+    "desc": "Genere: Drammatico | Durata: 131 Minuti | Cast: Daisy Edgar-Jones, Caitriona Balfe, Fiona Shaw, Esme Creed-Miles, George MacKay, Frank Dillane",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=21856",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67544.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-dio-ride-2100-03112026",
-    "title": "Dio Ride",
-    "category": "cinema",
-    "date": "03/11/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22281",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67762.jpg"
   },
   {
     "id": "cinema-cinema-eden-dio-ride-1830-03112026",
@@ -804,5 +765,18 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/Poster_SDNT_28x40-2-scaled-1.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-serpenti-2100-04112026",
+    "title": "Serpenti",
+    "category": "cinema",
+    "date": "04/11/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Commedia, Drammatico | Durata: 88 Minuti | Cast: Leonardo Lidi, Alessandro Borghi, Pietro Castellitto, Valeria Golino",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22255",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69205.jpg"
   }
 ]
