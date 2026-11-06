@@ -1,44 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-2100-04112026",
-    "title": "RAGIONE E SENTIMENTO (versione italiana)",
-    "category": "cinema",
-    "date": "04/11/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
-  },
-  {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-1850-07112026",
-    "title": "RAGIONE E SENTIMENTO (versione italiana)",
-    "category": "cinema",
-    "date": "07/11/2026",
-    "time": "18:50",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
-  },
-  {
-    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-1600-08112026",
-    "title": "RAGIONE E SENTIMENTO (versione italiana)",
-    "category": "cinema",
-    "date": "08/11/2026",
-    "time": "16:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
-  },
-  {
     "id": "cinema-al-corso-se-domani-non-torno-2100-05112026",
     "title": "SE DOMANI NON TORNO",
     "category": "cinema",
@@ -117,6 +78,32 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/11/NEL-SILENZIO-DELLE-STANZE-e1793818684390.webp"
   },
   {
+    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-1850-07112026",
+    "title": "RAGIONE E SENTIMENTO (versione italiana)",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "18:50",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
+  },
+  {
+    "id": "cinema-al-corso-ragione-e-sentimento-versione-italiana-1600-08112026",
+    "title": "RAGIONE E SENTIMENTO (versione italiana)",
+    "category": "cinema",
+    "date": "08/11/2026",
+    "time": "16:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/ragione-e-sentimento-versione-italiana/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/09/RAGIONE-E-SENTIMENTO-e1790626956815.jpg"
+  },
+  {
     "id": "cinema-al-corso-viva-tondelli--uno-scrittore-delle-nostre-parti-1930-09112026",
     "title": "VIVA TONDELLI – UNO SCRITTORE DELLE NOSTRE PARTI",
     "category": "cinema",
@@ -167,32 +154,6 @@
     "latitude": 44.698305,
     "longitude": 10.627725,
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5430-scaled-e1792711319940.jpg"
-  },
-  {
-    "id": "cinema-rosebud-mustang-1930-05112026",
-    "title": "Mustang",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "19:30",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Prima visione | Regia: Kasia Smutniak",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/mustang-ospite-kasia-smutniak",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/mustang-ospite-kasia-smutniak/@@images/image/preview"
-  },
-  {
-    "id": "cinema-rosebud-mustang-2115-05112026",
-    "title": "Mustang",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "21:15",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Prima visione | Regia: Kasia Smutniak",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_mustang-ospite-kasia-smutniak",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/copy_of_mustang-ospite-kasia-smutniak/@@images/image/preview"
   },
   {
     "id": "cinema-rosebud-santiago---un-cammino-per-ricominciare-1600-06112026",
@@ -429,10 +390,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/european-cinema-night-2026/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-dio-ride-2100-05112026",
+    "id": "cinema-olimpia-dio-ride-2100-06112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "05/11/2026",
+    "date": "06/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -440,19 +401,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
-  },
-  {
-    "id": "cinema-apollo-wild-horse-nine-2100-05112026",
-    "title": "Wild Horse Nine",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "21:00",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 118 minuti | Regia: Martin McDonagh",
-    "link": "http://www.cinemaapolloalbinea.it/movie/wild_horse_nine",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/wilde_horse_nine.jpg"
   },
   {
     "id": "cinema-apollo-wild-horse-nine-1845-06112026",
@@ -507,24 +455,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/wilde_horse_nine.jpg"
   },
   {
-    "id": "cinema-novecento-teatro-dialettale-una-notte-un-giorno-una-notte-2100-05112026",
-    "title": "Teatro dialettale: UNA NOTTE, UN GIORNO, UNA NOTTE",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "21:00",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: e con Antonio Guidetti | DURATA: 120'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=1342",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-2-Unanotte-5-6-nov2026_202608091108.jpg"
-  },
-  {
-    "id": "cinema-novecento-wild-horse-nine-2115-05112026",
+    "id": "cinema-novecento-wild-horse-nine-2100-06112026",
     "title": "WILD HORSE NINE",
     "category": "cinema",
-    "date": "05/11/2026",
-    "time": "21:15",
+    "date": "06/11/2026",
+    "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Martin McDonagh | DURATA: 118'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3435",
@@ -533,10 +468,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
   },
   {
-    "id": "cinema-cinepi-se-domani-non-torno-2050-05112026",
+    "id": "cinema-novecento-dio-ride-2115-06112026",
+    "title": "DIO RIDE",
+    "category": "cinema",
+    "date": "06/11/2026",
+    "time": "21:15",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Giovanni Veronesi | DURATA: 114'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
+  },
+  {
+    "id": "cinema-cinepi-se-domani-non-torno-2050-06112026",
     "title": "Se Domani Non Torno",
     "category": "cinema",
-    "date": "05/11/2026",
+    "date": "06/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
@@ -546,10 +494,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   },
   {
-    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2045-05112026",
+    "id": "cinema-cinepi-dio-ride-2050-06112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "06/11/2026",
+    "time": "20:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22281",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2045-06112026",
     "title": "Un Tranquillo Funerale di Famiglia",
     "category": "cinema",
-    "date": "05/11/2026",
+    "date": "06/11/2026",
     "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
@@ -557,45 +518,6 @@
     "latitude": 44.773121,
     "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
-  },
-  {
-    "id": "cinema-cinepi-un-po-di-luce-2100-05112026",
-    "title": "Un Po' di Luce",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "21:00",
-    "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 87 Minuti | Cast: Missagh Zareh, Sadaf Asgari, Forouzan Jamshidnejad, Mina Rahimzadeh",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22251",
-    "latitude": 44.773121,
-    "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69230.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-serpenti-1500-05112026",
-    "title": "Serpenti",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "15:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Commedia, Drammatico | Durata: 88 Minuti | Cast: Leonardo Lidi, Alessandro Borghi, Pietro Castellitto, Valeria Golino",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22255",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69205.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-serpenti-2100-05112026",
-    "title": "Serpenti",
-    "category": "cinema",
-    "date": "05/11/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Commedia, Drammatico | Durata: 88 Minuti | Cast: Leonardo Lidi, Alessandro Borghi, Pietro Castellitto, Valeria Golino",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22255",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69205.jpg"
   },
   {
     "id": "cinema-cinema-eden-dio-ride-1915-05112026",
@@ -778,5 +700,18 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/IT_CATHAT_INSTA_VERT_MAIN_1638x2048_INTL.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-dio-ride-2100-06112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "06/11/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22281",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   }
 ]
