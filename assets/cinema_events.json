@@ -156,19 +156,6 @@
     "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/IMG_5430-scaled-e1792711319940.jpg"
   },
   {
-    "id": "cinema-rosebud-santiago---un-cammino-per-ricominciare-1600-06112026",
-    "title": "Santiago - Un cammino per ricominciare",
-    "category": "cinema",
-    "date": "06/11/2026",
-    "time": "16:00",
-    "location": "Rosebud (Reggio Emilia)",
-    "desc": "Rassegna: Buon pomeriggio al cinema | Regia: Yann Samuell.",
-    "link": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/santiago-un-cammino-per-ricominciare",
-    "latitude": 44.690805,
-    "longitude": 10.643324,
-    "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/santiago-un-cammino-per-ricominciare/@@images/image/preview"
-  },
-  {
     "id": "cinema-rosebud-minotaur---gran-premio-della-giuria-cannes-2026-vedidettaglischeda-06112026",
     "title": "Minotaur - Gran Premio della Giuria (Cannes 2026)",
     "category": "cinema",
@@ -390,10 +377,23 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/european-cinema-night-2026/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-dio-ride-2100-06112026",
+    "id": "cinema-olimpia-dio-ride-1830-07112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "06/11/2026",
+    "date": "07/11/2026",
+    "time": "18:30",
+    "location": "Olimpia (Reggio Emilia)",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/?idf=22281",
+    "latitude": 44.686561,
+    "longitude": 10.631553,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-olimpia-dio-ride-2100-07112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "07/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -403,17 +403,30 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-apollo-wild-horse-nine-1845-06112026",
-    "title": "Wild Horse Nine",
+    "id": "cinema-apollo-il-gatto-col-cappello-1630-07112026",
+    "title": "Il gatto col cappello",
     "category": "cinema",
-    "date": "06/11/2026",
-    "time": "18:45",
+    "date": "07/11/2026",
+    "time": "16:30",
     "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 118 minuti | Regia: Martin McDonagh",
-    "link": "http://www.cinemaapolloalbinea.it/movie/wild_horse_nine",
+    "desc": "Genere: Animazione, Family | Durata: 107 minuti | Regia: Alessandro Carloni, Erica Rivinoja",
+    "link": "http://www.cinemaapolloalbinea.it/movie/il_gatto_col_cappello",
     "latitude": 44.628867,
     "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/wilde_horse_nine.jpg"
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/il_gatto_col_cappello.jpg"
+  },
+  {
+    "id": "cinema-apollo-il-gatto-col-cappello-1600-08112026",
+    "title": "Il gatto col cappello",
+    "category": "cinema",
+    "date": "08/11/2026",
+    "time": "16:00",
+    "location": "Apollo (Albinea (RE))",
+    "desc": "Genere: Animazione, Family | Durata: 107 minuti | Regia: Alessandro Carloni, Erica Rivinoja",
+    "link": "http://www.cinemaapolloalbinea.it/movie/il_gatto_col_cappello",
+    "latitude": 44.628867,
+    "longitude": 10.597505,
+    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/il_gatto_col_cappello.jpg"
   },
   {
     "id": "cinema-apollo-wild-horse-nine-1845-07112026",
@@ -455,10 +468,23 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/wilde_horse_nine.jpg"
   },
   {
-    "id": "cinema-novecento-wild-horse-nine-2100-06112026",
+    "id": "cinema-novecento-teatro-ragazzi-la-bambola-e-la-bambina-1700-07112026",
+    "title": "Teatro ragazzi: LA BAMBOLA E LA BAMBINA",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "17:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI:mpagnia Giallo Mare Minimal Teatro e la Luna nel Letto | DURATA: 60'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3385",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-3-labambola7-8nov2026.jpg"
+  },
+  {
+    "id": "cinema-novecento-wild-horse-nine-2100-07112026",
     "title": "WILD HORSE NINE",
     "category": "cinema",
-    "date": "06/11/2026",
+    "date": "07/11/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Martin McDonagh | DURATA: 118'",
@@ -468,10 +494,36 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
   },
   {
-    "id": "cinema-novecento-dio-ride-2115-06112026",
+    "id": "cinema-novecento-wild-horse-nine-1600-07112026",
+    "title": "WILD HORSE NINE",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "16:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Martin McDonagh | DURATA: 118'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3435",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
+  },
+  {
+    "id": "cinema-novecento-wild-horse-nine-1830-07112026",
+    "title": "WILD HORSE NINE",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "18:30",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Martin McDonagh | DURATA: 118'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3435",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
+  },
+  {
+    "id": "cinema-novecento-dio-ride-2115-07112026",
     "title": "DIO RIDE",
     "category": "cinema",
-    "date": "06/11/2026",
+    "date": "07/11/2026",
     "time": "21:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Giovanni Veronesi | DURATA: 114'",
@@ -481,10 +533,23 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
   },
   {
-    "id": "cinema-cinepi-se-domani-non-torno-2050-06112026",
+    "id": "cinema-cinepi-se-domani-non-torno-1830-07112026",
     "title": "Se Domani Non Torno",
     "category": "cinema",
-    "date": "06/11/2026",
+    "date": "07/11/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22189",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
+  },
+  {
+    "id": "cinema-cinepi-se-domani-non-torno-2050-07112026",
+    "title": "Se Domani Non Torno",
+    "category": "cinema",
+    "date": "07/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
@@ -494,10 +559,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   },
   {
-    "id": "cinema-cinepi-dio-ride-2050-06112026",
+    "id": "cinema-cinepi-dio-ride-2050-07112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "06/11/2026",
+    "date": "07/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -507,17 +572,95 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2045-06112026",
+    "id": "cinema-cinepi-il-gatto-col-cappello-1830-07112026",
+    "title": "Il Gatto col Cappello",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "18:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Commedia, Family | Durata: 114 Minuti | Cast: Matt Berry, Bill Hader, Quinta Brunson, Bowen Yang, Xochitl Gomez, Paula Pell",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22438",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67427.jpg"
+  },
+  {
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-1915-07112026",
     "title": "Un Tranquillo Funerale di Famiglia",
     "category": "cinema",
-    "date": "06/11/2026",
-    "time": "20:45",
+    "date": "07/11/2026",
+    "time": "19:15",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22736",
     "latitude": 44.773121,
     "longitude": 10.781215,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
+  },
+  {
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2100-07112026",
+    "title": "Un Tranquillo Funerale di Famiglia",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "21:00",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22736",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
+  },
+  {
+    "id": "cinema-cinepi-shaun-vita-da-pecora-operazione-zucca-1750-07112026",
+    "title": "Shaun, Vita da Pecora: Operazione Z.U.C.C.A.",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "17:50",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Commedia, Azione, Family | Durata: 91 Minuti",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22810",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68572.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-dio-ride-1830-07112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "18:30",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22281",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-dio-ride-2100-07112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "21:00",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22281",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-il-gatto-col-cappello-1600-07112026",
+    "title": "Il Gatto col Cappello",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "16:00",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Animazione, Commedia, Family | Durata: 114 Minuti | Cast: Matt Berry, Bill Hader, Quinta Brunson, Bowen Yang, Xochitl Gomez, Paula Pell",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22438",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67427.jpg"
   },
   {
     "id": "cinema-cinema-eden-dio-ride-1915-05112026",
@@ -702,10 +845,10 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/IT_CATHAT_INSTA_VERT_MAIN_1638x2048_INTL.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-dio-ride-2100-06112026",
+    "id": "cinema-cinema-boiardo-dio-ride-2100-07112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "06/11/2026",
+    "date": "07/11/2026",
     "time": "21:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -713,5 +856,31 @@
     "latitude": 44.597143,
     "longitude": 10.686621,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-il-gatto-col-cappello-1830-07112026",
+    "title": "Il Gatto col Cappello",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "18:30",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Animazione, Commedia, Family | Durata: 114 Minuti | Cast: Matt Berry, Bill Hader, Quinta Brunson, Bowen Yang, Xochitl Gomez, Paula Pell",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22438",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67427.jpg"
+  },
+  {
+    "id": "cinema-cinema-bismantova-se-domani-non-torno-2100-07112026",
+    "title": "Se Domani Non Torno",
+    "category": "cinema",
+    "date": "07/11/2026",
+    "time": "21:00",
+    "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
+    "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/castelnovo-ne-monti/?idf=22189",
+    "latitude": 44.437121,
+    "longitude": 10.404215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   }
 ]
