@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-va-sentiero-2100-10112026",
-    "title": "VA' SENTIERO",
-    "category": "cinema",
-    "date": "10/11/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/va-sentiero/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/11/7c66a8be-3b3f-4065-a614-2ebc257c99da-e1793642222669.jpg"
-  },
-  {
     "id": "cinema-al-corso-la-bambola-1900-11112026",
     "title": "LA BAMBOLA",
     "category": "cinema",
@@ -338,10 +325,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/european-cinema-night-2026/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-dio-ride-2100-10112026",
+    "id": "cinema-olimpia-dio-ride-2100-11112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "10/11/2026",
+    "date": "11/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -349,19 +336,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
-  },
-  {
-    "id": "cinema-apollo-cos-lamore-1845-10112026",
-    "title": "Cos'è l'amore?",
-    "category": "cinema",
-    "date": "10/11/2026",
-    "time": "18:45",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Commedia | Durata: 108 minuti | Regia: Fabien Gorgeart",
-    "link": "http://www.cinemaapolloalbinea.it/movie/cose_lamore",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/cose_lamore.jpg"
   },
   {
     "id": "cinema-apollo-cos-lamore-1845-11112026",
@@ -377,24 +351,37 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/cose_lamore.jpg"
   },
   {
-    "id": "cinema-novecento-piani-alti-2100-10112026",
-    "title": "PIANI ALTI",
+    "id": "cinema-novecento-reggio-film-festival-2100-11112026",
+    "title": "REGGIO FILM FESTIVAL",
     "category": "cinema",
-    "date": "10/11/2026",
+    "date": "11/11/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Giulia Innocenzi | DURATA: 120'",
+    "desc": "DI:lezione ufficiale cortometraggi | DURATA: 120'",
     "link": "https://www.multisala900.it/IT/site/Home",
     "latitude": 44.695325,
     "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/RFF_10nov.jpg"
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/RFF-11nov.jpg"
   },
   {
-    "id": "cinema-novecento-dio-ride-1830-10112026",
+    "id": "cinema-novecento-wild-horse-nine-1830-11112026",
+    "title": "WILD HORSE NINE",
+    "category": "cinema",
+    "date": "11/11/2026",
+    "time": "18:30",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Martin McDonagh | DURATA: 118'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3435",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
+  },
+  {
+    "id": "cinema-novecento-dio-ride-2100-11112026",
     "title": "DIO RIDE",
     "category": "cinema",
-    "date": "10/11/2026",
-    "time": "18:30",
+    "date": "11/11/2026",
+    "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Giovanni Veronesi | DURATA: 114'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3432",
@@ -403,23 +390,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/Dioride-B(1).jpg"
   },
   {
-    "id": "cinema-novecento-wild-horse-nine---in-inglese-con-sottotitoli-2100-10112026",
-    "title": "WILD HORSE NINE - In inglese con sottotitoli",
-    "category": "cinema",
-    "date": "10/11/2026",
-    "time": "21:00",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Martin McDonagh | DURATA: 118'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3436",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021646.jpg"
-  },
-  {
-    "id": "cinema-cinepi-se-domani-non-torno-2050-10112026",
+    "id": "cinema-cinepi-se-domani-non-torno-2050-11112026",
     "title": "Se Domani Non Torno",
     "category": "cinema",
-    "date": "10/11/2026",
+    "date": "11/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
@@ -429,10 +403,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   },
   {
-    "id": "cinema-cinepi-dio-ride-2050-10112026",
+    "id": "cinema-cinepi-dio-ride-2050-11112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "10/11/2026",
+    "date": "11/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
@@ -442,30 +416,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
   },
   {
-    "id": "cinema-cinepi-un-po-di-luce-2100-10112026",
-    "title": "Un Po' di Luce",
+    "id": "cinema-cinepi-un-tranquillo-funerale-di-famiglia-2045-11112026",
+    "title": "Un Tranquillo Funerale di Famiglia",
     "category": "cinema",
-    "date": "10/11/2026",
-    "time": "21:00",
+    "date": "11/11/2026",
+    "time": "20:45",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Drammatico | Durata: 87 Minuti | Cast: Missagh Zareh, Sadaf Asgari, Forouzan Jamshidnejad, Mina Rahimzadeh",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22251",
+    "desc": "Genere: Commedia | Cast: Claudia Pandolfi, Pietro Sermonti, Diego Abatantuono, Stefania Sandrelli, Stefano Fresi, Beatrice Arnera",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22736",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69230.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-dio-ride-2100-10112026",
-    "title": "Dio Ride",
-    "category": "cinema",
-    "date": "10/11/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22281",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68729.jpg"
   },
   {
     "id": "cinema-cinema-eden-se-domani-non-torno-2100-10112026",
@@ -622,5 +583,18 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/IT_CATHAT_INSTA_VERT_MAIN_1638x2048_INTL.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-fammi-il-piacere-2100-11112026",
+    "title": "Fammi il Piacere",
+    "category": "cinema",
+    "date": "11/11/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Commedia | Durata: 90 Minuti | Cast: Alexandra Lamy, François Cluzet, Delphine Baril, François Bureloup, François-Xavier Demaison, Laure Hennequart",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22243",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69119.jpg"
   }
 ]
