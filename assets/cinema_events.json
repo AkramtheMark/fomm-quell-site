@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-se-domani-non-torno-2100-17112026",
-    "title": "SE DOMANI NON TORNO",
-    "category": "cinema",
-    "date": "17/11/2026",
-    "time": "21:00",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/se-domani-non-torno/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/Poster_SDNT_28x40-1-scaled-1-756x1080-1-e1793118717372.png"
-  },
-  {
     "id": "cinema-al-corso-se-domani-non-torno-2100-18112026",
     "title": "SE DOMANI NON TORNO",
     "category": "cinema",
@@ -44,6 +31,19 @@
     "category": "cinema",
     "date": "20/11/2026",
     "time": "21:00",
+    "location": "Al Corso (Reggio Emilia)",
+    "desc": "Proiezione cinematografica Cinema Al Corso.",
+    "link": "https://cinemaalcorso.com/se-domani-non-torno/",
+    "latitude": 44.698305,
+    "longitude": 10.627725,
+    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/10/Poster_SDNT_28x40-1-scaled-1-756x1080-1-e1793118717372.png"
+  },
+  {
+    "id": "cinema-al-corso-se-domani-non-torno-1915-21112026",
+    "title": "SE DOMANI NON TORNO",
+    "category": "cinema",
+    "date": "21/11/2026",
+    "time": "19:15",
     "location": "Al Corso (Reggio Emilia)",
     "desc": "Proiezione cinematografica Cinema Al Corso.",
     "link": "https://cinemaalcorso.com/se-domani-non-torno/",
@@ -286,10 +286,10 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/european-cinema-night-2026/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-wild-horse-nine-2100-17112026",
+    "id": "cinema-olimpia-wild-horse-nine-2100-18112026",
     "title": "Wild Horse Nine",
     "category": "cinema",
-    "date": "17/11/2026",
+    "date": "18/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Thriller, Commedia | Durata: 118 Minuti | Cast: Sam Rockwell, John Malkovich, Steve Buscemi, Parker Posey, Tom Waits, Mariana Di Girólamo",
@@ -297,19 +297,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68581.jpg"
-  },
-  {
-    "id": "cinema-apollo-lestranea-1845-17112026",
-    "title": "L'estranea",
-    "category": "cinema",
-    "date": "17/11/2026",
-    "time": "18:45",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Thriller | Durata: 115 minuti | Regia: Paolo Strippoli",
-    "link": "http://www.cinemaapolloalbinea.it/movie/lestranea",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/estranea.jpeg"
   },
   {
     "id": "cinema-apollo-lestranea-1845-18112026",
@@ -325,50 +312,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/estranea.jpeg"
   },
   {
-    "id": "cinema-novecento-se-domani-non-torno-tratto-dal-libro-cara-giulia-di-gino-cecchettin-1800-17112026",
-    "title": "SE DOMANI NON TORNO-Tratto dal libro CARA GIULIA di Gino Cecchettin",
-    "category": "cinema",
-    "date": "17/11/2026",
-    "time": "18:00",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Paola Randi | DURATA: 106'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3437",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-Sedomani_202611061247.jpg"
-  },
-  {
-    "id": "cinema-novecento-ricchida-morire-delitti-in-famiglia-2115-17112026",
-    "title": "RICCHI...DA MORIRE-DELITTI IN FAMIGLIA",
-    "category": "cinema",
-    "date": "17/11/2026",
-    "time": "21:15",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI:hn Patton Ford | DURATA: 105'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3380",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ricchidamorire.jpg"
-  },
-  {
-    "id": "cinema-novecento-il-rumore-delle-cose-nuove-1830-17112026",
-    "title": "IL RUMORE DELLE COSE NUOVE",
-    "category": "cinema",
-    "date": "17/11/2026",
-    "time": "18:30",
-    "location": "Novecento (Cavriago (RE))",
-    "desc": "DI: Paolo Genovese | DURATA: 113'",
-    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3439",
-    "latitude": 44.695325,
-    "longitude": 10.528341,
-    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ilrumore.jpg"
-  },
-  {
-    "id": "cinema-novecento-wild-horse-nine-2100-17112026",
+    "id": "cinema-novecento-wild-horse-nine-1800-18112026",
     "title": "WILD HORSE NINE",
     "category": "cinema",
-    "date": "17/11/2026",
-    "time": "21:00",
+    "date": "18/11/2026",
+    "time": "18:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Martin McDonagh | DURATA: 118'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3435",
@@ -377,10 +325,49 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
   },
   {
-    "id": "cinema-cinepi-se-domani-non-torno-2100-17112026",
+    "id": "cinema-novecento-se-domani-non-torno-tratto-dal-libro-cara-giulia-di-gino-cecchettin-2100-18112026",
+    "title": "SE DOMANI NON TORNO-Tratto dal libro CARA GIULIA di Gino Cecchettin",
+    "category": "cinema",
+    "date": "18/11/2026",
+    "time": "21:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI: Paola Randi | DURATA: 106'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3437",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-Sedomani_202611061247.jpg"
+  },
+  {
+    "id": "cinema-novecento-ricchida-morire-delitti-in-famiglia-1815-18112026",
+    "title": "RICCHI...DA MORIRE-DELITTI IN FAMIGLIA",
+    "category": "cinema",
+    "date": "18/11/2026",
+    "time": "18:15",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI:hn Patton Ford | DURATA: 105'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3380",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ricchidamorire.jpg"
+  },
+  {
+    "id": "cinema-novecento-ricchida-morire-delitti-in-famiglia-2100-18112026",
+    "title": "RICCHI...DA MORIRE-DELITTI IN FAMIGLIA",
+    "category": "cinema",
+    "date": "18/11/2026",
+    "time": "21:00",
+    "location": "Novecento (Cavriago (RE))",
+    "desc": "DI:hn Patton Ford | DURATA: 105'",
+    "link": "https://www.multisala900.it/default.php?t=scheda&fid=3380",
+    "latitude": 44.695325,
+    "longitude": 10.528341,
+    "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ricchidamorire.jpg"
+  },
+  {
+    "id": "cinema-cinepi-se-domani-non-torno-2100-18112026",
     "title": "Se Domani Non Torno",
     "category": "cinema",
-    "date": "17/11/2026",
+    "date": "18/11/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
@@ -390,10 +377,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   },
   {
-    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-2050-17112026",
+    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-2050-18112026",
     "title": "Il Rumore delle Cose Nuove",
     "category": "cinema",
-    "date": "17/11/2026",
+    "date": "18/11/2026",
     "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Commedia | Durata: 113 Minuti | Cast: Emanuela Fanelli, Claudia Pandolfi, Vittoria Puccini, Stefano Accorsi, Lino Musella, Edoardo Pesce",
@@ -403,30 +390,17 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68017.jpg"
   },
   {
-    "id": "cinema-cinepi-serpenti-2100-17112026",
-    "title": "Serpenti",
+    "id": "cinema-cinepi-un-weekend-artificiale-2050-18112026",
+    "title": "Un Weekend Artificiale",
     "category": "cinema",
-    "date": "17/11/2026",
-    "time": "21:00",
+    "date": "18/11/2026",
+    "time": "20:50",
     "location": "Cinepiù (Correggio (RE))",
-    "desc": "Genere: Commedia, Drammatico | Durata: 88 Minuti | Cast: Leonardo Lidi, Alessandro Borghi, Pietro Castellitto, Valeria Golino",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22255",
+    "desc": "Genere: Commedia | Cast: Leonardo Pieraccioni, Giulia Vecchio, Herbert  Ballerina, Massimo Ceccherini, Tosca D'Aquino, Tim Daish",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22360",
     "latitude": 44.773121,
     "longitude": 10.781215,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69205.jpg"
-  },
-  {
-    "id": "cinema-cinema-castello-wild-horse-nine-2100-17112026",
-    "title": "Wild Horse Nine",
-    "category": "cinema",
-    "date": "17/11/2026",
-    "time": "21:00",
-    "location": "Cinema Castello (Fabbrico (RE))",
-    "desc": "Genere: Thriller, Commedia | Durata: 118 Minuti | Cast: Sam Rockwell, John Malkovich, Steve Buscemi, Parker Posey, Tom Waits, Mariana Di Girólamo",
-    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22287",
-    "latitude": 44.871923,
-    "longitude": 10.806653,
-    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68581.jpg"
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69096.jpg"
   },
   {
     "id": "cinema-cinema-eden-2001-odissea-nello-spazio-4k-2100-17112026",
@@ -635,5 +609,18 @@
     "latitude": 44.623102,
     "longitude": 10.472132,
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/IT_CATHAT_INSTA_VERT_MAIN_1638x2048_INTL.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-santiago---un-cammino-per-ricominciare-2100-18112026",
+    "title": "Santiago - Un Cammino per Ricominciare",
+    "category": "cinema",
+    "date": "18/11/2026",
+    "time": "21:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Drammatico | Cast: Alexandra Lamy, Julien Le Berre, Melanie Doutey, Eric Métayer",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22021",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68241.jpg"
   }
 ]
