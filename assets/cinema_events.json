@@ -1,18 +1,5 @@
 [
   {
-    "id": "cinema-al-corso-se-domani-non-torno-1915-21112026",
-    "title": "SE DOMANI NON TORNO",
-    "category": "cinema",
-    "date": "21/11/2026",
-    "time": "19:15",
-    "location": "Al Corso (Reggio Emilia)",
-    "desc": "Proiezione cinematografica Cinema Al Corso.",
-    "link": "https://cinemaalcorso.com/se-domani-non-torno/",
-    "latitude": 44.698305,
-    "longitude": 10.627725,
-    "img": "https://cinemaalcorso.com/wp-content/uploads/2026/11/22189_it-e1795174381862.jpg"
-  },
-  {
     "id": "cinema-al-corso-se-domani-non-torno-1630-22112026",
     "title": "SE DOMANI NON TORNO",
     "category": "cinema",
@@ -247,10 +234,23 @@
     "img": "https://rosebud.comune.re.it/la-programmazione/prossimamente-al-cinema/european-cinema-night-2026/@@images/image/preview"
   },
   {
-    "id": "cinema-olimpia-wild-horse-nine-1830-21112026",
+    "id": "cinema-olimpia-dio-ride-1600-22112026",
+    "title": "Dio Ride",
+    "category": "cinema",
+    "date": "22/11/2026",
+    "time": "16:00",
+    "location": "Olimpia (Reggio Emilia)",
+    "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/?idf=22281",
+    "latitude": 44.686561,
+    "longitude": 10.631553,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69130.jpg"
+  },
+  {
+    "id": "cinema-olimpia-wild-horse-nine-1830-22112026",
     "title": "Wild Horse Nine",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "18:30",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Thriller, Commedia | Durata: 118 Minuti | Cast: Sam Rockwell, John Malkovich, Steve Buscemi, Parker Posey, Tom Waits, Mariana Di Girólamo",
@@ -260,10 +260,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68581.jpg"
   },
   {
-    "id": "cinema-olimpia-wild-horse-nine-2100-21112026",
+    "id": "cinema-olimpia-wild-horse-nine-2100-22112026",
     "title": "Wild Horse Nine",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "21:00",
     "location": "Olimpia (Reggio Emilia)",
     "desc": "Genere: Thriller, Commedia | Durata: 118 Minuti | Cast: Sam Rockwell, John Malkovich, Steve Buscemi, Parker Posey, Tom Waits, Mariana Di Girólamo",
@@ -271,19 +271,6 @@
     "latitude": 44.686561,
     "longitude": 10.631553,
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68581.jpg"
-  },
-  {
-    "id": "cinema-apollo-il-gatto-col-cappello-1630-21112026",
-    "title": "Il gatto col cappello",
-    "category": "cinema",
-    "date": "21/11/2026",
-    "time": "16:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Animazione, Family | Durata: 107 minuti | Regia: Alessandro Carloni, Erica Rivinoja",
-    "link": "http://www.cinemaapolloalbinea.it/movie/il_gatto_col_cappello",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/il_gatto_col_cappello.jpg"
   },
   {
     "id": "cinema-apollo-il-gatto-col-cappello-1600-22112026",
@@ -297,19 +284,6 @@
     "latitude": 44.628867,
     "longitude": 10.597505,
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/il_gatto_col_cappello.jpg"
-  },
-  {
-    "id": "cinema-apollo-scrooge-e-gli-spiriti-del-natale-1830-21112026",
-    "title": "Scrooge e gli spiriti del Natale",
-    "category": "cinema",
-    "date": "21/11/2026",
-    "time": "18:30",
-    "location": "Apollo (Albinea (RE))",
-    "desc": "Genere: Fantasy, avventura | Durata: 116 minuti | Regia: Ti West",
-    "link": "http://www.cinemaapolloalbinea.it/movie/scrooge_e_gli_spiriti_del_natale",
-    "latitude": 44.628867,
-    "longitude": 10.597505,
-    "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/scrooge.jpg"
   },
   {
     "id": "cinema-apollo-scrooge-e-gli-spiriti-del-natale-1800-22112026",
@@ -351,11 +325,11 @@
     "img": "https://cinemapollo-static.s3.amazonaws.com/static/img/posters/scrooge.jpg"
   },
   {
-    "id": "cinema-novecento-il-rumore-delle-cose-nuove-1615-21112026",
+    "id": "cinema-novecento-il-rumore-delle-cose-nuove-1545-22112026",
     "title": "IL RUMORE DELLE COSE NUOVE",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "16:15",
+    "date": "22/11/2026",
+    "time": "15:45",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Genovese | DURATA: 113'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3439",
@@ -364,11 +338,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ilrumore.jpg"
   },
   {
-    "id": "cinema-novecento-il-rumore-delle-cose-nuove-1845-21112026",
+    "id": "cinema-novecento-il-rumore-delle-cose-nuove-1815-22112026",
     "title": "IL RUMORE DELLE COSE NUOVE",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "18:45",
+    "date": "22/11/2026",
+    "time": "18:15",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Genovese | DURATA: 113'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3439",
@@ -377,11 +351,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ilrumore.jpg"
   },
   {
-    "id": "cinema-novecento-il-rumore-delle-cose-nuove-2115-21112026",
+    "id": "cinema-novecento-il-rumore-delle-cose-nuove-2045-22112026",
     "title": "IL RUMORE DELLE COSE NUOVE",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "21:15",
+    "date": "22/11/2026",
+    "time": "20:45",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paolo Genovese | DURATA: 113'",
     "link": "https://www.multisala900.it/default.php?t=scheda&fid=3439",
@@ -390,10 +364,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/ilrumore.jpg"
   },
   {
-    "id": "cinema-novecento-se-domani-non-torno-tratto-dal-libro-cara-giulia-di-gino-cecchettin-1600-21112026",
+    "id": "cinema-novecento-se-domani-non-torno-tratto-dal-libro-cara-giulia-di-gino-cecchettin-1600-22112026",
     "title": "SE DOMANI NON TORNO-Tratto dal libro CARA GIULIA di Gino Cecchettin",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "16:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Paola Randi | DURATA: 106'",
@@ -403,10 +377,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/M-Sedomani_202611061247.jpg"
   },
   {
-    "id": "cinema-novecento-wild-horse-nine-1830-21112026",
+    "id": "cinema-novecento-wild-horse-nine-1830-22112026",
     "title": "WILD HORSE NINE",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "18:30",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Martin McDonagh | DURATA: 118'",
@@ -416,10 +390,10 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
   },
   {
-    "id": "cinema-novecento-wild-horse-nine-2100-21112026",
+    "id": "cinema-novecento-wild-horse-nine-2100-22112026",
     "title": "WILD HORSE NINE",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "21:00",
     "location": "Novecento (Cavriago (RE))",
     "desc": "DI: Martin McDonagh | DURATA: 118'",
@@ -429,11 +403,11 @@
     "img": "https://www.multisala900.it/site/multisala900new_webprofessional_it/cinema/film/wild_202611021629.jpg"
   },
   {
-    "id": "cinema-cinepi-hunger-games-lalba-sulla-mietitura-1750-21112026",
+    "id": "cinema-cinepi-hunger-games-lalba-sulla-mietitura-1745-22112026",
     "title": "Hunger Games: L'Alba sulla Mietitura",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "17:50",
+    "date": "22/11/2026",
+    "time": "17:45",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 158 Minuti | Cast: Glenn Close, Kieran Culkin, Elle Fanning, Ralph Fiennes, Kelvin Harrison Jr., Maya Hawke",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22941",
@@ -442,11 +416,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66957.jpg"
   },
   {
-    "id": "cinema-cinepi-hunger-games-lalba-sulla-mietitura-2050-21112026",
+    "id": "cinema-cinepi-hunger-games-lalba-sulla-mietitura-2040-22112026",
     "title": "Hunger Games: L'Alba sulla Mietitura",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "20:50",
+    "date": "22/11/2026",
+    "time": "20:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Azione, Avventura, Fantasy | Durata: 158 Minuti | Cast: Glenn Close, Kieran Culkin, Elle Fanning, Ralph Fiennes, Kelvin Harrison Jr., Maya Hawke",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22941",
@@ -455,11 +429,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/66957.jpg"
   },
   {
-    "id": "cinema-cinepi-se-domani-non-torno-2100-21112026",
+    "id": "cinema-cinepi-se-domani-non-torno-1830-22112026",
     "title": "Se Domani Non Torno",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "21:00",
+    "date": "22/11/2026",
+    "time": "18:30",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22189",
@@ -468,10 +442,23 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   },
   {
-    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-1840-21112026",
+    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-1620-22112026",
     "title": "Il Rumore delle Cose Nuove",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
+    "time": "16:20",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Drammatico, Commedia | Durata: 113 Minuti | Cast: Emanuela Fanelli, Claudia Pandolfi, Vittoria Puccini, Stefano Accorsi, Lino Musella, Edoardo Pesce",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22850",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68017.jpg"
+  },
+  {
+    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-1840-22112026",
+    "title": "Il Rumore delle Cose Nuove",
+    "category": "cinema",
+    "date": "22/11/2026",
     "time": "18:40",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Commedia | Durata: 113 Minuti | Cast: Emanuela Fanelli, Claudia Pandolfi, Vittoria Puccini, Stefano Accorsi, Lino Musella, Edoardo Pesce",
@@ -481,10 +468,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68017.jpg"
   },
   {
-    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-2100-21112026",
+    "id": "cinema-cinepi-il-rumore-delle-cose-nuove-2100-22112026",
     "title": "Il Rumore delle Cose Nuove",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "21:00",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Drammatico, Commedia | Durata: 113 Minuti | Cast: Emanuela Fanelli, Claudia Pandolfi, Vittoria Puccini, Stefano Accorsi, Lino Musella, Edoardo Pesce",
@@ -494,11 +481,11 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68017.jpg"
   },
   {
-    "id": "cinema-cinepi-un-weekend-artificiale-1910-21112026",
+    "id": "cinema-cinepi-un-weekend-artificiale-1610-22112026",
     "title": "Un Weekend Artificiale",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "19:10",
+    "date": "22/11/2026",
+    "time": "16:10",
     "location": "Cinepiù (Correggio (RE))",
     "desc": "Genere: Commedia | Cast: Leonardo Pieraccioni, Giulia Vecchio, Herbert  Ballerina, Massimo Ceccherini, Tosca D'Aquino, Tim Daish",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22360",
@@ -507,10 +494,49 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69096.jpg"
   },
   {
-    "id": "cinema-cinema-castello-un-weekend-artificiale-1830-21112026",
+    "id": "cinema-cinepi-un-weekend-artificiale-2100-22112026",
     "title": "Un Weekend Artificiale",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
+    "time": "21:00",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Commedia | Cast: Leonardo Pieraccioni, Giulia Vecchio, Herbert  Ballerina, Massimo Ceccherini, Tosca D'Aquino, Tim Daish",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22360",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69096.jpg"
+  },
+  {
+    "id": "cinema-cinepi-il-gatto-col-cappello-1630-22112026",
+    "title": "Il Gatto col Cappello",
+    "category": "cinema",
+    "date": "22/11/2026",
+    "time": "16:30",
+    "location": "Cinepiù (Correggio (RE))",
+    "desc": "Genere: Animazione, Commedia, Family | Durata: 114 Minuti | Cast: Matt Berry, Bill Hader, Quinta Brunson, Bowen Yang, Xochitl Gomez, Paula Pell",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/correggio/?idf=22438",
+    "latitude": 44.773121,
+    "longitude": 10.781215,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/67427.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-un-weekend-artificiale-1600-22112026",
+    "title": "Un Weekend Artificiale",
+    "category": "cinema",
+    "date": "22/11/2026",
+    "time": "16:00",
+    "location": "Cinema Castello (Fabbrico (RE))",
+    "desc": "Genere: Commedia | Cast: Leonardo Pieraccioni, Giulia Vecchio, Herbert  Ballerina, Massimo Ceccherini, Tosca D'Aquino, Tim Daish",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/fabbrico/?idf=22360",
+    "latitude": 44.871923,
+    "longitude": 10.806653,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69096.jpg"
+  },
+  {
+    "id": "cinema-cinema-castello-un-weekend-artificiale-1830-22112026",
+    "title": "Un Weekend Artificiale",
+    "category": "cinema",
+    "date": "22/11/2026",
     "time": "18:30",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Commedia | Cast: Leonardo Pieraccioni, Giulia Vecchio, Herbert  Ballerina, Massimo Ceccherini, Tosca D'Aquino, Tim Daish",
@@ -520,10 +546,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/69096.jpg"
   },
   {
-    "id": "cinema-cinema-castello-un-weekend-artificiale-2100-21112026",
+    "id": "cinema-cinema-castello-un-weekend-artificiale-2100-22112026",
     "title": "Un Weekend Artificiale",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "21:00",
     "location": "Cinema Castello (Fabbrico (RE))",
     "desc": "Genere: Commedia | Cast: Leonardo Pieraccioni, Giulia Vecchio, Herbert  Ballerina, Massimo Ceccherini, Tosca D'Aquino, Tim Daish",
@@ -663,11 +689,11 @@
     "img": "https://cinemaeden.org/wp-content/uploads/2026/10/IT_CATHAT_INSTA_VERT_MAIN_1638x2048_INTL.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-se-domani-non-torno-2100-21112026",
+    "id": "cinema-cinema-boiardo-se-domani-non-torno-1700-22112026",
     "title": "Se Domani Non Torno",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "21:00",
+    "date": "22/11/2026",
+    "time": "17:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22189",
@@ -676,11 +702,24 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
   },
   {
-    "id": "cinema-cinema-boiardo-il-rumore-delle-cose-nuove-1900-21112026",
+    "id": "cinema-cinema-boiardo-se-domani-non-torno-1900-22112026",
+    "title": "Se Domani Non Torno",
+    "category": "cinema",
+    "date": "22/11/2026",
+    "time": "19:00",
+    "location": "Cinema Boiardo (Scandiano (RE))",
+    "desc": "Genere: Drammatico, Biografico | Cast: Filippo Timi, Sabrina Martina, Tecla Bossi, Tommaso Allione, Linda Caridi, Elisabetta De Palo",
+    "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22189",
+    "latitude": 44.597143,
+    "longitude": 10.686621,
+    "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68243.jpg"
+  },
+  {
+    "id": "cinema-cinema-boiardo-il-rumore-delle-cose-nuove-2100-22112026",
     "title": "Il Rumore delle Cose Nuove",
     "category": "cinema",
-    "date": "21/11/2026",
-    "time": "19:00",
+    "date": "22/11/2026",
+    "time": "21:00",
     "location": "Cinema Boiardo (Scandiano (RE))",
     "desc": "Genere: Drammatico, Commedia | Durata: 113 Minuti | Cast: Emanuela Fanelli, Claudia Pandolfi, Vittoria Puccini, Stefano Accorsi, Lino Musella, Edoardo Pesce",
     "link": "https://www.comingsoon.it/cinema/reggio-emilia/scandiano/?idf=22850",
@@ -689,10 +728,10 @@
     "img": "https://mr.comingsoon.it/imgdb/locandine/235x336/68017.jpg"
   },
   {
-    "id": "cinema-cinema-bismantova-dio-ride-2100-21112026",
+    "id": "cinema-cinema-bismantova-dio-ride-2100-22112026",
     "title": "Dio Ride",
     "category": "cinema",
-    "date": "21/11/2026",
+    "date": "22/11/2026",
     "time": "21:00",
     "location": "Cinema Bismantova (Castelnovo ne' Monti (RE))",
     "desc": "Genere: Drammatico, Storico, Commedia | Durata: 114 Minuti | Cast: Pierfrancesco Favino, Silvio Orlando, Alma Noce, Maurizio Lombardi, Carlo Cecchi, Francesco Gheghi",
